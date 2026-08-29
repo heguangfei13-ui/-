@@ -1,0 +1,22 @@
+{
+  "nbs-70": {
+    "status": "stale",
+    "error": "source unavailable without bypass: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  "nbs-national": {
+    "status": "stale",
+    "error": "source unavailable without bypass: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  "lpr": {
+    "status": "verified",
+    "http": 200
+  },
+  "nj-house": {
+    "status": "verified",
+    "http": 200
+  },
+  "hz-tmsf": {
+    "status": "stale",
+    "error": "source unavailable without bypass: HTTP Error 405: Not Allowed"
+  }
+}

@@ -34,11 +34,11 @@ def strip_html(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", value)).strip()
 
 def parse_nanjing(text: str) -> dict[str, float | int]:
-    plain = strip_html(text)
+    plain = re.sub(r"\s+", "", strip_html(text))
     patterns = {
-        "today_recognition": r"今日认购\s*([\d,]+)", "today_transactions": r"今日成交\s*([\d,]+)",
-        "month_listing_area": r"本月上市面积\s*([\d.]+)", "month_transaction_area": r"本月成交面积\s*([\d.]+)",
-        "year_listing_area": r"本年上市面积\s*([\d.]+)", "year_transaction_area": r"本年成交面积\s*([\d.]+)",
+        "today_recognition": r"(?:今日)?认购([\d,]+)(?:套)?", "today_transactions": r"(?:今日)?成交([\d,]+)(?:套)?",
+        "month_listing_area": r"本月上市(?:面积)?([\d.]+)", "month_transaction_area": r"本月成交(?:面积)?([\d.]+)",
+        "year_listing_area": r"本年上市(?:面积)?([\d.]+)", "year_transaction_area": r"本年成交(?:面积)?([\d.]+)",
     }
     result: dict[str, float | int] = {}
     for key, pattern in patterns.items():
@@ -48,8 +48,8 @@ def parse_nanjing(text: str) -> dict[str, float | int]:
     return result
 
 def parse_lpr(text: str) -> float:
-    plain = strip_html(text)
-    match = re.search(r"5年期以上LPR为\s*([\d.]+)%", plain)
+    plain = re.sub(r"\s+", "", strip_html(text))
+    match = re.search(r"5年期以上LPR为([\d.]+)%", plain)
     if not match: raise ValueError("LPR page shape changed")
     return float(match.group(1))
 
@@ -97,6 +97,8 @@ def main() -> int:
         for source in dashboard["sources"]:
             source["collectedAt"] = now.isoformat()
             if source["id"] in health: source["quality"] = health[source["id"]]["status"]
+        for metric in dashboard["metrics"]:
+            if metric["sourceId"] in health: metric["quality"] = health[metric["sourceId"]]["status"]
     for source_id, text in raw.items(): (archive / f"{source_id}.html").write_text(text, encoding="utf-8")
     (archive / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2), encoding="utf-8")
     projects = [project for dashboard in dashboards for project in dashboard.get("projects", [])]

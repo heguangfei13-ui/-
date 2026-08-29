@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className="canvas">
-        {hasStale && <div className="data-alert"><b>△ 数据缺口已显式标记</b><span>杭州透明售房网公开入口暂不可用；系统没有绕过限制，也没有用估算成交量替代。自动任务将保留最后有效值并持续重试。</span></div>}
+        {hasStale && <div className="data-alert"><b>△ 数据缺口已显式标记</b><span>一个或多个权威源本次采集未通过校验；系统没有绕过访问限制，也不会用估算值覆盖官方快照。自动任务将保留最后有效值并持续重试。</span></div>}
         <div className="section-head"><div><p>MARKET PULSE</p><h2>关键市场信号</h2></div><span>所有涨跌同时使用箭头与文字表达</span></div>
         <div className="metric-grid">{data.metrics.map((metric) => <article className="metric" key={metric.label}><div className="metric-top"><span>{metric.label}</span><em className={`quality ${metric.quality}`}>{qualityText[metric.quality]}</em></div><strong>{metric.value}</strong><p className={metric.direction}>{metric.direction === 'up' ? '↑' : metric.direction === 'down' ? '↓' : '→'} {metric.delta}</p></article>)}</div>
 
