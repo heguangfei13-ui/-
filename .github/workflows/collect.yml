@@ -24,11 +24,12 @@ jobs:
           INGEST_URL: ${{ secrets.INGEST_URL }}
           INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
+          FORCE_AMAP: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python scripts/collect.py
       - name: Commit immutable collection record
         run: |
           git config user.name "home-compass-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/archive
+          git add data/archive data/amap-latest.json
           git diff --cached --quiet || git commit -m "data: archive official snapshots $(date +%F)"
           git push

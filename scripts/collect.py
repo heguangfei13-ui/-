@@ -5,6 +5,7 @@ import hashlib, json, os, re, sys, time, uuid
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 TZ = timezone(timedelta(hours=8))
@@ -16,6 +17,12 @@ SOURCES = {
     "nj-house": "https://www.njhouse.com.cn/projectindex.html",
     "hz-tmsf": "https://www.tmsf.com/yhweb/",
 }
+AMAP_SOURCE_URL = "https://lbs.amap.com/api/webservice/guide/api/newroute"
+COMMUTE_CENTERS = {
+    "hangzhou": {"未来科技城": "杭州未来科技城", "滨江": "杭州滨江区政府", "钱江新城": "杭州钱江新城"},
+    "nanjing": {"河西": "南京河西新城", "软件谷": "南京中国软件谷", "新街口": "南京新街口"},
+}
+CITY_CODES = {"hangzhou": "0571", "nanjing": "025"}
 
 def fetch(url: str, retries: int = 2) -> tuple[str, int]:
     error = None
@@ -65,6 +72,88 @@ def api_json(url: str, token: str | None = None, payload: dict | None = None) ->
     with urlopen(Request(url, headers=headers, data=data, method="POST" if payload else "GET"), timeout=30) as response:
         return json.loads(response.read())
 
+def amap_json(path: str, params: dict[str, str], key: str) -> dict:
+    query = urlencode({**params, "key": key})
+    data = api_json(f"https://restapi.amap.com{path}?{query}")
+    if str(data.get("status")) != "1":
+        raise ValueError(f"AMap rejected request: {data.get('infocode', 'unknown')} {data.get('info', '')}")
+    return data
+
+def amap_geocode(query: str, city: str, key: str) -> str:
+    data = amap_json("/v3/geocode/geo", {"address": query, "city": city}, key)
+    geocodes = data.get("geocodes") or []
+    if not geocodes or not geocodes[0].get("location"):
+        raise ValueError(f"AMap geocode returned no match: {query}")
+    return geocodes[0]["location"]
+
+def amap_duration_minutes(route_item: dict) -> int | None:
+    raw = (route_item.get("cost") or {}).get("duration") or route_item.get("duration")
+    try: return max(1, round(float(raw) / 60))
+    except (TypeError, ValueError): return None
+
+def amap_commute(origin: str, destination: str, city_code: str, key: str) -> dict[str, int | None]:
+    driving = amap_json("/v5/direction/driving", {"origin": origin, "destination": destination, "show_fields": "cost"}, key)
+    transit = amap_json("/v5/direction/transit/integrated", {"origin": origin, "destination": destination, "city1": city_code, "city2": city_code, "show_fields": "cost"}, key)
+    drive_paths = (driving.get("route") or {}).get("paths") or []
+    transit_paths = (transit.get("route") or {}).get("transits") or []
+    transit_item = transit_paths[0] if transit_paths else {}
+    segments = transit_item.get("segments") or []
+    return {
+        "driveMinutes": amap_duration_minutes(drive_paths[0]) if drive_paths else None,
+        "transitMinutes": amap_duration_minutes(transit_item),
+        "transfers": max(0, len(segments) - 1) if segments else None,
+    }
+
+def amap_amenities(location: str, key: str) -> list[dict[str, str]]:
+    categories = {"公园水系": "公园", "轨道交通": "地铁站", "商业": "商场", "医院": "医院"}
+    results: list[dict[str, str]] = []
+    for category, keyword in categories.items():
+        data = amap_json("/v5/place/around", {"location": location, "radius": "3000", "keywords": keyword, "page_size": "2"}, key)
+        for poi in (data.get("pois") or [])[:2]:
+            distance = poi.get("distance")
+            results.append({"category": category, "name": poi.get("name", keyword), "distance": f"{distance}米" if distance else "3公里内"})
+    return results
+
+def collect_amap(dashboards: list[dict], key: str, now: datetime) -> dict:
+    destination_cache: dict[tuple[str, str], str] = {}
+    output = {"generatedAt": now.isoformat(), "basisVersion": "AMAP-WEB-V5", "projects": {}}
+    for dashboard in dashboards:
+        city = dashboard["city"]
+        city_name = dashboard["cityName"]
+        for label, query in COMMUTE_CENTERS[city].items():
+            destination_cache[(city, label)] = amap_geocode(query, city_name, key)
+        for project in dashboard.get("projects", []):
+            project_query = f'{project["name"]} {project.get("address", "")}'
+            try:
+                origin = amap_geocode(project_query, city_name, key)
+                commutes = []
+                for destination, destination_location in destination_cache.items():
+                    destination_city, label = destination
+                    if destination_city != city: continue
+                    route = amap_commute(origin, destination_location, CITY_CODES[city], key)
+                    commutes.append({"destination": label, **route})
+                output["projects"][project["id"]] = {"location": origin, "amenities": amap_amenities(origin, key), "commutes": commutes}
+            except Exception as exc:
+                output["projects"][project["id"]] = {"error": str(exc)}
+    return output
+
+def apply_amap_cache(dashboards: list[dict], cache: dict, now: datetime) -> tuple[int, int]:
+    succeeded = failed = 0
+    by_id = cache.get("projects", {})
+    for dashboard in dashboards:
+        dashboard_succeeded = 0
+        for project in dashboard.get("projects", []):
+            item = by_id.get(project["id"], {})
+            if item.get("commutes"):
+                project["commutes"] = item["commutes"]
+                project["amenities"] = item.get("amenities", [])
+                project["amapLocation"] = item.get("location")
+                succeeded += 1; dashboard_succeeded += 1
+            else: failed += 1
+        dashboard["sources"] = [source for source in dashboard["sources"] if source["id"] != "amap"]
+        dashboard["sources"].append({"id": "amap", "name": "高德地图 Web服务", "url": AMAP_SOURCE_URL, "publishedAt": now.strftime("%Y-%m-%d"), "collectedAt": cache.get("generatedAt", now.isoformat()), "basisVersion": cache.get("basisVersion", "AMAP-WEB-V5"), "quality": "verified" if dashboard_succeeded else "stale", "note": "每周刷新 POI、公交与驾车时间；路线会随道路与算法变化。"})
+    return succeeded, failed
+
 def main() -> int:
     base = os.environ.get("INGEST_URL", "").rstrip("/")
     token = os.environ.get("INGEST_TOKEN")
@@ -92,6 +181,21 @@ def main() -> int:
             for dashboard in dashboards:
                 next(item for item in dashboard["metrics"] if item["sourceId"] == "lpr")["value"] = f"{rate:.2f}%"
         except Exception as exc: health["lpr"] = {"status": "stale", "error": str(exc)}
+    amap_key = os.environ.get("AMAP_KEY")
+    amap_cache_path = Path("data/amap-latest.json")
+    if amap_key:
+        try:
+            should_refresh = not amap_cache_path.exists() or now.weekday() == 6 or os.environ.get("FORCE_AMAP") == "1"
+            if should_refresh:
+                amap_cache = collect_amap(dashboards, amap_key, now)
+                amap_cache_path.parent.mkdir(parents=True, exist_ok=True)
+                amap_cache_path.write_text(json.dumps(amap_cache, ensure_ascii=False, indent=2), encoding="utf-8")
+            else:
+                amap_cache = json.loads(amap_cache_path.read_text(encoding="utf-8"))
+            succeeded, failed = apply_amap_cache(dashboards, amap_cache, now)
+            health["amap"] = {"status": "verified" if succeeded else "stale", "projects_updated": succeeded, "projects_failed": failed, "refreshed": should_refresh}
+        except Exception as exc:
+            health["amap"] = {"status": "stale", "error": str(exc)}
     for dashboard in dashboards:
         dashboard["observedAt"] = day
         for source in dashboard["sources"]:
