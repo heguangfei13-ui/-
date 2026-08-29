@@ -1,0 +1,34 @@
+name: Collect official housing snapshots
+on:
+  schedule:
+    - cron: '15 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: housing-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test parsers against archived fixtures
+        run: python -m unittest tests/test_collect.py
+      - name: Fetch, validate, archive and ingest
+        env:
+          INGEST_URL: ${{ secrets.INGEST_URL }}
+          INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
+          AMAP_KEY: ${{ secrets.AMAP_KEY }}
+        run: python scripts/collect.py
+      - name: Commit immutable collection record
+        run: |
+          git config user.name "home-compass-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/archive
+          git diff --cached --quiet || git commit -m "data: archive official snapshots $(date +%F)"
+          git push
