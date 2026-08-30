@@ -19,10 +19,25 @@
     "status": "stale",
     "error": "source unavailable without bypass: HTTP Error 405: Not Allowed"
   },
+  "hz-fundamentals": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 5
+  },
+  "nj-fundamentals": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 2
+  },
+  "nj-population": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 2
+  },
   "amap": {
     "status": "stale",
     "projects_updated": 1,
     "projects_failed": 5,
-    "refreshed": true
+    "refreshed": false
   }
 }
