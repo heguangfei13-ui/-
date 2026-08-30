@@ -1,5 +1,5 @@
 /** Evidence-first, city-independent decision model. Scores are policy heuristics, not forecasts. */
-export const MODEL_VERSION = '2.0.0';
+export const MODEL_VERSION = '2.1.0';
 export type UseCase = 'home' | 'balanced' | 'investment';
 export type Layer = 'macro' | 'city' | 'district' | 'community' | 'listing';
 export type Axis = 'fundamentals' | 'timing' | 'district' | 'asset';
@@ -59,7 +59,7 @@ export const MODEL: Record<Axis, Dimension[]> = {
     dimension('nature', '自然环境', 15, [metric('natureValue', '步行可达与不可复制性', '/100', positive, 180)]),
     dimension('liquidity', '二手流动性', 15, [metric('turnover12m', '12个月成交率', '%', [[0, 0], [1, 30], [3, 70], [5, 90], [8, 100]]), metric('listingMonths', '挂牌库存消化周期', '月', [[0, 100], [6, 85], [12, 50], [24, 0]])]),
     dimension('supply', '未来供应稀缺性', 10, [metric('futureSupplyRatio', '5公里新增住宅/现有户数', '%', [[0, 100], [10, 80], [30, 40], [60, 0]], 180)]),
-    dimension('product', '住宅产品力', 10, [metric('productQuality', '官方户型与建筑参数量表', '/100', positive, 550)]),
+    dimension('product', '住宅产品力', 10, [metric('floorAreaRatio', '备案容积率（密度子项）', '倍', [[1,95],[1.5,85],[2,75],[3,50],[5,10]],550), metric('greenRatio','备案绿地率（园林子项）','%',[[10,10],[20,35],[30,65],[40,85],[50,100]],550), metric('residentialFloors','住宅层数（低密偏好子项）','层',[[3,90],[6,85],[11,75],[18,60],[33,40],[50,20]],550), metric('productQuality', '户型功能与建筑参数量表', '/100', positive, 550)]),
     dimension('facilities', '商业交通医疗', 5, [metric('operatingAmenities', '已运营且可达配套量表', '/100', positive, 120)]),
     dimension('property', '小区与物业品质', 5, [metric('propertyQuality', '物业与维护证据量表', '/100', positive, 400)]),
     dimension('age', '楼龄', 5, [metric('buildingAge', '实际竣工楼龄', '年', [[0, 100], [5, 90], [10, 75], [20, 50], [40, 10]], 550)]),

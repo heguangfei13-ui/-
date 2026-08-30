@@ -94,10 +94,12 @@ def parse_nbs_prices(text: str) -> dict:
                 if city not in cells: continue
                 offset = cells.index(city)
                 # Overall tables have two cities per row; size-band tables have ten cells.
-                if len(cells) != 8: continue
-                nums = cells[offset + 1:offset + 4]
-                if len(nums) != 3 or not all(re.fullmatch(r"\d{2,3}\.\d", n) for n in nums):
+                if len(cells) not in (6,8): continue
+                count=2 if len(cells)==6 else 3
+                nums = cells[offset + 1:offset + 1+count]
+                if len(nums) != count or not all(re.fullmatch(r"\d{2,3}\.\d", n) for n in nums):
                     raise ValueError("NBS index cells invalid")
+                if count==2: nums.append(nums[1]) # January YTD is the same month, not an invented price.
                 values[city] = [float(n) for n in nums]
         if values: tables.append(values)
     if len(tables) < 2 or any(city not in table for table in tables[:2] for city in ("杭州", "南京")):
@@ -148,6 +150,7 @@ def canonical(value: object) -> str:
 
 def api_json(url: str, token: str | None = None, payload: dict | None = None) -> dict:
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    if token: headers['Authorization'] = f'Bearer {token}'
     data = None
     if payload is not None:
         headers.update({"Content-Type": "application/json", "Authorization": f"Bearer {token}"})
@@ -276,12 +279,39 @@ def main() -> int:
     if not base or not token:
         print("INGEST_URL and INGEST_TOKEN are required", file=sys.stderr); return 2
     now = datetime.now(TZ); day = now.strftime("%Y-%m-%d"); archive = Path("data/archive") / now.strftime("%Y/%m/%d"); archive.mkdir(parents=True, exist_ok=True)
+    requests=[]
+    try: requests=api_json(f'{base}/api/ingest/v1/refresh',token).get('requests',[])
+    except Exception: pass
+    if os.environ.get('QUEUE_ONLY')=='1' and not requests:
+        print('No pending refresh; external sources not polled.');return 0
     dashboards = [api_json(f"{base}/api/dashboard?city={city}&range=60")["data"] for city in ("hangzhou", "nanjing")]
     for dashboard in dashboards:
-        dashboard.update(score=None, verdict="数据待补齐 · 暂不评级", rationale="成交、库存、土地等证据尚不完整，暂不计算时机指数。")
+        dashboard.update(score=None, verdict="按已有证据评分", rationale="时机与资产独立计分，缺失项不阻断已有指标。")
         dashboard["series"] = [p for p in dashboard.get("series", []) if p.get("quality") == "verified" and p.get("sourceUrl")]
         for part in dashboard["contributions"]: part.update(contribution=None, note="等待完整、可核验的输入数据")
     health = {}
+    try:
+        from enrich import collect_enrichment
+        enrichment=collect_enrichment()
+        reviewed_path=Path('data/reviewed-project-facts.json')
+        if reviewed_path.exists():
+            for project_id,record in json.loads(reviewed_path.read_text(encoding='utf8')).items():enrichment['projects'].setdefault(project_id,record)
+        if enrichment['prices']: SOURCES['nbs-70']=enrichment['prices'][-1]['sourceUrl']
+        for dashboard in dashboards:
+            for record in enrichment['prices']:
+                old_url=SOURCES['nbs-70'];SOURCES['nbs-70']=record['sourceUrl']
+                apply_nbs_prices([dashboard],record,datetime.fromisoformat(record['collectedAt']))
+                SOURCES['nbs-70']=old_url
+            areas={a['id']:a for a in dashboard.get('marketAreas',[])}
+            for project in dashboard.get('projects',[]):
+                extra=enrichment['projects'].get(project['id'])
+                if not extra:continue
+                project.update(extra)
+                if extra.get('marketAreaId'):areas[extra['marketAreaId']]={'id':extra['marketAreaId'],'name':extra['marketAreaName'],'layer':'district','parentId':dashboard['city'],'cityId':dashboard['city'],'observations':[],'boundarySource':extra['source']['url']}
+            dashboard['marketAreas']=list(areas.values())
+            dashboard['macro']=[m for m in dashboard['macro'] if m['sourceId']!='profile']
+        health['history-projects']={'status':'verified','price_months':len(enrichment['prices'])}
+    except Exception as exc:health['history-projects']={'status':'stale','error':type(exc).__name__}
     raw = {}
     for source_id, url in SOURCES.items():
         try:
@@ -338,7 +368,7 @@ def main() -> int:
     for dashboard in dashboards:
         dashboard["observedAt"] = day
         for source in dashboard["sources"]:
-            if source["id"] != "amap": source["collectedAt"] = now.isoformat()
+            if source["id"] != "amap" and health.get(source['id'],{}).get('status')=='verified': source["collectedAt"] = now.isoformat()
             if source["id"] in health and source["id"] != "amap": source["quality"] = health[source["id"]]["status"]
         for metric in dashboard["metrics"]:
             if metric["sourceId"] in health: metric["quality"] = health[metric["sourceId"]]["status"]
@@ -349,6 +379,9 @@ def main() -> int:
     content = {"dashboards": dashboards, "projects": projects}
     payload = {"schema_version": 1, "run_id": f"{day}-{uuid.uuid4().hex[:12]}", "observed_at": now.isoformat(), "checksum": hashlib.sha256(canonical(content).encode()).hexdigest(), **content}
     result = api_json(f"{base}/api/ingest/v1/snapshots", token, payload)
+    if requests:
+        try: api_json(f'{base}/api/ingest/v1/refresh',token,{'through':now.isoformat(),'status':'completed' if all(v.get('status')=='verified' for v in health.values()) else 'partial','note':'已重查市场与项目数据；受限来源保留最后有效值。'})
+        except Exception: print('Refresh acknowledgement pending; next run will retry.')
     (archive / "run.json").write_text(json.dumps({"payload_meta": {k: payload[k] for k in ("schema_version", "run_id", "observed_at", "checksum")}, "result": result}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False)); return 0
 

@@ -1,0 +1,672 @@
+{
+  "prices": [
+    {
+      "period": "2026-01",
+      "cities": {
+        "杭州": {
+          "new": [
+            99.7,
+            102.4,
+            102.4
+          ],
+          "resale": [
+            99.7,
+            95.8,
+            95.8
+          ]
+        },
+        "南京": {
+          "new": [
+            99.6,
+            96.5,
+            96.5
+          ],
+          "resale": [
+            99.8,
+            91.4,
+            91.4
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-02",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.2,
+            102.7,
+            102.5
+          ],
+          "resale": [
+            99.8,
+            95.7,
+            95.8
+          ]
+        },
+        "南京": {
+          "new": [
+            100.3,
+            96.3,
+            96.4
+          ],
+          "resale": [
+            99.9,
+            91.6,
+            91.5
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-03",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.2,
+            102.4,
+            102.5
+          ],
+          "resale": [
+            99.9,
+            94.8,
+            95.4
+          ]
+        },
+        "南京": {
+          "new": [
+            99.7,
+            95.9,
+            96.3
+          ],
+          "resale": [
+            100.2,
+            92.2,
+            91.7
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-04",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.4,
+            102.3,
+            102.5
+          ],
+          "resale": [
+            99.9,
+            95.0,
+            95.3
+          ]
+        },
+        "南京": {
+          "new": [
+            100.3,
+            96.6,
+            96.3
+          ],
+          "resale": [
+            100.0,
+            92.8,
+            92.0
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-05",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.5,
+            102.0,
+            102.4
+          ],
+          "resale": [
+            100.0,
+            95.4,
+            95.3
+          ]
+        },
+        "南京": {
+          "new": [
+            99.6,
+            96.4,
+            96.3
+          ],
+          "resale": [
+            99.9,
+            93.5,
+            92.3
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-06",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.3,
+            101.9,
+            102.3
+          ],
+          "resale": [
+            99.8,
+            96.0,
+            95.5
+          ]
+        },
+        "南京": {
+          "new": [
+            100.2,
+            97.6,
+            96.6
+          ],
+          "resale": [
+            99.7,
+            94.1,
+            92.6
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    {
+      "period": "2026-07",
+      "cities": {
+        "杭州": {
+          "new": [
+            100.3,
+            102.6,
+            102.3
+          ],
+          "resale": [
+            99.9,
+            96.6,
+            95.6
+          ]
+        },
+        "南京": {
+          "new": [
+            100.1,
+            98.2,
+            96.8
+          ],
+          "resale": [
+            99.7,
+            94.6,
+            92.9
+          ]
+        }
+      },
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    }
+  ],
+  "projects": {
+    "nj-yuemanyunchuanfu": {
+      "address": "南京市江宁区淳化街道天元中路以北、竹山路以西",
+      "developer": "南京满茂置业有限公司",
+      "inventory": {
+        "total": 640,
+        "sold": 553,
+        "available": 46
+      },
+      "assetEvidence": [
+        {
+          "metric": "floorAreaRatio",
+          "value": 1.8,
+          "period": "2026-08-21",
+          "basis": "NJ-PERMIT-73775",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73775",
+              "publishedAt": "2026-08-21",
+              "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-4596200"
+            }
+          ]
+        },
+        {
+          "metric": "greenRatio",
+          "value": 20.0,
+          "period": "2026-08-21",
+          "basis": "NJ-PERMIT-73775",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73775",
+              "publishedAt": "2026-08-21",
+              "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-4596200"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "id": "nj-yuemanyunchuanfu",
+        "name": "南京网上房地产·项目公示",
+        "url": "https://www.njhouse.com.cn/project/info/4596200/homePage.html",
+        "publishedAt": "2026-08-30",
+        "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+        "basisVersion": "NJHOUSE-PROJECT",
+        "quality": "verified",
+        "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
+      },
+      "marketAreaName": "淳化街道",
+      "marketAreaId": "nanjing:chunhua"
+    },
+    "nj-binheyuncheng": {
+      "address": "南京市雨花台区板桥A地块",
+      "developer": "南京市雨花台城镇建设综合开发有限公司",
+      "inventory": {
+        "total": 6720,
+        "sold": 3374,
+        "available": 3295
+      },
+      "assetEvidence": [
+        {
+          "metric": "floorAreaRatio",
+          "value": 1.8,
+          "period": "2025-04-10",
+          "basis": "NJ-PERMIT-71925",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=71925",
+              "publishedAt": "2025-04-10",
+              "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-109026"
+            }
+          ]
+        },
+        {
+          "metric": "greenRatio",
+          "value": 42.24,
+          "period": "2025-04-10",
+          "basis": "NJ-PERMIT-71925",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=71925",
+              "publishedAt": "2025-04-10",
+              "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-109026"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "id": "nj-binheyuncheng",
+        "name": "南京网上房地产·项目公示",
+        "url": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "publishedAt": "2026-08-30",
+        "collectedAt": "2026-08-30T10:37:06.886262+08:00",
+        "basisVersion": "NJHOUSE-PROJECT",
+        "quality": "verified",
+        "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
+      },
+      "marketAreaName": "板桥",
+      "marketAreaId": "nanjing:banqiao"
+    },
+    "nj-jinxiuchengyuefu": {
+      "address": "南京市江宁区兴城路以北、景明大街以东NO.2021G50地块房地产开发项目",
+      "developer": "南京华滨置业有限公司",
+      "inventory": {
+        "total": 1528,
+        "sold": 609,
+        "available": 900
+      },
+      "assetEvidence": [
+        {
+          "metric": "floorAreaRatio",
+          "value": 2.3,
+          "period": "2024-06-12",
+          "basis": "NJ-PERMIT-70007",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=70007",
+              "publishedAt": "2024-06-12",
+              "collectedAt": "2026-08-30T10:30:00.408557+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-4099150"
+            }
+          ]
+        },
+        {
+          "metric": "greenRatio",
+          "value": 30.03,
+          "period": "2024-06-12",
+          "basis": "NJ-PERMIT-70007",
+          "frequency": "snapshot",
+          "verified": true,
+          "completeness": 0.6,
+          "method": "official-statistic",
+          "note": "官方公示开发企业申报的设计参数；仅产品密度/园林子项，不代表交付品质、地段或流动性。",
+          "sources": [
+            {
+              "publisher": "南京网上房地产·公示预售方案",
+              "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=70007",
+              "publishedAt": "2024-06-12",
+              "collectedAt": "2026-08-30T10:30:00.408557+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "NJ-PROJECT-4099150"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "id": "nj-jinxiuchengyuefu",
+        "name": "南京网上房地产·项目公示",
+        "url": "https://www.njhouse.com.cn/project/info/4099150/homePage.html",
+        "publishedAt": "2026-08-30",
+        "collectedAt": "2026-08-30T10:30:00.408557+08:00",
+        "basisVersion": "NJHOUSE-PROJECT",
+        "quality": "verified",
+        "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
+      },
+      "marketAreaName": "江宁滨江（太白路—景明大街）",
+      "marketAreaId": "nanjing:binjiang"
+    }
+  },
+  "health": {
+    "nbs-discovery": {
+      "status": "stale",
+      "error": "RuntimeError"
+    },
+    "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965050.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    },
+    "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73775": {
+      "status": "stale",
+      "error": "TimeoutError"
+    },
+    "nj-yuemanyunchuanfu": {
+      "status": "verified",
+      "indicators": 2,
+      "collectedAt": "2026-08-30T10:37:06.886262+08:00"
+    },
+    "nj-binheyuncheng": {
+      "status": "verified",
+      "indicators": 2,
+      "collectedAt": "2026-08-30T10:37:06.886262+08:00"
+    },
+    "nj-jinxiuchengyuefu": {
+      "status": "stale",
+      "error": "RuntimeError"
+    },
+    "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html": {
+      "status": "verified",
+      "collectedAt": "2026-08-30T10:43:34.760558+08:00"
+    }
+  },
+  "generatedAt": "2026-08-30T10:43:34.760558+08:00",
+  "fundamentals": {
+    "hz-fundamentals": {
+      "city": "hangzhou",
+      "observations": [
+        {
+          "metric": "residentGrowth",
+          "value": 0.6020278833967047,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "hz-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "常住人口增长，非净迁入人口；按同一公报的上年增量计算",
+          "sources": [
+            {
+              "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）",
+              "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html",
+              "publishedAt": "2026-04-30",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "HZ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "gdpGrowth",
+          "value": 5.2,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "hz-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）",
+              "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html",
+              "publishedAt": "2026-04-30",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "HZ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "incomeGrowth",
+          "value": 4.2,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "hz-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）",
+              "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html",
+              "publishedAt": "2026-04-30",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "HZ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "fiscalGrowth",
+          "value": 2.0,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "hz-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）",
+              "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html",
+              "publishedAt": "2026-04-30",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "HZ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "coreIndustryGrowth",
+          "value": 9.3,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "hz-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）",
+              "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html",
+              "publishedAt": "2026-04-30",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official-reprint",
+              "independentGroup": "HZ-STATS"
+            }
+          ]
+        }
+      ]
+    },
+    "nj-fundamentals": {
+      "city": "nanjing",
+      "observations": [
+        {
+          "metric": "gdpGrowth",
+          "value": 5.2,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "nj-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "南京市统计局",
+              "url": "https://tjj.nanjing.gov.cn/njstjj/202602/t20260204_5786810.html",
+              "publishedAt": "2026-02-04",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official",
+              "independentGroup": "NJ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "incomeGrowth",
+          "value": 4.1,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "nj-fundamentals-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "年度官方统计；核心产业如有为数字经济口径；不使用规划目标",
+          "sources": [
+            {
+              "publisher": "南京市统计局",
+              "url": "https://tjj.nanjing.gov.cn/njstjj/202602/t20260204_5786810.html",
+              "publishedAt": "2026-02-04",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official",
+              "independentGroup": "NJ-STATS"
+            }
+          ]
+        }
+      ]
+    },
+    "nj-population": {
+      "city": "nanjing",
+      "observations": [
+        {
+          "metric": "residentGrowth",
+          "value": 0.6421635167588979,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "nj-population-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "2025/2024同表比较：963.85/957.7万人；增长不等于净迁入",
+          "sources": [
+            {
+              "publisher": "南京市卫生健康委员会",
+              "url": "https://wjw.nanjing.gov.cn/njswshjhsywyh/202607/t20260727_5883557.html",
+              "publishedAt": "2026-07-27",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official",
+              "independentGroup": "NJ-STATS"
+            }
+          ]
+        },
+        {
+          "metric": "hukouGrowth",
+          "value": 0.28841639278287534,
+          "period": "2025",
+          "frequency": "annual",
+          "basis": "nj-population-2025",
+          "verified": true,
+          "method": "official-statistic",
+          "note": "2025/2024同表比较：747.6/745.45万人；增长不等于净迁入",
+          "sources": [
+            {
+              "publisher": "南京市卫生健康委员会",
+              "url": "https://wjw.nanjing.gov.cn/njswshjhsywyh/202607/t20260727_5883557.html",
+              "publishedAt": "2026-07-27",
+              "collectedAt": "2026-08-30T09:55:10.868955+08:00",
+              "kind": "official",
+              "independentGroup": "NJ-STATS"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import type { City, DashboardData, ProjectSnapshot, SourceMeta } from './types';
+import { withVerifiedEvidence } from './enrichment';
 
 const collectedAt = '2026-08-29T09:00:00+08:00';
 
@@ -72,6 +73,6 @@ function makeDashboard(city: City): DashboardData {
   };
 }
 
-export const dashboards: Record<City, DashboardData> = { hangzhou: makeDashboard('hangzhou'), nanjing: makeDashboard('nanjing') };
+export const dashboards: Record<City, DashboardData> = { hangzhou: withVerifiedEvidence(makeDashboard('hangzhou')), nanjing: withVerifiedEvidence(makeDashboard('nanjing')) };
 export const allProjects = [...hangzhouProjects, ...nanjingProjects];
 export function isCity(value: string | null): value is City { return value === 'hangzhou' || value === 'nanjing'; }

@@ -1,0 +1,24 @@
+{
+  "hz-jiuyindanqingfu": {
+    "district": "临平区",
+    "address": "临平区新颜路与藕花洲大街交叉口东北侧",
+    "developer": "杭州金振德运房地产开发有限公司",
+    "marketAreaId": "hangzhou:linping-oldtown",
+    "marketAreaName": "临平老城（新颜路）",
+    "source": {
+      "id": "hz-danqing-tender",
+      "name": "临平房协·前期物业招标公告（透明售房网刊载）",
+      "url": "https://www.tmsf.com/info/news_newsinfo_2909483156_330184_1.htm",
+      "publishedAt": "2025-07-03",
+      "collectedAt": "2026-08-30T10:00:00+08:00",
+      "basisVersion": "LP-TENDER-20250703",
+      "quality": "stale",
+      "note": "公开检索索引核对公告：住宅7幢、3层、预计42户。源站目前405，保留刊载设计事实，不视为已交付或今日在售。"
+    },
+    "assetEvidence": [{
+      "metric": "residentialFloors", "value": 3, "period": "2025-07-03", "basis": "LP-TENDER-20250703", "frequency": "snapshot", "verified": true, "completeness": 0.35,
+      "note": "招标公告公示7幢3层排屋。仅住宅层数子项；通过公开索引复核，原站暂不可达，置信度折减。不是容积率或完整产品品质替代值。",
+      "sources": [{"publisher":"临平房协·透明售房网刊载","url":"https://www.tmsf.com/info/news_newsinfo_2909483156_330184_1.htm","publishedAt":"2025-07-03","collectedAt":"2026-08-30T10:00:00+08:00","kind":"official-reprint","independentGroup":"LP-HOUSING-ASSOCIATION"}]
+    }]
+  }
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+const base=process.env.TEST_URL??'http://localhost:3000';
+const first=await fetch(base+'/api/settings').then(r=>r.json());
+assert.equal(first.preferences.cash,600);
+const profile={...first.preferences,cash:550,city:'nanjing',budgetMin:450};
+const saved=await fetch(base+'/api/settings',{method:'POST',headers:{'Content-Type':'application/json','Origin':base},body:JSON.stringify(profile)});
+assert.equal(saved.status,200);const cookie=saved.headers.get('set-cookie').split(';')[0];
+const read=await fetch(base+'/api/settings',{headers:{Cookie:cookie}}).then(r=>r.json());assert.equal(read.preferences.cash,550);assert.equal(read.preferences.city,'nanjing');assert.ok(read.refresh.some(r=>r.city==='nanjing'&&r.status==='pending'));
+const outsider=await fetch(base+'/api/settings').then(r=>r.json());assert.equal(outsider.preferences.cash,600);
+const csrf=await fetch(base+'/api/settings',{method:'POST',headers:{'Content-Type':'application/json',Origin:'https://untrusted.example'},body:JSON.stringify(profile)});assert.equal(csrf.status,403);
+const invalid=await fetch(base+'/api/settings',{method:'POST',headers:{'Content-Type':'application/json',Origin:base},body:JSON.stringify({...profile,budgetMin:99999})});assert.equal(invalid.status,422);
+assert.equal((await fetch(base+'/api/ingest/v1/refresh')).status,401);
+console.log('PASS: durable settings, visitor isolation, refresh queue, CSRF, validation, protected collector endpoint');

@@ -5,6 +5,7 @@ import { dashboardSnapshots } from '@/db/schema';
 import { dashboards, isCity } from '@/lib/bootstrap-data';
 import type { DashboardData } from '@/lib/types';
 import { assessDashboard } from '@/lib/decision-adapter';
+import { withVerifiedEvidence } from '@/lib/enrichment';
 
 export const runtime = 'edge';
 
@@ -15,7 +16,7 @@ export async function GET(request: Request) {
   try {
     const [row] = await getDb().select().from(dashboardSnapshots).where(eq(dashboardSnapshots.city, city)).orderBy(desc(dashboardSnapshots.observedAt)).limit(1);
     if (row) {
-      const data = JSON.parse(row.payloadJson) as DashboardData;
+      const data = withVerifiedEvidence(JSON.parse(row.payloadJson) as DashboardData);
       return NextResponse.json({ data, decision: assessDashboard(data, new Date().toISOString()), storage: 'd1', range: searchParams.get('range') ?? '12' });
     }
   } catch (error) {

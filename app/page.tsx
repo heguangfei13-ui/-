@@ -1,93 +1,38 @@
 'use client';
-
-import { useEffect, useMemo, useState } from 'react';
+import {useState,useSyncExternalStore} from 'react';
+import Navigation from './components/Navigation';
 import MarketChart from './components/MarketChart';
 import ProjectEvidence from './components/ProjectEvidence';
-import DecisionPanel from './components/DecisionPanel';
-import { assessDashboard } from '@/lib/decision-adapter';
-import { dashboards } from '@/lib/bootstrap-data';
-import { monthlyPayment } from '@/lib/scoring';
-import type { City, DashboardData, ProjectSnapshot } from '@/lib/types';
+import {usePreferences} from './components/PreferencesProvider';
+import {useDashboard} from './components/useDashboard';
+import {assessDashboard,hierarchy} from '@/lib/decision-adapter';
+import {scoreAxis,CYCLE_LABELS,type ScoreResult} from '@/lib/decision-model';
+import {budgetMatch} from '@/lib/preferences';
+import {dashboards} from '@/lib/bootstrap-data';
+import type {City,ProjectSnapshot} from '@/lib/types';
 
-const themes = { hangzhou: { accent: '#16745b' }, nanjing: { accent: '#a84235' } } as const;
-const qualityText = { verified: '已核验', estimated: '模型值', stale: '已过期', pending: '待核验' } as const;
-
-export default function Home() {
-  const [city, setCity] = useState<City>('hangzhou');
-  const [data, setData] = useState<DashboardData>(dashboards.hangzhou);
-  const [range, setRange] = useState(12);
-  const [selected, setSelected] = useState<ProjectSnapshot | null>(null);
-  const [favorites, setFavorites] = useState<string[]>(() => {
-    if (typeof window === 'undefined') return [];
-    try { return JSON.parse(localStorage.getItem('home-compass-favorites') ?? '[]'); } catch { return []; }
-  });
-  const [loan, setLoan] = useState({ cash: 600, principal: 200, years: 30, rate: 3.5, parking: 30, fitout: 40 });
-
-  useEffect(() => {
-    const controller = new AbortController();
-    fetch(`/api/dashboard?city=${city}&range=${range}`, { signal: controller.signal }).then((r) => r.json()).then((result: unknown) => {
-      if (!result || typeof result !== 'object' || !('data' in result)) return;
-      const next = result.data as DashboardData | undefined;
-      if (!controller.signal.aborted && next?.city === city) setData(next);
-    }).catch(() => undefined);
-    return () => controller.abort();
-  }, [city, range]);
-
-  const points = useMemo(() => {
-    const verified = data.series.filter((p) => p.quality === 'verified' && p.sourceUrl);
-    const latestBasis = verified.at(-1)?.basisVersion;
-    return verified.filter((p) => p.basisVersion === latestBasis).slice(-range);
-  }, [data.series, range]);
-  const payment = monthlyPayment(loan.principal * 10_000, loan.rate, loan.years);
-  const availableHomeBudget = loan.cash + loan.principal - loan.parking - loan.fitout;
-  const hasStale = data.sources.some((source) => source.quality === 'stale');
-  const decision = assessDashboard(data, new Date().toISOString());
-  const toggleFavorite = (id: string) => { const next = favorites.includes(id) ? favorites.filter((item) => item !== id) : [...favorites, id]; setFavorites(next); localStorage.setItem('home-compass-favorites', JSON.stringify(next)); };
-  const selectCity = (next: City) => { setCity(next); setData(dashboards[next]); setSelected(null); };
-
-  return (
-    <main className={`dashboard city-${city}`}>
-      <nav className="topbar" aria-label="看板主导航">
-        <a className="brand" href="#top"><span className="brand-mark">宅</span><span>置业罗盘</span></a>
-        <div className="city-switch" aria-label="切换城市">{(['hangzhou', 'nanjing'] as City[]).map((item) => <button key={item} className={city === item ? 'active' : ''} onClick={() => selectCity(item)} aria-pressed={city === item}>{dashboards[item].cityName}</button>)}</div>
-        <div className="freshness"><i className={hasStale ? 'warn' : ''} />数据更新至 {data.observedAt}</div>
-      </nav>
-
-      <section id="top" className="hero" style={{ '--hero-image': `url(${data.image})` } as React.CSSProperties}>
-        <div className="hero-shade" />
-        <div className="hero-content"><p className="eyebrow">{data.english} PROPERTY PULSE</p><h1>{data.cityName}<span>商品房监测</span></h1><p className="hero-region">{data.region}</p><div className="profile-pill"><span>2027 购房</span><b>600 万现金</b><span>500–800 万总成本</span><span>新房 · 110–140㎡</span></div></div>
-        <div className="score-card"><div className="score-ring" style={{ '--score': `${(decision.timing.score ?? 0) * 3.6}deg` } as React.CSSProperties}><div><strong>{decision.timing.score ?? '—'}</strong><span>置信度 {decision.timing.confidence}%</span></div></div><div><small>城市时机 · 部分证据评分</small><h2>先看时机，再选资产</h2><p>可用指标独立计分；资产质量与城市长期基本面另算。低置信度不作购买结论。</p></div></div>
-      </section>
-
-      <section className="canvas">
-        <DecisionPanel key={city} data={data} />
-        {hasStale && <div className="data-alert"><b>△ 数据缺口已显式标记</b><span>一个或多个权威源本次采集未通过校验；系统没有绕过访问限制，也不会用估算值覆盖官方快照。自动任务将保留最后有效值并持续重试。</span></div>}
-        <div className="section-head"><div><p>MARKET PULSE</p><h2>关键市场信号</h2></div><span>所有涨跌同时使用箭头与文字表达</span></div>
-        <div className="metric-grid">{data.metrics.map((metric) => <article className="metric" key={metric.label}><div className="metric-top"><span>{metric.label}</span><em className={`quality ${metric.quality}`}>{qualityText[metric.quality]}</em></div><strong>{metric.value}</strong><p className={metric.direction}>{metric.direction === 'up' ? '↑' : metric.direction === 'down' ? '↓' : '→'} {metric.delta}</p></article>)}</div>
-
-        <div className="analysis-grid">
-          <article className="panel trend-panel"><div className="panel-head"><div><p>VERIFIED OBSERVATIONS</p><h3>住房价格观测</h3></div><div className="range-switch">{[12, 36, 60].map((r) => <button key={r} className={range === r ? 'active' : ''} onClick={() => setRange(r)}>{r} 月</button>)}</div></div>{points.length ? <MarketChart points={points} color={themes[city].accent} /> : <div className="market-chart">历史序列待回填；不展示示意曲线。</div>}<p className="chart-note">当前仅有 {points.length} 个月同基期核验观测，未满所选区间；成交与库存序列待补齐。指数 100 = 环比持平，◇ 为二手房；不同基期不连线。</p>{points.at(-1)?.sourceUrl && <a className="source-link" href={points.at(-1)!.sourceUrl} target="_blank" rel="noreferrer">国家统计局原表 · 采集 {points.at(-1)?.collectedAt?.slice(0, 10)} ↗</a>}</article>
-          <article className="panel contribution-panel"><div className="panel-head"><div><p>AVAILABLE EVIDENCE</p><h3>时机分数贡献</h3></div><b>{decision.timing.score ?? '—'}</b></div><div className="contributions">{decision.timing.dimensions.map((part) => <div key={part.id}><div className="contribution-label"><span>{part.label} <i>{part.weight}%</i></span><strong>{part.score === null ? '未计分' : `+${part.contribution.toFixed(1)}`}</strong></div><div className="progress"><span style={{ width: `${part.coverage}%` }} /></div><small>{part.score === null ? '缺少有效证据，不用替代值' : `原权重内证据覆盖 ${part.coverage.toFixed(0)}% · 置信度 ${part.confidence}%`}</small></div>)}</div></article>
-        </div>
-
-        <div className="analysis-grid compact">
-          <article className="panel"><div className="panel-head"><div><p>MACRO LENS</p><h3>宏观与信贷</h3></div></div><div className="macro-grid">{data.macro.map((item) => <div key={item.label}><span>{item.label}</span><strong>{item.value}</strong><small>{item.change}</small></div>)}</div></article>
-          <article className="panel"><div className="panel-head"><div><p>POLICY TIMELINE</p><h3>政策与数据日历</h3></div></div><ol className="timeline">{data.policies.map((item) => <li key={item.date + item.title}><time>{item.date}</time><div><b>{item.title}</b><span>{item.impact}</span></div></li>)}</ol></article>
-        </div>
-
-        <div className="section-head projects-head"><div><p>OFFICIAL WATCHLIST</p><h2>官方项目观察池</h2></div><span>证据不足的项目不进入推荐榜</span></div>
-        <div className="watchlist-note"><b>当前 0 个项目满足“价格 + 户型 + 通勤”完整证据链</b><span>以下仅为官方预售/网签名单中的观察候选。待自动采集补齐目标户型总成本与高德通勤后，才会计算排名。</span></div>
-        <div className="project-grid">{data.projects.map((project) => { const fastest = project.commutes.filter((c) => c.driveMinutes).sort((a, b) => (a.driveMinutes ?? 999) - (b.driveMinutes ?? 999))[0]; return <article className="project-card" key={project.id}><div className="project-card-top"><span>{project.district}</span><button onClick={() => toggleFavorite(project.id)} aria-label={favorites.includes(project.id) ? '取消收藏' : '收藏项目'}>{favorites.includes(project.id) ? '♥' : '♡'}</button></div><h3>{project.name}</h3><p className="developer">{project.developer}</p><div className="project-state"><b>{fastest ? `驾车 ${fastest.driveMinutes} 分钟` : '待核验'}</b><span>{fastest ? `至 ${fastest.destination}` : '价格 / 110–140㎡ / 通勤'}</span></div><div className="tag-row">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>{project.inventory && <div className="inventory"><span>总 {project.inventory.total}</span><span>成交 {project.inventory.sold}</span><span>可售 {project.inventory.available}</span></div>}<button className="detail-button" onClick={() => setSelected(project)}>查看证据与风险 →</button></article>; })}</div>
-
-        <div className="section-head"><div><p>CASHFLOW LAB</p><h2>贷款与现金流计算器</h2></div><span>等额本息 · 默认 5 年期以上 LPR</span></div>
-        <article className="calculator panel"><div className="sliders">{([['cash', '可用现金', 200, 800, 10, '万'], ['principal', '贷款本金', 0, 500, 10, '万'], ['years', '贷款期限', 5, 30, 5, '年'], ['rate', '执行利率', 2.5, 5.5, 0.05, '%'], ['parking', '车位预算', 0, 80, 5, '万'], ['fitout', '基础整备', 0, 100, 5, '万']] as const).map(([key, label, min, max, step, unit]) => <label key={key}><span>{label}<b>{loan[key]} {unit}</b></span><input type="range" min={min} max={max} step={step} value={loan[key]} onChange={(e) => setLoan({ ...loan, [key]: Number(e.target.value) })} /></label>)}</div><div className="calculation-result"><small>建议可用于房屋本体</small><strong>{availableHomeBudget} 万</strong><div><span>月供</span><b>{Math.round(payment).toLocaleString('zh-CN')} 元</b></div><div><span>预算安全线</span><b>≤ 720 万</b></div><p>总成本上限仍建议控制在 720 万附近，为税费、车位与整备保留约 10% 空间。</p></div></article>
-
-        <div className="section-head"><div><p>DATA PROVENANCE</p><h2>来源与健康状态</h2></div><span>页面读取已保存快照，不在访问时抓取</span></div>
-        <div className="sources">{data.sources.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={source.id}><div><b>{source.name}</b><em className={`quality ${source.quality}`}>{qualityText[source.quality]}</em></div><span>发布 {source.publishedAt} · 采集 {source.collectedAt.slice(0, 10)}</span><small>{source.note ?? `口径 ${source.basisVersion}`}</small></a>)}</div>
-        <footer><span>置业罗盘 · 为 2027 做有证据的决定</span><span>信号仅供研究，不构成房价预测或投资建议</span></footer>
-      </section>
-
-        {selected && <ProjectEvidence project={selected} onClose={() => setSelected(null)} />}
-    </main>
-  );
+function Score({title,result}:{title:string;result:ScoreResult}){
+  const available=result.dimensions.filter(d=>d.score!==null);
+  return <article className="panel score-tile"><span>{title}</span><strong>{result.score??'—'}<small>/100</small></strong><p>置信度 {result.confidence}% · {available.length} 项已计分</p><details><summary>为什么是这个分数？</summary>{available.length?<><p>按已有证据重新分配权重；缺项不记零分，也不阻断评分。</p>{available.map(d=><div className="score-explanation" key={d.id}><b>{d.label} · {d.score} 分</b><span>贡献 {d.contribution.toFixed(1)} 分</span>{d.metrics.filter(m=>m.score!==null).map(m=><div key={m.id}><p>{m.label} {m.value?.toFixed(2)} {m.unit} · {m.period}</p><small>{m.rule}</small>{m.sources.map(s=><a key={s.url} href={s.url} target="_blank" rel="noreferrer">{s.publisher} · 采集 {s.collectedAt.slice(0,10)} ↗</a>)}</div>)}</div>)}</>:<p>该对象尚无任何可计分指标；不会借用城市分冒充小区分。</p>}<p>缺失部分只降低置信度，不影响已有分数。置信度不是上涨概率。</p></details></article>;
+}
+export default function Home(){
+  const {preferences:p}=usePreferences(),[cityOverride,setCity]=useState<City|null>(null),[level,setLevel]=useState<'macro'|'city'|'district'|'community'>('city'),[area,setArea]=useState(''),[community,setCommunity]=useState(''),[range,setRange]=useState(12),[modal,setModal]=useState<ProjectSnapshot|null>(null),[showExcluded,setShowExcluded]=useState(false);
+  const queryCity=useSyncExternalStore(callback=>{window.addEventListener('popstate',callback);return()=>window.removeEventListener('popstate',callback);},()=>new URLSearchParams(location.search).get('city')??'',()=>'');
+  const city=cityOverride??(queryCity==='hangzhou'||queryCity==='nanjing'?queryCity:p.city),{data,error}=useDashboard(city,JSON.stringify(p));
+  const decision=assessDashboard(data,new Date().toISOString(),p.useCase,p.school?5:0,p.baskets[city],p.commuteMode),entities=hierarchy(data),areas=entities.filter(e=>e.layer==='district'),project=data.projects.find(x=>x.id===community),areaEntity=areas.find(a=>a.id===area);
+  const matches=data.projects.map(project=>({project,match:budgetMatch(project,p),rating:decision.projects.find(r=>r.id===project.id)!}));
+  const visible=matches.filter(x=>(!area||(x.project.marketAreaId??`${city}:unassigned`)===area)&&(showExcluded||x.match.status!=='excluded')).sort((a,b)=>(b.rating.asset.score??-1)-(a.rating.asset.score??-1));
+  const points=data.series.filter(x=>x.quality==='verified'&&x.sourceUrl),basis=points.at(-1)?.basisVersion,chart=points.filter(x=>x.basisVersion===basis).slice(-range);
+  function navigate(next:typeof level,areaId='',projectId=''){setLevel(next);setArea(areaId);setCommunity(projectId);setModal(null);}
+  function changeCity(next:City){setCity(next);navigate('city');history.replaceState(null,'',`/?city=${next}`);}
+  const headline=level==='macro'?'中国宏观':level==='city'?`${data.cityName} · 城市市场`:level==='district'?(areaEntity?.name??'板块比较'):(project?.name??'小区详情');
+  const asset=decision.projects.find(x=>x.id===community);
+  return <main className={`dashboard city-${city}`}><Navigation/><div className="market-banner" style={{backgroundImage:`linear-gradient(90deg,rgba(7,25,21,.88),rgba(7,25,21,.25)),url(${data.image})`}}><div><p>{level==='macro'?'CHINA PROPERTY OBSERVATORY':`${data.english} PROPERTY OBSERVATORY`}</p><h1>{headline}</h1><span>{level==='macro'?'宏观环境 → 城市基本面 → 板块 → 小区资产':data.region}</span></div><div className="city-switch">{(['hangzhou','nanjing'] as City[]).map(c=><button key={c} className={city===c?'active':''} onClick={()=>changeCity(c)}>{dashboards[c].cityName}</button>)}</div></div>
+    <div className="workspace"><nav className="breadcrumbs" aria-label="层级导航"><button onClick={()=>navigate('macro')} aria-current={level==='macro'?'page':undefined}>中国宏观</button><span>›</span><button onClick={()=>navigate('city')} aria-current={level==='city'?'page':undefined}>{data.cityName}</button><span>›</span><button onClick={()=>navigate('district')} aria-current={level==='district'?'page':undefined}>{areaEntity?.name??'板块'}</button><span>›</span><button disabled={!project} onClick={()=>navigate('community',area,community)} aria-current={level==='community'?'page':undefined}>{project?.name??'小区'}</button></nav>
+    {error&&<p role="alert">{error}，保留已保存数据。</p>}
+    {level==='macro'&&<><div className="section-head"><h2>全国房地产与融资环境</h2></div><div className="metric-grid">{data.macro.map(m=><article className="metric" key={m.label}><span>{m.label}</span><strong>{m.value}</strong><p>{m.change}</p><a className="source-link" href={data.sources.find(s=>s.id===m.sourceId)?.url} target="_blank" rel="noreferrer">原始发布 ↗</a></article>)}</div><section className="panel"><h2>进入城市研究</h2><p className="muted">全国信贷环境不等于每座城市都值得买。进入城市后分别看时机与长期基本面。</p><div className="area-grid">{(['hangzhou','nanjing'] as City[]).map(c=><button className="area-card" key={c} onClick={()=>changeCity(c)}><b>{dashboards[c].cityName}</b><span>{dashboards[c].region}</span><em>查看城市 →</em></button>)}</div></section></>}
+    {level==='city'&&<><div className="score-grid"><Score title="购房时机" result={decision.timing}/><Score title="城市长期基本面" result={decision.fundamentals}/><article className="panel cycle-summary"><span>当前市场节奏</span><h2>{decision.cycle.state?CYCLE_LABELS[decision.cycle.state-1]:decision.trends.price.ma3!==null?(decision.trends.price.ma3>=99.9?'价格接近企稳区间':'价格仍在调整'):'积累多月观测'}</h2><p>{decision.cycle.state?decision.cycle.reason:'价格趋势描述，非完整周期判定。成交、库存证据不足不阻断时机评分。'}</p><button className="primary" onClick={()=>navigate('district')}>下钻板块与小区 →</button></article></div><div className="metric-grid">{data.metrics.filter(m=>m.label!=='数据新鲜度'&&m.value!=='暂缺').map(m=><article className="metric" key={m.label}><span>{m.label}</span><strong>{m.value}</strong><p>{m.direction==='up'?'↑':m.direction==='down'?'↓':'→'} {m.delta}</p><a className="source-link" href={data.sources.find(s=>s.id===m.sourceId)?.url} target="_blank" rel="noreferrer">{m.quality==='verified'?'来源':'上次记录'} ↗</a></article>)}</div><section className="panel"><div className="panel-head"><div><p>PRICE MOMENTUM</p><h2>看连续趋势，不只看单月</h2></div><div className="range-switch">{[12,36,60].map(r=><button key={r} className={range===r?'active':''} onClick={()=>setRange(r)}>{r}月</button>)}</div></div>{chart.length?<MarketChart points={chart} color={city==='hangzhou'?'#16745b':'#a84235'}/>:<p>价格原表正在回填。</p>}<p className="chart-note">{chart.length} 个月同基期观测 · 环比指数100代表持平 · 不跨基期连线。二手价格 MA3 {decision.trends.price.ma3?.toFixed(2)??'—'} / MA6 {decision.trends.price.ma6?.toFixed(2)??'—'}。</p>{chart.at(-1)&&<a className="source-link" href={chart.at(-1)?.sourceUrl} target="_blank" rel="noreferrer">国家统计局原表 · 采集 {chart.at(-1)?.collectedAt?.slice(0,10)} ↗</a>}</section><section className="panel"><h2>继续比较板块</h2><div className="area-grid">{areas.map(a=><button key={a.id} className="area-card" onClick={()=>navigate('district',a.id)}><b>{a.name}</b><span>{data.projects.filter(x=>(x.marketAreaId??`${city}:unassigned`)===a.id).length} 个已收录小区</span><em>查看 →</em></button>)}</div></section></>}
+    {level==='district'&&<><div className="section-head"><div><p>NEIGHBORHOOD SELECTION</p><h2>{areaEntity?.name??'选择板块'}</h2></div><label>板块<select value={area} onChange={e=>setArea(e.target.value)}><option value="">全部已收录板块</option>{areas.map(a=><option key={a.id} value={a.id}>{a.name}</option>)}</select></label></div>{areaEntity?.boundarySource&&<p className="muted"><a href={areaEntity.boundarySource} target="_blank" rel="noreferrer">区位依据 ↗</a> · {areaEntity.name.includes('街道')?'按官方街道归属组织；不冒充独立房价统计板块。':'研究板块不等于行政区。'}</p>}{areaEntity&&areaEntity.observations.length>0&&<Score title="板块资产条件" result={scoreAxis('district',areaEntity.observations,new Date().toISOString())}/>}<label className="checkbox-label"><input type="checkbox" checked={showExcluded} onChange={e=>setShowExcluded(e.target.checked)}/>显示不符合当前预算/面积/类型的项目</label><p className="muted">预算待核验与资产分开判断，不因价格缺失隐藏资产分。</p><div className="project-grid">{visible.map(({project:x,match,rating})=><article className="project-card" key={x.id}><div className="project-card-top"><span>{x.district}</span><span>{match.status==='excluded'?match.reasons.join(' · '):match.status==='matched'?'预算匹配':'预算待核验'}</span></div><h3>{x.name}</h3><p className="developer">{x.address}</p><div className="project-state"><b>{rating.asset.score??'—'} <small>资产分</small></b><span>置信度 {rating.asset.confidence}%</span></div><p>{x.averagePrice?`${x.averagePrice.toLocaleString()} 元/㎡ · 批次公示均价`:'批次价格尚未核验'}</p>{rating.asset.dimensions.filter(d=>d.score!==null).map(d=><span className="evidence-chip" key={d.id}>{d.label} {d.score}</span>)}<button className="detail-button" onClick={()=>navigate('community',x.marketAreaId??`${city}:unassigned`,x.id)}>查看小区与评分解释 →</button></article>)}</div>{!visible.length&&<section className="panel">当前没有匹配的已收录项目。可调整设置或显示不匹配项目；不会偷偷放宽预算。</section>}</>}
+    {level==='community'&&project&&asset&&<><div className="score-grid"><Score title="小区资产质量" result={asset.asset}/><Score title={`${data.cityName}购房时机`} result={decision.timing}/><article className="panel score-tile"><span>综合购房评分</span><strong>{asset.combined.score??asset.combined.baseScore??'—'}<small>/100</small></strong><p>{asset.combined.full?'时机与资产加权，再乘城市系数':'仅有可用分项的参考分，非完整资产结论'}</p><p>置信度 {asset.combined.confidence}% · {asset.combined.recommendation}</p><small>时机 {asset.combined.weights.timing*100}% / 资产 {asset.combined.weights.asset*100}% · 城市系数 {asset.combined.coefficient??'未知'}</small>{asset.combined.warning&&<p>{asset.combined.warning}</p>}</article></div><section className="panel"><h2>项目事实</h2><p>{project.developer} · {project.address}</p><div className="macro-grid"><div><span>公示批次均价</span><strong>{project.averagePrice?`${project.averagePrice.toLocaleString()} 元/㎡`:'未核验'}</strong></div><div><span>面积范围</span><strong>{project.areaRange[0]!==null?`${project.areaRange.join('–')} ㎡`:'未核验'}</strong></div><div><span>预算匹配</span><strong>{budgetMatch(project,p).status==='matched'?'匹配':budgetMatch(project,p).status==='excluded'?'不匹配':'待核验'}</strong></div></div>{project.inventory&&<p>入网 {project.inventory.total} 套 · 累计成交 {project.inventory.sold} 套 · 未售 {project.inventory.available} 套（不是二手流动性）</p>}<p className="muted">{project.risks.join('；')}</p><button className="detail-button" onClick={()=>setModal(project)}>全部证照、配套与路线资料 →</button><a className="source-link" href={project.source.url} target="_blank" rel="noreferrer">{project.source.name} · 采集 {project.source.collectedAt.slice(0,10)} ↗</a></section></>}
+    <footer><span>置业罗盘 · 从城市到具体资产</span><span>解释性研究评分，不预测短期房价</span></footer></div>{modal&&<ProjectEvidence project={modal} onClose={()=>setModal(null)}/>}</main>;
 }

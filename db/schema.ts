@@ -1,5 +1,13 @@
 import { index, integer, real, sqliteTable, text, uniqueIndex } from 'drizzle-orm/sqlite-core';
 
+export const visitorPreferences = sqliteTable('visitor_preferences', {
+  id: text('id').primaryKey(), payload: text('payload').notNull(), updatedAt: text('updated_at').notNull(),
+});
+export const refreshRequests = sqliteTable('refresh_requests', {
+  city: text('city').primaryKey(), requestedAt: text('requested_at').notNull(), completedAt: text('completed_at'),
+  status: text('status').notNull(), note: text('note'),
+});
+
 export const dashboardSnapshots = sqliteTable('dashboard_snapshots', {
   id: integer('id').primaryKey({ autoIncrement: true }),
   city: text('city').notNull(),
