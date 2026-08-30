@@ -34,6 +34,13 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(data[0]['projects'][0]['averagePrice'],50000)
         self.assertEqual(data[0]['projects'][0]['assetEvidence'],[1])
 
+    def test_old_catalog_cannot_replace_newer_persisted_sales(self):
+        point={'sourceUrl':'https://www.njhouse.com.cn/','observedAt':'2026-08-30T09:00:00+08:00','basisVersion':'all','sold':10}
+        newer={**point,'observedAt':'2026-08-30T18:00:00+08:00','sold':12}
+        data=[{'city':'nanjing','projects':[{'id':'a','city':'nanjing','salesHistory':[newer]}]}]
+        apply_catalog(data,{'projects':[{'id':'a','city':'nanjing','salesHistory':[point]}]})
+        self.assertEqual(data[0]['projects'][0]['salesHistory'],[newer])
+
 
 if __name__=='__main__':unittest.main()
 
