@@ -1,3 +1,4 @@
+import type { Observation, Entity, SeriesValue, CycleSignals, CommuteLeg } from './decision-model';
 export type City = 'hangzhou' | 'nanjing';
 export type QualityStatus = 'verified' | 'estimated' | 'stale' | 'pending';
 export interface SourceMeta { id: string; name: string; url: string; publishedAt: string; collectedAt: string; basisVersion: string; quality: QualityStatus; note?: string }
@@ -12,6 +13,9 @@ export interface ProjectSnapshot {
   commutes: { destination: string; destinationAddress?: string; transitMinutes: number | null; driveMinutes: number | null; transfers: number | null }[];
   amapMeta?: { collectedAt?: string | null; lastAttemptAt?: string; quality: QualityStatus; error?: string | null; address?: string | null; level?: string | null; sourceUrl: string };
   source: SourceMeta;
+  marketAreaId?: string;
+  assetEvidence?: Observation[];
+  doorToDoorCommutes?: CommuteLeg[];
 }
 export interface DashboardData {
   city: City; cityName: string; english: string; region: string; image: string; score: number | null; verdict: string; rationale: string; observedAt: string;
@@ -19,4 +23,10 @@ export interface DashboardData {
   contributions: { label: string; weight: number; contribution: number | null; note: string }[];
   series: MarketSeriesPoint[]; macro: { label: string; value: string; change: string; sourceId: string }[];
   policies: { date: string; title: string; impact: string; sourceId: string }[]; sources: SourceMeta[]; projects: ProjectSnapshot[];
+  decisionEvidence?: Observation[];
+  marketAreas?: Entity[];
+  listings?: Entity[];
+  decisionHistory?: { resaleTransactions?: SeriesValue[]; resaleInventory?: SeriesValue[]; bargaining?: SeriesValue[]; landRecovered?: boolean; coreStable?: boolean };
+  cycleEvidenceConfidence?: number;
+  cycleHistory?: { period: string; signals: CycleSignals }[];
 }

@@ -24,6 +24,45 @@ COMMUTE_CENTERS = {
     "nanjing": {"河西": "南京河西新城", "软件谷": "南京中国软件谷", "新街口": "南京新街口"},
 }
 CITY_CODES = {"hangzhou": "0571", "nanjing": "025"}
+ANNUAL_SOURCES = {
+    "hz-fundamentals": {"city": "hangzhou", "url": "https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html", "published": "2026-04-30", "publisher": "杭州市统计局、国家统计局杭州调查队（杭州日报刊载）", "kind": "official-reprint", "group": "HZ-STATS"},
+    "nj-fundamentals": {"city": "nanjing", "url": "https://tjj.nanjing.gov.cn/njstjj/202602/t20260204_5786810.html", "published": "2026-02-04", "publisher": "南京市统计局", "kind": "official", "group": "NJ-STATS"},
+    "nj-population": {"city": "nanjing", "url": "https://wjw.nanjing.gov.cn/njswshjhsywyh/202607/t20260727_5883557.html", "published": "2026-07-27", "publisher": "南京市卫生健康委员会", "kind": "official", "group": "NJ-STATS"},
+}
+SOURCES.update({key: value["url"] for key, value in ANNUAL_SOURCES.items()})
+
+def parse_fundamentals(text: str, source_id: str, now: datetime) -> list[dict]:
+    plain = re.sub(r"\s+", "", strip_html(text))
+    config = ANNUAL_SOURCES[source_id]
+    if "2025" not in plain: raise ValueError("Annual evidence year missing")
+    observations = []
+    def add(metric: str, value: float, note: str):
+        if not -100 <= value <= 100: raise ValueError("Annual indicator outside valid range")
+        observations.append({"metric": metric, "value": value, "period": "2025", "frequency": "annual", "basis": f"{source_id}-2025", "verified": True, "method": "official-statistic", "note": note,
+            "sources": [{"publisher": config["publisher"], "url": config["url"], "publishedAt": config["published"], "collectedAt": now.isoformat(), "kind": config["kind"], "independentGroup": config["group"]}]})
+    if source_id == "nj-population":
+        for metric, name in (("residentGrowth", "年末常住人口数"), ("hukouGrowth", "年末户籍人口数")):
+            for row in re.findall(r"<tr\b[^>]*>.*?</tr>", text, re.I | re.S):
+                cells = [re.sub(r"\s+", "", strip_html(c)) for c in re.findall(r"<t[dh]\b[^>]*>(.*?)</t[dh]>", row, re.I | re.S)]
+                if cells and name in cells[0] and len(cells) >= 3:
+                    current, previous = float(cells[1]), float(cells[2])
+                    if previous <= 0: raise ValueError("Population denominator invalid")
+                    add(metric, (current / previous - 1) * 100, f"2025/2024同表比较：{current}/{previous}万人；增长不等于净迁入")
+    else:
+        patterns = {
+            "gdpGrowth": r"(?:全市实现地区生产总值|全市地区生产总值)[^。]{0,80}?亿元[，,](?:按不变价格计算[，,])?(?:比上年|同比)增长([\d.]+)%",
+            "incomeGrowth": r"(?:全体居民|全市居民)人均可支配收入[\d.]+元[，,](?:比上年|同比)增长([\d.]+)%",
+        }
+        if source_id == "hz-fundamentals":
+            patterns.update({"fiscalGrowth": r"一般公共预算收入[\d.]+亿元[，,]比上年增长([\d.]+)%", "coreIndustryGrowth": r"数字经济核心产业增加值[\d.]+亿元[，,]比上年增长([\d.]+)%"})
+            pop = re.search(r"年末全市常住人口([\d.]+)万人[，,]比上年末增加([\d.]+)万人", plain)
+            if pop:
+                current, delta = float(pop[1]), float(pop[2]); add("residentGrowth", delta / (current - delta) * 100, "常住人口增长，非净迁入人口；按同一公报的上年增量计算")
+        for metric, pattern in patterns.items():
+            match = re.search(pattern, plain)
+            if match: add(metric, float(match[1]), "年度官方统计；核心产业如有为数字经济口径；不使用规划目标")
+    if not observations: raise ValueError("Annual page changed: no approved indicators parsed")
+    return observations
 
 def fetch(url: str, retries: int = 2) -> tuple[str, int]:
     error = None
@@ -99,7 +138,13 @@ def parse_lpr(text: str) -> float:
     return float(match.group(1))
 
 def canonical(value: object) -> str:
-    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    # Match JSON.stringify for the finite decimal values in this schema (2.0 becomes 2).
+    def normalize(item):
+        if isinstance(item, float): return int(item) if item.is_integer() else item
+        if isinstance(item, list): return [normalize(v) for v in item]
+        if isinstance(item, dict): return {k: normalize(v) for k, v in item.items()}
+        return item
+    return json.dumps(normalize(value), ensure_ascii=False, sort_keys=True, separators=(",", ":"), allow_nan=False)
 
 def api_json(url: str, token: str | None = None, payload: dict | None = None) -> dict:
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
@@ -246,6 +291,15 @@ def main() -> int:
     if "nbs-70" in raw:
         try: apply_nbs_prices(dashboards, parse_nbs_prices(raw["nbs-70"]), now)
         except Exception as exc: health["nbs-70"] = {"status": "stale", "error": str(exc)}
+    for source_id, config in ANNUAL_SOURCES.items():
+        if source_id not in raw: continue
+        try:
+            evidence = parse_fundamentals(raw[source_id], source_id, now)
+            target = next(item for item in dashboards if item["city"] == config["city"])
+            target["decisionEvidence"] = [o for o in target.get("decisionEvidence", []) if not any(s["url"] == config["url"] for s in o.get("sources", []))] + evidence
+            target["sources"] = [s for s in target["sources"] if s["id"] != source_id] + [{"id": source_id, "name": config["publisher"], "url": config["url"], "publishedAt": config["published"], "collectedAt": now.isoformat(), "basisVersion": source_id + "-2025", "quality": "verified", "note": "年度基本面数据；发布日期与统计年度独立，缺失指标不使用替代值。"}]
+            health[source_id]["indicators"] = len(evidence)
+        except Exception as exc: health[source_id] = {"status": "stale", "error": str(exc)}
     if "nj-house" in raw:
         try:
             nj = parse_nanjing(raw["nj-house"])

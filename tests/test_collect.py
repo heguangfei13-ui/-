@@ -3,6 +3,28 @@ from unittest.mock import patch
 SPEC = importlib.util.spec_from_file_location('collect', pathlib.Path(__file__).parents[1] / 'scripts' / 'collect.py')
 collect = importlib.util.module_from_spec(SPEC); SPEC.loader.exec_module(collect)
 class CollectorTests(unittest.TestCase):
+    def test_checksum_normalizes_whole_floats(self):
+        self.assertEqual(collect.canonical({'value': 2.0}), '{"value":2}')
+    def test_annual_bad_page_cannot_generate_evidence(self):
+        with self.assertRaises(ValueError): collect.parse_fundamentals('<html>captcha 2025</html>', 'hz-fundamentals', collect.datetime.now(collect.TZ))
+    def test_hangzhou_official_annual_fixture(self):
+        text = (pathlib.Path(__file__).parent / 'fixtures/hz-annual-2025.html').read_text(encoding='utf-8')
+        parsed = {o['metric']: o['value'] for o in collect.parse_fundamentals(text, 'hz-fundamentals', collect.datetime.now(collect.TZ))}
+        self.assertEqual(parsed['gdpGrowth'], 5.2)
+        self.assertEqual(parsed['incomeGrowth'], 4.2)
+        self.assertEqual(parsed['fiscalGrowth'], 2.0)
+        self.assertAlmostEqual(parsed['residentGrowth'], 7.6 / 1262.4 * 100)
+    def test_nanjing_annual_does_not_substitute_output_for_value_added(self):
+        text = (pathlib.Path(__file__).parent / 'fixtures/nj-annual-2025.html').read_text(encoding='utf-8')
+        parsed = {o['metric']: o['value'] for o in collect.parse_fundamentals(text, 'nj-fundamentals', collect.datetime.now(collect.TZ))}
+        self.assertEqual(parsed['gdpGrowth'], 5.2)
+        self.assertEqual(parsed['incomeGrowth'], 4.1)
+        self.assertNotIn('highTechShare', parsed)
+    def test_nanjing_population_same_table_yoy(self):
+        text = (pathlib.Path(__file__).parent / 'fixtures/nj-population-2025.html').read_text(encoding='utf-8')
+        parsed = {o['metric']: o['value'] for o in collect.parse_fundamentals(text, 'nj-population', collect.datetime.now(collect.TZ))}
+        self.assertAlmostEqual(parsed['residentGrowth'], (963.85 / 957.7 - 1) * 100)
+        self.assertAlmostEqual(parsed['hukouGrowth'], (747.6 / 745.45 - 1) * 100)
     def test_nanjing_fixture(self):
         text = (pathlib.Path(__file__).parent / 'fixtures' / 'nanjing-home.html').read_text(encoding='utf-8')
         result = collect.parse_nanjing(text); self.assertEqual(result['today_transactions'], 8); self.assertEqual(result['month_transaction_area'], 27.04)

@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '15 1 * * *'
   workflow_dispatch:
+    inputs:
+      refresh_amap:
+        description: Force AMap refresh (otherwise respect the seven-day cache)
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -24,7 +29,7 @@ jobs:
           INGEST_URL: ${{ secrets.INGEST_URL }}
           INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
-          FORCE_AMAP: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORCE_AMAP: ${{ github.event.inputs.refresh_amap == 'true' && '1' || '0' }}
         run: python scripts/collect.py
       - name: Commit immutable collection record
         if: always()

@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import MarketChart from './components/MarketChart';
 import ProjectEvidence from './components/ProjectEvidence';
+import DecisionPanel from './components/DecisionPanel';
+import { assessDashboard } from '@/lib/decision-adapter';
 import { dashboards } from '@/lib/bootstrap-data';
 import { monthlyPayment } from '@/lib/scoring';
 import type { City, DashboardData, ProjectSnapshot } from '@/lib/types';
@@ -39,6 +41,7 @@ export default function Home() {
   const payment = monthlyPayment(loan.principal * 10_000, loan.rate, loan.years);
   const availableHomeBudget = loan.cash + loan.principal - loan.parking - loan.fitout;
   const hasStale = data.sources.some((source) => source.quality === 'stale');
+  const decision = assessDashboard(data, new Date().toISOString());
   const toggleFavorite = (id: string) => { const next = favorites.includes(id) ? favorites.filter((item) => item !== id) : [...favorites, id]; setFavorites(next); localStorage.setItem('home-compass-favorites', JSON.stringify(next)); };
   const selectCity = (next: City) => { setCity(next); setData(dashboards[next]); setSelected(null); };
 
@@ -53,17 +56,18 @@ export default function Home() {
       <section id="top" className="hero" style={{ '--hero-image': `url(${data.image})` } as React.CSSProperties}>
         <div className="hero-shade" />
         <div className="hero-content"><p className="eyebrow">{data.english} PROPERTY PULSE</p><h1>{data.cityName}<span>商品房监测</span></h1><p className="hero-region">{data.region}</p><div className="profile-pill"><span>2027 购房</span><b>600 万现金</b><span>500–800 万总成本</span><span>新房 · 110–140㎡</span></div></div>
-        <div className="score-card"><div className="score-ring" style={{ '--score': '0deg' } as React.CSSProperties}><div><strong>—</strong><span>待补齐</span></div></div><div><small>当前购房时机指数</small><h2>数据待补齐 · 暂不评级</h2><p>成交、库存、土地等证据尚不完整，暂不计算时机指数。</p></div></div>
+        <div className="score-card"><div className="score-ring" style={{ '--score': `${(decision.timing.score ?? 0) * 3.6}deg` } as React.CSSProperties}><div><strong>{decision.timing.score ?? '—'}</strong><span>置信度 {decision.timing.confidence}%</span></div></div><div><small>城市时机 · 部分证据评分</small><h2>先看时机，再选资产</h2><p>可用指标独立计分；资产质量与城市长期基本面另算。低置信度不作购买结论。</p></div></div>
       </section>
 
       <section className="canvas">
+        <DecisionPanel key={city} data={data} />
         {hasStale && <div className="data-alert"><b>△ 数据缺口已显式标记</b><span>一个或多个权威源本次采集未通过校验；系统没有绕过访问限制，也不会用估算值覆盖官方快照。自动任务将保留最后有效值并持续重试。</span></div>}
         <div className="section-head"><div><p>MARKET PULSE</p><h2>关键市场信号</h2></div><span>所有涨跌同时使用箭头与文字表达</span></div>
         <div className="metric-grid">{data.metrics.map((metric) => <article className="metric" key={metric.label}><div className="metric-top"><span>{metric.label}</span><em className={`quality ${metric.quality}`}>{qualityText[metric.quality]}</em></div><strong>{metric.value}</strong><p className={metric.direction}>{metric.direction === 'up' ? '↑' : metric.direction === 'down' ? '↓' : '→'} {metric.delta}</p></article>)}</div>
 
         <div className="analysis-grid">
           <article className="panel trend-panel"><div className="panel-head"><div><p>VERIFIED OBSERVATIONS</p><h3>住房价格观测</h3></div><div className="range-switch">{[12, 36, 60].map((r) => <button key={r} className={range === r ? 'active' : ''} onClick={() => setRange(r)}>{r} 月</button>)}</div></div>{points.length ? <MarketChart points={points} color={themes[city].accent} /> : <div className="market-chart">历史序列待回填；不展示示意曲线。</div>}<p className="chart-note">当前仅有 {points.length} 个月同基期核验观测，未满所选区间；成交与库存序列待补齐。指数 100 = 环比持平，◇ 为二手房；不同基期不连线。</p>{points.at(-1)?.sourceUrl && <a className="source-link" href={points.at(-1)!.sourceUrl} target="_blank" rel="noreferrer">国家统计局原表 · 采集 {points.at(-1)?.collectedAt?.slice(0, 10)} ↗</a>}</article>
-          <article className="panel contribution-panel"><div className="panel-head"><div><p>EXPLAINABLE SIGNAL</p><h3>时机指数权重</h3></div><b>暂不计算</b></div><div className="contributions">{data.contributions.map((part) => <div key={part.label}><div className="contribution-label"><span>{part.label} <i>{part.weight}%</i></span><strong>待补齐</strong></div><div className="progress"><span style={{ width: `${part.weight}%` }} /></div><small>预设权重，尚无可发布的分项贡献</small></div>)}</div></article>
+          <article className="panel contribution-panel"><div className="panel-head"><div><p>AVAILABLE EVIDENCE</p><h3>时机分数贡献</h3></div><b>{decision.timing.score ?? '—'}</b></div><div className="contributions">{decision.timing.dimensions.map((part) => <div key={part.id}><div className="contribution-label"><span>{part.label} <i>{part.weight}%</i></span><strong>{part.score === null ? '未计分' : `+${part.contribution.toFixed(1)}`}</strong></div><div className="progress"><span style={{ width: `${part.coverage}%` }} /></div><small>{part.score === null ? '缺少有效证据，不用替代值' : `原权重内证据覆盖 ${part.coverage.toFixed(0)}% · 置信度 ${part.confidence}%`}</small></div>)}</div></article>
         </div>
 
         <div className="analysis-grid compact">
