@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-2925150",
+    "name": "云和滨雅苑",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "南京市浦口区江浦街道东至钟奇路，南至谢营路，西至现状河道、浦云路，北至A分区、规划道路",
+    "developer": "南京银浦房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-2925150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/2925150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T23:38:08.345692+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "2925150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T23:38:08.345692+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/2925150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 1684,
+        "sold": 689,
+        "available": 969,
+        "subscribed": 26,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1684,
+      "sold": 689,
+      "available": 969
+    }
+  },
+  "sourceSha256": "238239c2f2caa0e49d6b489cbecedbf1295489100c1f70cf164ef50790734709"
+}

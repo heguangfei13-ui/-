@@ -5,7 +5,7 @@
   },
   "community-catalog": {
     "status": "stale",
-    "projects": 28,
+    "projects": 185,
     "complete": false
   },
   "nbs-70": {
@@ -46,7 +46,7 @@
   "amap": {
     "status": "stale",
     "projects_updated": 1,
-    "projects_failed": 30,
+    "projects_failed": 187,
     "refreshed": false
   }
 }
