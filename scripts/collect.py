@@ -74,7 +74,11 @@ def api_json(url: str, token: str | None = None, payload: dict | None = None) ->
 
 def amap_json(path: str, params: dict[str, str], key: str) -> dict:
     query = urlencode({**params, "key": key})
-    data = api_json(f"https://restapi.amap.com{path}?{query}")
+    try:
+        data = api_json(f"https://restapi.amap.com{path}?{query}")
+    except Exception as exc:
+        # Never archive exception URLs: they can contain the API key.
+        raise RuntimeError(f"AMap transport failed: {type(exc).__name__}") from None
     if str(data.get("status")) != "1":
         raise ValueError(f"AMap rejected request: {data.get('infocode', 'unknown')} {data.get('info', '')}")
     return data
@@ -195,16 +199,20 @@ def main() -> int:
             succeeded, failed = apply_amap_cache(dashboards, amap_cache, now)
             health["amap"] = {"status": "verified" if succeeded else "stale", "projects_updated": succeeded, "projects_failed": failed, "refreshed": should_refresh}
         except Exception as exc:
-            health["amap"] = {"status": "stale", "error": str(exc)}
+            health["amap"] = {"status": "stale", "error": str(exc).replace(amap_key, '[REDACTED]')}
+            for dashboard in dashboards:
+                dashboard["sources"] = [source for source in dashboard["sources"] if source["id"] != "amap"]
+                dashboard["sources"].append({"id": "amap", "name": "高德地图 Web服务", "url": AMAP_SOURCE_URL, "publishedAt": day, "collectedAt": now.isoformat(), "basisVersion": "AMAP-WEB-V5", "quality": "stale", "note": health["amap"]["error"]})
     for dashboard in dashboards:
         dashboard["observedAt"] = day
         for source in dashboard["sources"]:
-            source["collectedAt"] = now.isoformat()
+            if source["id"] != "amap": source["collectedAt"] = now.isoformat()
             if source["id"] in health: source["quality"] = health[source["id"]]["status"]
         for metric in dashboard["metrics"]:
             if metric["sourceId"] in health: metric["quality"] = health[metric["sourceId"]]["status"]
     for source_id, text in raw.items(): (archive / f"{source_id}.html").write_text(text, encoding="utf-8")
     (archive / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps({"source_health": health}, ensure_ascii=False))
     projects = [project for dashboard in dashboards for project in dashboard.get("projects", [])]
     content = {"dashboards": dashboards, "projects": projects}
     payload = {"schema_version": 1, "run_id": f"{day}-{uuid.uuid4().hex[:12]}", "observed_at": now.isoformat(), "checksum": hashlib.sha256(canonical(content).encode()).hexdigest(), **content}
