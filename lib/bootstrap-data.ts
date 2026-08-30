@@ -8,24 +8,6 @@ const commonSources: SourceMeta[] = [
   { id: 'lpr', name: '中国货币网｜贷款市场报价利率', url: 'https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html', publishedAt: '2026-08-20', collectedAt, basisVersion: 'LPR-2026', quality: 'verified' },
 ];
 
-const baseSeries = [
-  ['2025-08', 99.7, 99.4, 74, 112], ['2025-09', 99.8, 99.5, 78, 111], ['2025-10', 99.7, 99.4, 82, 110],
-  ['2025-11', 99.8, 99.5, 88, 108], ['2025-12', 99.9, 99.6, 96, 106], ['2026-01', 100.0, 99.7, 68, 107],
-  ['2026-02', 99.9, 99.6, 54, 108], ['2026-03', 100.0, 99.7, 91, 105], ['2026-04', 100.1, 99.7, 88, 103],
-  ['2026-05', 100.0, 99.8, 85, 102], ['2026-06', 100.1, 99.8, 92, 100], ['2026-07', 100.3, 99.8, 86, 101],
-] as const;
-
-function series(city: City) {
-  return baseSeries.map(([period, n, r, v, i], index) => ({
-    period,
-    newHomeIndex: city === 'hangzhou' ? n : Number((n - (index < 9 ? 0.2 : 0.1)).toFixed(1)),
-    resaleIndex: city === 'hangzhou' ? r : Number((r - 0.1).toFixed(1)),
-    volume: city === 'hangzhou' ? v : Math.round(v * 0.82),
-    inventory: city === 'hangzhou' ? i : i + 8,
-    basisVersion: index < 5 ? 'MONITOR-NORMALIZED-2025' : 'NBS-70CITY-2026',
-  }));
-}
-
 const hzSource: SourceMeta = { id: 'hz-tmsf', name: '杭州透明售房网', url: 'https://www.tmsf.com/yhweb/', publishedAt: '2026-08-29', collectedAt, basisVersion: 'TMSF-DAILY', quality: 'stale', note: '公开入口当前返回 405；未绕过访问限制。成交量保留空值，待自动任务恢复后更新。' };
 const njSource: SourceMeta = { id: 'nj-house', name: '南京网上房地产', url: 'https://www.njhouse.com.cn/projectindex.html', publishedAt: '2026-08-29', collectedAt, basisVersion: 'NJHOUSE-DAILY', quality: 'verified', note: '当日首页公开快照：本月成交面积 27.04 万㎡。' };
 
@@ -56,25 +38,25 @@ function makeDashboard(city: City): DashboardData {
   return {
     city, cityName: hz ? '杭州' : '南京', english: hz ? 'HANGZHOU' : 'NANJING',
     region: hz ? '西湖 · 钱塘江 · 科技走廊' : '紫金山 · 明城墙 · 长江岸线', image: hz ? '/cities/hangzhou.jpg' : '/cities/nanjing.jpg',
-    score: hz ? 68 : 61, verdict: hz ? '中性偏积极 · 进入项目甄选期' : '中性 · 仍处价格与库存磨底期',
-    rationale: '这是解释性信号，不是涨跌预测；建议把看房节奏与项目证据、现金流压力共同判断。', observedAt: '2026-08-29',
+    score: null, verdict: '数据待补齐 · 暂不评级',
+    rationale: '成交、库存、土地等证据尚不完整，暂不计算时机指数。', observedAt: '2026-08-29',
     metrics: [
       { label: '新房价格环比', value: hz ? '+0.3%' : '+0.1%', delta: hz ? '同比 +2.6%' : '同比 -1.8%', direction: 'up', quality: 'verified', sourceId: 'nbs-70' },
-      { label: '二手房价格环比', value: '-0.2%', delta: hz ? '90–144㎡同比 -3.3%' : '90–144㎡同比 -5.4%', direction: 'down', quality: 'verified', sourceId: 'nbs-70' },
+      { label: '二手房价格环比', value: hz ? '-0.1%' : '-0.3%', delta: hz ? '全市同比 -3.4%' : '全市同比 -5.4%', direction: 'down', quality: 'verified', sourceId: 'nbs-70' },
       { label: hz ? '日度网签' : '本月成交面积', value: hz ? '暂缺' : '27.04 万㎡', delta: hz ? '源站公开入口受限' : '年度累计 290.91 万㎡', direction: hz ? 'flat' : 'up', quality: hz ? 'stale' : 'verified', sourceId: hz ? 'hz-tmsf' : 'nj-house' },
       { label: '5 年期以上 LPR', value: '3.50%', delta: '2026-08-20', direction: 'flat', quality: 'verified', sourceId: 'lpr' },
       { label: '全国住宅销售面积', value: '-12.0%', delta: '2026 年 1–7 月同比', direction: 'down', quality: 'verified', sourceId: 'nbs-national' },
       { label: '数据新鲜度', value: hz ? '部分过期' : '今日', delta: hz ? '1 个源待恢复' : '核心源正常', direction: 'flat', quality: hz ? 'stale' : 'verified', sourceId: local.id },
     ],
     contributions: [
-      { label: '价格动量', weight: 25, contribution: hz ? 18 : 13, note: hz ? '新房走强，二手仍弱' : '新房微升，二手承压' },
-      { label: '量价关系', weight: 20, contribution: hz ? 13 : 12, note: hz ? '成交数据待恢复' : '本月成交面积可核验' },
-      { label: '库存', weight: 20, contribution: hz ? 12 : 10, note: '以去化改善为加分条件' },
-      { label: '信贷', weight: 15, contribution: 11, note: '5 年期以上 LPR 3.50%' },
-      { label: '土地供应', weight: 10, contribution: hz ? 7 : 6, note: '关注核心区供地节奏' },
-      { label: '政策', weight: 10, contribution: 7, note: '仅计已正式发布政策' },
+      { label: '价格动量', weight: 25, contribution: null, note: '等待足够长的已核验历史' },
+      { label: '量价关系', weight: 20, contribution: null, note: '等待同口径价格与成交序列' },
+      { label: '库存', weight: 20, contribution: null, note: '等待可核验库存与去化数据' },
+      { label: '信贷', weight: 15, contribution: null, note: '已保存 LPR，评分规则待校准' },
+      { label: '土地供应', weight: 10, contribution: null, note: '等待土地供应与溢价数据' },
+      { label: '政策', weight: 10, contribution: null, note: '等待正式政策及可复核评分依据' },
     ],
-    series: series(city),
+    series: [],
     macro: [
       { label: '全国房地产开发投资', value: '-19.2%', change: '1–7 月同比', sourceId: 'nbs-national' },
       { label: '全国新建商品房销售额', value: '-13.1%', change: '1–7 月同比', sourceId: 'nbs-national' },

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import MarketChart from './components/MarketChart';
+import ProjectEvidence from './components/ProjectEvidence';
 import { dashboards } from '@/lib/bootstrap-data';
 import { monthlyPayment } from '@/lib/scoring';
 import type { City, DashboardData, ProjectSnapshot } from '@/lib/types';
@@ -22,16 +23,24 @@ export default function Home() {
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(`/api/dashboard?city=${city}&range=${range}`, { signal: controller.signal }).then((r) => r.json()).then((result) => result.data && setData(result.data)).catch(() => undefined);
+    fetch(`/api/dashboard?city=${city}&range=${range}`, { signal: controller.signal }).then((r) => r.json()).then((result: unknown) => {
+      if (!result || typeof result !== 'object' || !('data' in result)) return;
+      const next = result.data as DashboardData | undefined;
+      if (!controller.signal.aborted && next?.city === city) setData(next);
+    }).catch(() => undefined);
     return () => controller.abort();
   }, [city, range]);
 
-  const points = useMemo(() => data.series.slice(-range), [data.series, range]);
+  const points = useMemo(() => {
+    const verified = data.series.filter((p) => p.quality === 'verified' && p.sourceUrl);
+    const latestBasis = verified.at(-1)?.basisVersion;
+    return verified.filter((p) => p.basisVersion === latestBasis).slice(-range);
+  }, [data.series, range]);
   const payment = monthlyPayment(loan.principal * 10_000, loan.rate, loan.years);
   const availableHomeBudget = loan.cash + loan.principal - loan.parking - loan.fitout;
   const hasStale = data.sources.some((source) => source.quality === 'stale');
   const toggleFavorite = (id: string) => { const next = favorites.includes(id) ? favorites.filter((item) => item !== id) : [...favorites, id]; setFavorites(next); localStorage.setItem('home-compass-favorites', JSON.stringify(next)); };
-  const selectCity = (next: City) => { setCity(next); setData(dashboards[next]); };
+  const selectCity = (next: City) => { setCity(next); setData(dashboards[next]); setSelected(null); };
 
   return (
     <main className={`dashboard city-${city}`}>
@@ -44,7 +53,7 @@ export default function Home() {
       <section id="top" className="hero" style={{ '--hero-image': `url(${data.image})` } as React.CSSProperties}>
         <div className="hero-shade" />
         <div className="hero-content"><p className="eyebrow">{data.english} PROPERTY PULSE</p><h1>{data.cityName}<span>商品房监测</span></h1><p className="hero-region">{data.region}</p><div className="profile-pill"><span>2027 购房</span><b>600 万现金</b><span>500–800 万总成本</span><span>新房 · 110–140㎡</span></div></div>
-        <div className="score-card"><div className="score-ring" style={{ '--score': `${data.score * 3.6}deg` } as React.CSSProperties}><div><strong>{data.score}</strong><span>/ 100</span></div></div><div><small>当前购房时机指数</small><h2>{data.verdict}</h2><p>{data.rationale}</p></div></div>
+        <div className="score-card"><div className="score-ring" style={{ '--score': '0deg' } as React.CSSProperties}><div><strong>—</strong><span>待补齐</span></div></div><div><small>当前购房时机指数</small><h2>数据待补齐 · 暂不评级</h2><p>成交、库存、土地等证据尚不完整，暂不计算时机指数。</p></div></div>
       </section>
 
       <section className="canvas">
@@ -53,8 +62,8 @@ export default function Home() {
         <div className="metric-grid">{data.metrics.map((metric) => <article className="metric" key={metric.label}><div className="metric-top"><span>{metric.label}</span><em className={`quality ${metric.quality}`}>{qualityText[metric.quality]}</em></div><strong>{metric.value}</strong><p className={metric.direction}>{metric.direction === 'up' ? '↑' : metric.direction === 'down' ? '↓' : '→'} {metric.delta}</p></article>)}</div>
 
         <div className="analysis-grid">
-          <article className="panel trend-panel"><div className="panel-head"><div><p>PRICE × VOLUME</p><h3>价格与成交联动</h3></div><div className="range-switch">{[12, 36, 60].map((r) => <button key={r} className={range === r ? 'active' : ''} onClick={() => setRange(r)}>{r} 月</button>)}</div></div><MarketChart points={points} color={themes[city].accent} /><p className="chart-note">指数 100 = 环比持平；◇ 虚线为二手房。2025 段为监测归一化示意，2026 国家统计局新基期独立保存，不直接拼接。</p></article>
-          <article className="panel contribution-panel"><div className="panel-head"><div><p>EXPLAINABLE SIGNAL</p><h3>时机指数贡献</h3></div><b>{data.score} 分</b></div><div className="contributions">{data.contributions.map((part) => <div key={part.label}><div className="contribution-label"><span>{part.label} <i>{part.weight}%</i></span><strong>+{part.contribution}</strong></div><div className="progress"><span style={{ width: `${part.contribution / part.weight * 100}%` }} /></div><small>{part.note}</small></div>)}</div></article>
+          <article className="panel trend-panel"><div className="panel-head"><div><p>VERIFIED OBSERVATIONS</p><h3>住房价格观测</h3></div><div className="range-switch">{[12, 36, 60].map((r) => <button key={r} className={range === r ? 'active' : ''} onClick={() => setRange(r)}>{r} 月</button>)}</div></div>{points.length ? <MarketChart points={points} color={themes[city].accent} /> : <div className="market-chart">历史序列待回填；不展示示意曲线。</div>}<p className="chart-note">当前仅有 {points.length} 个月同基期核验观测，未满所选区间；成交与库存序列待补齐。指数 100 = 环比持平，◇ 为二手房；不同基期不连线。</p>{points.at(-1)?.sourceUrl && <a className="source-link" href={points.at(-1)!.sourceUrl} target="_blank" rel="noreferrer">国家统计局原表 · 采集 {points.at(-1)?.collectedAt?.slice(0, 10)} ↗</a>}</article>
+          <article className="panel contribution-panel"><div className="panel-head"><div><p>EXPLAINABLE SIGNAL</p><h3>时机指数权重</h3></div><b>暂不计算</b></div><div className="contributions">{data.contributions.map((part) => <div key={part.label}><div className="contribution-label"><span>{part.label} <i>{part.weight}%</i></span><strong>待补齐</strong></div><div className="progress"><span style={{ width: `${part.weight}%` }} /></div><small>预设权重，尚无可发布的分项贡献</small></div>)}</div></article>
         </div>
 
         <div className="analysis-grid compact">
@@ -74,7 +83,7 @@ export default function Home() {
         <footer><span>置业罗盘 · 为 2027 做有证据的决定</span><span>信号仅供研究，不构成房价预测或投资建议</span></footer>
       </section>
 
-        {selected && <div className="modal-backdrop" onClick={() => setSelected(null)}><section className="project-modal" role="dialog" aria-modal="true" aria-label={`${selected.name}详情`} onClick={(event) => event.stopPropagation()}><button className="modal-close" onClick={() => setSelected(null)}>×</button><p className="eyebrow">OFFICIAL EVIDENCE</p><h2>{selected.name}</h2><p>{selected.address}</p><dl><div><dt>开发商</dt><dd>{selected.developer}</dd></div><div><dt>推荐资格</dt><dd>暂未获得 · 价格与户型证据不完整</dd></div><div><dt>目标总成本</dt><dd>待核验 500–800 万区间</dd></div></dl>{selected.inventory && <div className="modal-inventory"><b>销售快照</b><span>总套数 {selected.inventory.total}</span><span>已成交 {selected.inventory.sold}</span><span>可售 {selected.inventory.available}</span></div>}<h3>三条通勤结果</h3><div className="commute-list">{selected.commutes.map((c) => <div key={c.destination}><b>{c.destination}</b><span>公交 {c.transitMinutes ? `${c.transitMinutes} 分钟 · ${c.transfers ?? 0} 次换乘` : '待刷新'}</span><span>驾车 {c.driveMinutes ? `${c.driveMinutes} 分钟` : '待刷新'}</span></div>)}</div>{selected.amenities.length > 0 && <><h3>3 公里周边</h3><div className="tag-row">{selected.amenities.map((item) => <span key={`${item.category}-${item.name}`}>{item.name} · {item.distance}</span>)}</div></>}<h3>风险提示</h3><ul>{selected.risks.map((risk) => <li key={risk}>{risk}</li>)}</ul><a className="source-link" href={selected.source.url} target="_blank" rel="noreferrer">打开官方证据 ↗</a></section></div>}
+        {selected && <ProjectEvidence project={selected} onClose={() => setSelected(null)} />}
     </main>
   );
 }
