@@ -1,4 +1,31 @@
 {
+  "discovery": {
+    "hz-property-association": {
+      "url": "https://hzswyglxh.com/SearchCityAuditList.aspx",
+      "name": "杭州市物业管理协会·市优项目公开查询（行业协会，非政府）",
+      "refreshDays": 30,
+      "basisVersion": "HZ-PROPERTY-IDENTITY-V1",
+      "scoringEligible": false
+    },
+    "nj-project-search": {
+      "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+      "publicPage": "https://www.njhouse.com.cn/project-list.html",
+      "name": "南京网上房地产·住宅项目公开目录",
+      "refreshDays": 1,
+      "pagesPerRun": 3,
+      "pageSize": 20,
+      "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+      "scoringEligible": false
+    },
+    "nj-stock-directory": {
+      "url": "https://njzl.njhouse.com.cn/stock/houselist/t-1_p-1",
+      "name": "南京网上房地产·存量房公开挂牌目录（仅小区身份）",
+      "refreshDays": 1,
+      "pagesPerRun": 2,
+      "basisVersion": "NJHOUSE-STOCK-IDENTITY-V1",
+      "scoringEligible": false
+    }
+  },
   "sources": {
     "hz-xixi": {"url":"https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf","name":"浙江政务公开·建设项目环境影响报告","format":"pdf"},
     "hz-xiwang": {"url":"https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1756/site/attach/0/d96ad2d9ec9a49cca23d8412068f68a6.pdf","name":"浙江政务公开·建设项目环境影响报告","format":"pdf"},
@@ -31,4 +58,3 @@
     {"id":"nj-jiuxi-taohuayuan","number":"108873","name":"玖溪桃花源墅","housingType":"resale"}
   ]
 }
-

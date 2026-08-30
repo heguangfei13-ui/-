@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-08-30T23:00:33.114333+08:00",
+  "sourceSha256": "15e8cade68453acdeaf4d9321c1c84ff97a6a9ae2f4d52f2c1ca5647e56dd36f",
+  "rows": [
+    {
+      "number": "3266150",
+      "name": "江悦兰园",
+      "district": "浦口区",
+      "address": "浦口区桥林街道杜英路以南、檀香路以西地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "4610200",
+      "name": "隐澍里",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道NO.2025G45地块项目",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4621200",
+      "name": "翰文府",
+      "district": "鼓楼区",
+      "address": "南京市鼓楼区江东街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4615200",
+      "name": "嘉佰华庭",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道NO.2025G07地块项目",
+      "usage": "一般住宅、其它辅助设施"
+    },
+    {
+      "number": "4608200",
+      "name": "云台璟园",
+      "district": "江宁区",
+      "address": "江宁区紫金山科技城双龙大道以西、融智路以南",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4593200",
+      "name": "钟翠云庐",
+      "district": "玄武区",
+      "address": "玄武区孝陵卫街道NO.2025G32地块项目",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4577200",
+      "name": "新澍花园",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道荷雨路以北、荷月路以东",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2268150",
+      "name": "璀璨云著花园",
+      "district": "栖霞区",
+      "address": "南京市栖霞区栖霞大道以北兴智街以东NO.2020G24地块一（D分区）",
+      "usage": "住宅"
+    },
+    {
+      "number": "109026",
+      "name": "滨河云城",
+      "district": "雨花台区",
+      "address": "南京市雨花台区板桥A地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "4618200",
+      "name": "丹若淮府",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4596200",
+      "name": "樾满云川府",
+      "district": "江宁区",
+      "address": "南京市江宁区淳化街道天元中路以北、竹山路以西",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4595200",
+      "name": "上城十号院",
+      "district": "江北新区",
+      "address": "东至上城路，南至毛纺厂路，西至弘阳广场，北至引水河",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "4599200",
+      "name": "天誉东方府",
+      "district": "秦淮区",
+      "address": "南京市秦淮区南部新城N0.2025G42地块房地产项目",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4596201",
+      "name": "华曦璟园",
+      "district": "栖霞区",
+      "address": "栖霞区N0.2025G53地块",
+      "usage": "一般住宅、门面房、小商店"
+    },
+    {
+      "number": "4579200",
+      "name": "金宁文华邸",
+      "district": "江宁区",
+      "address": "江宁区东山街道沿河路以北、规划二路以西NO.2024G55地块房地产开发项目",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109137",
+      "name": "尚峰尚水山庄熙园",
+      "district": "浦口区",
+      "address": "南京市浦口区汤泉街道山水大道39号",
+      "usage": "住宅"
+    },
+    {
+      "number": "4588200",
+      "name": "锦绣江序花园",
+      "district": "江北新区",
+      "address": "江北新区滨江大道以西、七里河大街以南(NJJBd010-21-06地块",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "4609200",
+      "name": "晨樾府",
+      "district": "鼓楼区",
+      "address": "鼓楼区小市街道NO.2025G41房地产开发项目",
+      "usage": "一般住宅、其它辅助设施"
+    },
+    {
+      "number": "4576200",
+      "name": "江海和鸣沁园",
+      "district": "江北新区",
+      "address": "江北新区滨江大道以西，石佛大街以南",
+      "usage": "一般住宅、门面房、小商店",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "1637150",
+      "name": "月鹭府",
+      "district": "溧水区",
+      "address": "经济开发区创业路136号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

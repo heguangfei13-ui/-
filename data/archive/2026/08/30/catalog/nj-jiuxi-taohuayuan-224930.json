@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-jiuxi-taohuayuan",
+    "name": "玖溪桃花源墅",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区横溪街道桃溪路1号",
+    "developer": "南京金宏源房地产开发有限公司",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-jiuxi-taohuayuan",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108873/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T22:49:30.901101+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108873",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T22:49:30.901101+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108873/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 408,
+        "sold": 374,
+        "available": 33,
+        "subscribed": 1,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 408,
+      "sold": 374,
+      "available": 33
+    }
+  },
+  "sourceSha256": "02ec6cef9f33582659ebeab13f5a5a6501f117bb804e4afb92b225cc6d523e12"
+}

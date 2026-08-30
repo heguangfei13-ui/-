@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-vanke-jinyulanwan",
+    "name": "万科金域蓝湾",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区秣陵街道清水亭东路9号",
+    "developer": "南京金域蓝湾置业有限公司",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-vanke-jinyulanwan",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107827/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T22:49:30.901101+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107827",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T22:49:30.901101+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107827/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、车位",
+        "total": 7817,
+        "sold": 7389,
+        "available": 412,
+        "subscribed": 16,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 7817,
+      "sold": 7389,
+      "available": 412
+    }
+  },
+  "sourceSha256": "5b304ecf62e823f69d6e3af54c37136ee638564bd153905bd41881682ed65eda"
+}
