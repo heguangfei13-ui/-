@@ -1,0 +1,1656 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "hz-binjiang-yubinfu",
+      "name": "滨江御滨府",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市滨江御滨府",
+      "developer": "待核验",
+      "housingType": "unknown",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "历史公证公示仅核实项目身份，不证明当前在售状态"
+      },
+      "source": {
+        "id": "hz-yubin",
+        "name": "杭州市国立公证处·御滨府摇号公示",
+        "url": "https://www.hz-notary.com/lottery/detail_content?lotteryContent.id=1706840a8b5c4131b20a708fad283e6a",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:07:29.897285+08:00",
+        "basisVersion": "CATALOG-IDENTITY-V1",
+        "quality": "verified",
+        "note": "目录身份见第1页；发布日期未提取，不用于价格/流动性评分。"
+      }
+    },
+    {
+      "id": "hz-xixi-chengyuan",
+      "name": "西溪诚园",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市西溪诚园",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "项目组团；各苑须分别核验，不合并成交"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-xixi-dieyuan",
+      "name": "西溪蝶园",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市西溪蝶园",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "项目组团；一期、二期须分别核验，不合并成交"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-vanke-xiwang-shangting",
+      "name": "万科溪望尚庭",
+      "city": "hangzhou",
+      "district": "余杭区",
+      "address": "余杭区闲林街道华溪社区",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xiwang",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1756/site/attach/0/d96ad2d9ec9a49cca23d8412068f68a6.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-rongxin-poly-chuangshiji",
+      "name": "融信保利创世纪",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市融信保利创世纪",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-aoti",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2243/site/attach/0/8a2fec65cd494f71b80a3fbc36305d2c.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-zhonghai-xixi-huafu",
+      "name": "中海西溪华府",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市中海西溪华府",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-vanke-zhenglu",
+      "name": "万科正庐",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市万科正庐",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-huaxia-siji",
+      "name": "华夏四季",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市华夏四季",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-beida-weimingfu",
+      "name": "北大资源未名府",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市北大资源未名府",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-weilaiyue",
+      "name": "未来悦",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市未来悦",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-xixi-meian",
+      "name": "西溪美岸",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市西溪美岸",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-xixi-boan",
+      "name": "西溪泊岸",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市西溪泊岸",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "hz-fuli-mingrizhicheng",
+      "name": "富力明日之城",
+      "city": "hangzhou",
+      "district": "杭州市·区属待核验",
+      "address": "杭州市富力明日之城",
+      "developer": "待核验",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "政务公示目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "二手成交、当前价格及具体可售房源未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+      },
+      "source": {
+        "id": "hz-xixi",
+        "name": "浙江政务公开·建设项目环境影响报告",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:00:00+08:00",
+        "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+        "quality": "stale",
+        "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+      }
+    },
+    {
+      "id": "nj-yuemanyunchuanfu",
+      "name": "樾满云川府",
+      "city": "nanjing",
+      "district": "江宁区",
+      "address": "南京市江宁区淳化街道天元中路以北、竹山路以西",
+      "developer": "南京满茂置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-yuemanyunchuanfu",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4596200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4596200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4596200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 640,
+          "sold": 553,
+          "available": 46,
+          "subscribed": 41,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 640,
+        "sold": 553,
+        "available": 46
+      }
+    },
+    {
+      "id": "nj-binheyuncheng",
+      "name": "滨河云城",
+      "city": "nanjing",
+      "district": "雨花台区",
+      "address": "南京市雨花台区板桥A地块",
+      "developer": "南京市雨花台城镇建设综合开发有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-binheyuncheng",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "109026",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 6720,
+          "sold": 3374,
+          "available": 3289,
+          "subscribed": 57,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 6720,
+        "sold": 3374,
+        "available": 3289
+      }
+    },
+    {
+      "id": "nj-jinxiuchengyuefu",
+      "name": "锦绣前程悦府",
+      "city": "nanjing",
+      "district": "江宁区",
+      "address": "南京市江宁区兴城路以北、景明大街以东NO.2021G50地块房地产开发项目",
+      "developer": "南京华滨置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-jinxiuchengyuefu",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4099150/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4099150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4099150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1528,
+          "sold": 609,
+          "available": 901,
+          "subscribed": 18,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1528,
+        "sold": 609,
+        "available": 901
+      }
+    },
+    {
+      "id": "nj-vanke-jinyulanwan",
+      "name": "万科金域蓝湾",
+      "city": "nanjing",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道清水亭东路9号",
+      "developer": "南京金域蓝湾置业有限公司",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-vanke-jinyulanwan",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/107827/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "107827",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107827/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、车位",
+          "total": 7817,
+          "sold": 7389,
+          "available": 412,
+          "subscribed": 16,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 7817,
+        "sold": 7389,
+        "available": 412
+      }
+    },
+    {
+      "id": "nj-tianyuehuayuan",
+      "name": "天悦花园",
+      "city": "nanjing",
+      "district": "建邺区",
+      "address": "南京市建邺区兴隆街道",
+      "developer": "江苏保利宁炫房地产开发有限公司",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-tianyuehuayuan",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108728/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "108728",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108728/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1345,
+          "sold": 1215,
+          "available": 98,
+          "subscribed": 32,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1345,
+        "sold": 1215,
+        "available": 98
+      }
+    },
+    {
+      "id": "nj-renheng-jiangwancheng",
+      "name": "仁恒江湾城",
+      "city": "nanjing",
+      "district": "建邺区",
+      "address": "建邺区乐山路198号",
+      "developer": "南京仁恒置业有限公司",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-renheng-jiangwancheng",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/107703/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "107703",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107703/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业、车位",
+          "total": 1564,
+          "sold": 1496,
+          "available": 68,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1564,
+        "sold": 1496,
+        "available": 68
+      }
+    },
+    {
+      "id": "nj-huaxincheng",
+      "name": "华新城",
+      "city": "nanjing",
+      "district": "南京市·区属待核验",
+      "address": "纬九路以北，江东路以西，经四西路以东，和平路以南",
+      "developer": "华新（南京）置业开发有限公司",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-huaxincheng",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108062/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "108062",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108062/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业、办公、车位",
+          "total": 2962,
+          "sold": 2308,
+          "available": 644,
+          "subscribed": 10,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 2962,
+        "sold": 2308,
+        "available": 644
+      }
+    },
+    {
+      "id": "nj-jiuxi-taohuayuan",
+      "name": "玖溪桃花源墅",
+      "city": "nanjing",
+      "district": "江宁区",
+      "address": "江宁区横溪街道桃溪路1号",
+      "developer": "南京金宏源房地产开发有限公司",
+      "housingType": "resale",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-jiuxi-taohuayuan",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108873/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "108873",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108873/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 408,
+          "sold": 374,
+          "available": 33,
+          "subscribed": 1,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 408,
+        "sold": 374,
+        "available": 33
+      }
+    },
+    {
+      "id": "nj-official-3266150",
+      "name": "江悦兰园",
+      "city": "nanjing",
+      "district": "浦口区",
+      "address": "浦口区桥林街道杜英路以南、檀香路以西地块",
+      "developer": "南京葛洲坝汀悦房地产开发有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-3266150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3266150/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "3266150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3266150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 647,
+          "sold": 137,
+          "available": 414,
+          "subscribed": 96,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 647,
+        "sold": 137,
+        "available": 414
+      }
+    },
+    {
+      "id": "nj-official-4610200",
+      "name": "隐澍里",
+      "city": "nanjing",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道NO.2025G45地块项目",
+      "developer": "南京北谷安家置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4610200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4610200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4610200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4610200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 152,
+          "sold": 28,
+          "available": 87,
+          "subscribed": 37,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 152,
+        "sold": 28,
+        "available": 87
+      }
+    },
+    {
+      "id": "nj-official-4621200",
+      "name": "翰文府",
+      "city": "nanjing",
+      "district": "鼓楼区",
+      "address": "南京市鼓楼区江东街道",
+      "developer": "南京千亿置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4621200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4621200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4621200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4621200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 30,
+          "sold": 0,
+          "available": 30,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 30,
+        "sold": 0,
+        "available": 30
+      }
+    },
+    {
+      "id": "nj-official-4615200",
+      "name": "嘉佰华庭",
+      "city": "nanjing",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道NO.2025G07地块项目",
+      "developer": "南京新嘉基业房地产开发有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4615200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4615200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4615200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4615200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅、其它辅助设施",
+          "total": 86,
+          "sold": 14,
+          "available": 39,
+          "subscribed": 33,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 86,
+        "sold": 14,
+        "available": 39
+      }
+    },
+    {
+      "id": "nj-official-4608200",
+      "name": "云台璟园",
+      "city": "nanjing",
+      "district": "江宁区",
+      "address": "江宁区紫金山科技城双龙大道以西、融智路以南",
+      "developer": "南京芳草地置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4608200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4608200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4608200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4608200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 240,
+          "sold": 65,
+          "available": 160,
+          "subscribed": 15,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 240,
+        "sold": 65,
+        "available": 160
+      }
+    },
+    {
+      "id": "nj-official-4593200",
+      "name": "钟翠云庐",
+      "city": "nanjing",
+      "district": "玄武区",
+      "address": "玄武区孝陵卫街道NO.2025G32地块项目",
+      "developer": "南京绿钰置业有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4593200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4593200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4593200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4593200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 344,
+          "sold": 218,
+          "available": 90,
+          "subscribed": 36,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 344,
+        "sold": 218,
+        "available": 90
+      }
+    },
+    {
+      "id": "nj-official-4577200",
+      "name": "新澍花园",
+      "city": "nanjing",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道荷雨路以北、荷月路以东",
+      "developer": "联发集团南京房地产开发有限公司",
+      "housingType": "new",
+      "areaRange": [
+        null,
+        null
+      ],
+      "averagePrice": null,
+      "totalCostRange": [
+        null,
+        null
+      ],
+      "status": "watchlist",
+      "evidenceStatus": "pending",
+      "score": null,
+      "tags": [
+        "已核实目录身份",
+        "非购买推荐"
+      ],
+      "risks": [
+        "当前可售房源、价格和二手成交尚未核验"
+      ],
+      "permits": [],
+      "amenities": [],
+      "commutes": [],
+      "catalogIdentity": {
+        "verified": true,
+        "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+      },
+      "source": {
+        "id": "nj-official-4577200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/4577200/homePage.html",
+        "publishedAt": "",
+        "collectedAt": "2026-08-30T18:14:19.363566+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "quality": "verified",
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+      },
+      "officialProjectNumber": "4577200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-08-30T18:14:19.363566+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/4577200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 1280,
+          "sold": 927,
+          "available": 327,
+          "subscribed": 26,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1280,
+        "sold": 927,
+        "available": 327
+      }
+    }
+  ],
+  "health": {
+    "hz-xixi": {
+      "status": "stale",
+      "error": "URLError",
+      "lastAttemptAt": "2026-08-30T18:07:29.897285+08:00"
+    },
+    "hz-xiwang": {
+      "status": "stale",
+      "error": "URLError",
+      "lastAttemptAt": "2026-08-30T18:07:29.897285+08:00"
+    },
+    "hz-aoti": {
+      "status": "stale",
+      "error": "URLError",
+      "lastAttemptAt": "2026-08-30T18:07:29.897285+08:00"
+    },
+    "hz-yubin": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:07:29.897285+08:00",
+      "matched": 1,
+      "expected": 1
+    },
+    "nj-discovery": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00",
+      "boundedNewLimit": 16
+    },
+    "nj-yuemanyunchuanfu": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-binheyuncheng": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-jinxiuchengyuefu": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-vanke-jinyulanwan": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-tianyuehuayuan": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-renheng-jiangwancheng": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-huaxincheng": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-jiuxi-taohuayuan": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-3266150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4610200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4621200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4615200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4608200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4593200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    },
+    "nj-official-4577200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-08-30T18:14:19.363566+08:00"
+    }
+  },
+  "generatedAt": "2026-08-30T18:14:19.363566+08:00",
+  "complete": false
+}
+
