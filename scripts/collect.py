@@ -131,7 +131,7 @@ def amap_geocode(query: str, city: str, key: str, precise: bool = False) -> dict
     if not geocodes or not geocodes[0].get("location"):
         raise ValueError(f"AMap geocode returned no match: {query}")
     match = geocodes[0]
-    if len(geocodes) != 1: raise ValueError("AMap location ambiguous")
+    if precise and len(geocodes) != 1: raise ValueError("AMap project location ambiguous")
     if precise and match.get("level") not in {"兴趣点", "门牌号", "小区", "住宅区", "建筑物"}:
         raise ValueError(f"AMap location too broad: {match.get('level', 'unknown')}")
     if match.get("city") not in (city, city + "市"):
