@@ -119,7 +119,9 @@ def apply_catalog(dashboards, catalog):
             old=by_id.get(p['id'])
             if old:
                 # Keep scoring/AMap evidence and priced releases; catalog owns identity and its own sales history only.
-                old.update({k:p[k] for k in ['housingType','catalogIdentity','salesHistory'] if k in p})
+                old.update({k:p[k] for k in ['housingType','catalogIdentity'] if k in p})
+                for point in p.get('salesHistory',[]):
+                    old['salesHistory']=append_history(old.get('salesHistory',[]),point)
             else: by_id[p['id']]=json.loads(json.dumps(p))
         dashboard['projects']=list(by_id.values())
         sources={s['id']:s for s in dashboard.get('sources',[])}
