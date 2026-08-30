@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-huaxincheng",
+    "name": "华新城",
+    "city": "nanjing",
+    "district": "南京市·区属待核验",
+    "address": "纬九路以北，江东路以西，经四西路以东，和平路以南",
+    "developer": "华新（南京）置业开发有限公司",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-huaxincheng",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108062/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:21:10.565957+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108062",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T18:21:10.565957+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108062/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业、办公、车位",
+        "total": 2962,
+        "sold": 2308,
+        "available": 644,
+        "subscribed": 10,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2962,
+      "sold": 2308,
+      "available": 644
+    }
+  },
+  "sourceSha256": "65d0a210bdbca49199b905fcd10ad899ae2a33bfa98c45be170350f020d223c3"
+}

@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-tianyuehuayuan",
+    "name": "天悦花园",
+    "city": "nanjing",
+    "district": "建邺区",
+    "address": "南京市建邺区兴隆街道",
+    "developer": "江苏保利宁炫房地产开发有限公司",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-tianyuehuayuan",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108728/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:21:10.565957+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108728",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T18:21:10.565957+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108728/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1345,
+        "sold": 1215,
+        "available": 98,
+        "subscribed": 32,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1345,
+      "sold": 1215,
+      "available": 98
+    }
+  },
+  "sourceSha256": "0c02ea3aa6667f0f6fdd989559c8e4412ba5b1cb880f1fb9f832747883b778b0"
+}

@@ -3,6 +3,11 @@
     "status": "verified",
     "price_months": 7
   },
+  "community-catalog": {
+    "status": "stale",
+    "projects": 28,
+    "complete": false
+  },
   "nbs-70": {
     "status": "verified",
     "http": 200
@@ -41,7 +46,7 @@
   "amap": {
     "status": "stale",
     "projects_updated": 1,
-    "projects_failed": 5,
+    "projects_failed": 30,
     "refreshed": false
   }
 }

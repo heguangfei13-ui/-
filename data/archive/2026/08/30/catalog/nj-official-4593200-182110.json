@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4593200",
+    "name": "钟翠云庐",
+    "city": "nanjing",
+    "district": "玄武区",
+    "address": "玄武区孝陵卫街道NO.2025G32地块项目",
+    "developer": "南京绿钰置业有限公司",
+    "housingType": "new",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-official-4593200",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4593200/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:21:10.565957+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4593200",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T18:21:10.565957+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4593200/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 344,
+        "sold": 218,
+        "available": 90,
+        "subscribed": 36,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 344,
+      "sold": 218,
+      "available": 90
+    }
+  },
+  "sourceSha256": "b67440f47b5a31f56703d7d3d498598bb0ad05bd364d46416056e66e591f50bc"
+}
