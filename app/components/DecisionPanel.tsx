@@ -1,7 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 import type { DashboardData } from '@/lib/types';
-import { assessDashboard, DEFAULT_BASKETS, hierarchy } from '@/lib/decision-adapter';
+import { assessDashboard, assetObservations, DEFAULT_BASKETS, hierarchy } from '@/lib/decision-adapter';
 import { CYCLE_LABELS, MODEL, PLANNING_DISCOUNTS, PLANNING_LABELS, USE_CASES, cityCoefficient, combineScores, scoreAxis, type ScoreResult, type UseCase } from '@/lib/decision-model';
 
 const number = (value: number | null | undefined) => value == null ? '—' : Number(value.toFixed(1)).toString();
@@ -19,12 +19,13 @@ export default function DecisionPanel({ data }: { data: DashboardData }) {
   const [useCase, setUseCase] = useState<UseCase>('balanced');
   const [schoolWeight, setSchoolWeight] = useState(0);
   const [basket, setBasket] = useState(DEFAULT_BASKETS[data.city] ?? []);
+  const [commuteMode, setCommuteMode] = useState<'transit' | 'drive'>('transit');
   const [areaId, setAreaId] = useState('');
   const [communityId, setCommunityId] = useState('');
   const [listingId, setListingId] = useState('');
   const [explain, setExplain] = useState<'timing' | 'fundamentals' | 'district' | 'asset'>('timing');
   const asOf = new Date().toISOString().slice(0, 10) + 'T23:59:59Z';
-  const assessment = useMemo(() => assessDashboard(data, asOf, useCase, schoolWeight, basket), [data, asOf, useCase, schoolWeight, basket]);
+  const assessment = useMemo(() => assessDashboard(data, asOf, useCase, schoolWeight, basket, commuteMode), [data, asOf, useCase, schoolWeight, basket, commuteMode]);
   const nodes = hierarchy(data), areas = nodes.filter((n) => n.layer === 'district');
   const communities = data.projects.filter((p) => !areaId || (p.marketAreaId ?? `${data.city}:unassigned`) === areaId);
   const selected = communities.find((p) => p.id === communityId);
@@ -34,7 +35,7 @@ export default function DecisionPanel({ data }: { data: DashboardData }) {
   const district = scoreAxis('district', area?.observations ?? [], asOf);
   const localTiming = area?.observations.some((o) => MODEL.timing.some((d) => d.metrics.some((m) => m.id === o.metric))) ? scoreAxis('timing', area.observations, asOf) : assessment.timing;
   const projectResult = assessment.projects.find((p) => p.id === selected?.id);
-  const asset = listing ? scoreAxis('asset', [...(selected?.assetEvidence ?? []).filter((o) => !listing.observations.some((l) => l.metric === o.metric)), ...listing.observations], asOf, schoolWeight) : projectResult?.asset ?? scoreAxis('asset', [], asOf, schoolWeight);
+  const asset = listing ? scoreAxis('asset', [...(selected ? assetObservations(selected, basket, commuteMode) : []).filter((o) => !listing.observations.some((l) => l.metric === o.metric)), ...listing.observations], asOf, schoolWeight) : projectResult?.asset ?? scoreAxis('asset', [], asOf, schoolWeight);
   const combined = combineScores(localTiming, asset, assessment.fundamentals, useCase);
   const results = { timing: localTiming, fundamentals: assessment.fundamentals, district, asset };
   const titles = { timing: '购房时机', fundamentals: '城市长期基本面', district: '板块质量', asset: '小区 / 房源资产质量' };
@@ -55,6 +56,7 @@ export default function DecisionPanel({ data }: { data: DashboardData }) {
     <details><summary>关键趋势 · 当前值、环比、同比、MA与斜率</summary><div className="decision-table-scroll"><table className="decision-table"><thead><tr><th>指标</th><th>当前</th><th>环比%</th><th>同比%</th><th>MA3</th><th>MA6</th><th>MA12</th><th>6月斜率</th></tr></thead><tbody>{Object.entries(assessment.trends).map(([key, t]) => <tr key={key}><th>{{ price: '二手价格环比指数', volume: '二手成交套数', inventory: '二手挂牌套数', bargaining: '议价率%' }[key]}</th><td>{number(t.current)}</td><td>{key === 'price' ? '见价格卡片¹' : number(t.mom)}</td><td>{key === 'price' ? '见价格卡片¹' : number(t.yoy)}</td><td>{number(t.ma3)}</td><td>{number(t.ma6)}</td><td>{number(t.ma12)}</td><td>{number(t.slope)}</td></tr>)}</tbody></table></div><p className="decision-caveat">¹ 环比指数的同比变化不等于房价同比，禁止混用。仅对连续、同口径月份计算移动均值；缺月份不填0，不跨基期拼接。年度基本面不伪造月度趋势。</p></details>
 
     <details><summary>个性化 · 就业中心篮子与学区开关</summary><div className="basket-settings">{basket.map((center, index) => <label key={center.id}>{center.name}<input type="number" min={0} max={100} value={center.weight} onChange={(e) => setBasket(basket.map((c, i) => i === index ? { ...c, weight: Math.max(0, Math.min(100, Number(e.target.value) || 0)) } : c))} />%</label>)}</div><p className="decision-caveat">篮子权重按填写值归一化；未测中心仍计入覆盖率分母。仅接受包含步行、候车、换乘或停车进出的高峰门到门时间。现有普通地图路线估计不计入这个分数。</p><label className="school-toggle"><input type="checkbox" checked={schoolWeight > 0} onChange={(e) => setSchoolWeight(e.target.checked ? 5 : 0)} />主动开启学区需求（默认0，开启后5%，其余资产权重同比缩放）</label></details>
+    <label>通勤评分方式<select value={commuteMode} onChange={(e) => setCommuteMode(e.target.value as 'transit' | 'drive')}><option value="transit">轨道 / 公交高峰门到门</option><option value="drive">驾车高峰门到门</option></select></label>
     <details><summary>规划折扣与模型边界</summary><div className="planning-factors">{Object.entries(PLANNING_DISCOUNTS).map(([status, factor]) => <span key={status}>{PLANNING_LABELS[status as keyof typeof PLANNING_LABELS]} × {factor}</span>)}</div><p className="decision-caveat">折扣为可审计的模型假设，不是兑现概率。仅用于潜在配套收益；未来住宅供应另外显示确定量与潜在量，不能把规划风险折扣成零。3/5公里供应调查不完整时，不认定“稀缺”。</p></details>
   </section>;
 }

@@ -67,6 +67,11 @@ test('通勤必须高峰门到门；缺失就业中心留在覆盖率分母', ()
   assert.equal(scoreAxis('asset', [observation('commuteMinutes', 30, { method: 'route-estimate' })], now).score, null);
 });
 test('旧地图通勤不能成为新资产评分', () => { assert.deepEqual(assetObservations(dashboards.hangzhou.projects[0], DEFAULT_BASKETS.hangzhou), []); });
+test('就业篮子不能重复累计同一目的地的两种交通模式', () => {
+  const project = { ...dashboards.hangzhou.projects[0], assetEvidence: [observation('commuteMinutes', 0, { method: 'door-to-door-peak' })], doorToDoorCommutes: [{ destination: 'A', weight: 100, doorToDoorMinutes: 30, mode: 'transit' as const, verified: true, peak: true, transfers: 1 }, { destination: 'A', weight: 100, doorToDoorMinutes: 60, mode: 'drive' as const, verified: true, peak: true, transfers: 0 }] };
+  assert.equal(assetObservations(project, [{ id: 'a', name: 'A', weight: 100 }], 'transit')[0].value, 30);
+  assert.equal(assetObservations(project, [{ id: 'a', name: 'A', weight: 100 }], 'drive')[0].value, 60);
+});
 test('概念规划不给收益高分，零挂牌/零供应不得误判', () => {
   assert.equal(planningValue(100, 'concept'), 0); assert.equal(planningValue(100, 'construction'), 60);
   const empty = supplyWithin([], 3000, false); assert.equal(empty.canInferScarcity, false);

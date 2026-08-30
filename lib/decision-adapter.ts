@@ -19,18 +19,20 @@ export function evidenceFromDashboard(data: DashboardData): Observation[] {
   return observations;
 }
 
-export function assetObservations(project: ProjectSnapshot, basket: EmploymentCenter[]): Observation[] {
+export function assetObservations(project: ProjectSnapshot, basket: EmploymentCenter[], mode: 'transit' | 'drive' = 'transit'): Observation[] {
   const observations = (project.assetEvidence ?? []).filter((o) => o.metric !== 'commuteMinutes');
-  const legs = (project.doorToDoorCommutes ?? []).map((leg) => ({ ...leg, weight: basket.find((center) => center.name === leg.destination)?.weight ?? 0 }));
-  // Keep unmeasured destinations in the denominator. Do not replace with the old AMap route field.
-  for (const center of basket) if (!legs.some((l) => l.destination === center.name)) legs.push({ destination: center.name, weight: center.weight, doorToDoorMinutes: null, mode: 'transit', peak: false, verified: false, transfers: null });
+  // One selected travel mode per center: never double-count rail and driving weights.
+  const legs = basket.map((center) => {
+    const leg = (project.doorToDoorCommutes ?? []).find((l) => l.destination === center.name && l.mode === mode && l.verified && l.peak);
+    return leg ? { ...leg, weight: center.weight } : { destination: center.name, weight: center.weight, doorToDoorMinutes: null, mode, peak: false, verified: false, transfers: null };
+  });
   const commute = commuteBasket(legs);
   const provenance = project.assetEvidence?.find((o) => o.metric === 'commuteMinutes');
   if (commute.minutes !== null && provenance) observations.push({ ...provenance, value: commute.minutes, completeness: commute.coverage / 100, method: 'door-to-door-peak' });
   return observations;
 }
 
-export function assessDashboard(data: DashboardData, asOf: string, useCase: UseCase = 'balanced', schoolWeight = 0, basket: EmploymentCenter[] = DEFAULT_BASKETS[data.city] ?? []) {
+export function assessDashboard(data: DashboardData, asOf: string, useCase: UseCase = 'balanced', schoolWeight = 0, basket: EmploymentCenter[] = DEFAULT_BASKETS[data.city] ?? [], mode: 'transit' | 'drive' = 'transit') {
   const observations = evidenceFromDashboard(data);
   const fundamentals = scoreAxis('fundamentals', observations, asOf);
   const timing = scoreAxis('timing', observations, asOf);
@@ -43,7 +45,7 @@ export function assessDashboard(data: DashboardData, asOf: string, useCase: UseC
   for (const item of [...(data.cycleHistory ?? [])].sort((a, b) => a.period.localeCompare(b.period))) historical = cycleStep(item.signals, item.period, historical);
   const cycle = cycleStep(signals, price.period ?? asOf.slice(0, 7), historical);
   const projects = data.projects.map((project) => {
-    const asset = scoreAxis('asset', assetObservations(project, basket), asOf, schoolWeight);
+    const asset = scoreAxis('asset', assetObservations(project, basket, mode), asOf, schoolWeight);
     return { id: project.id, asset, combined: combineScores(timing, asset, fundamentals, useCase) };
   });
   return { version: MODEL_VERSION, fundamentals, timing, cycle, projects, trends: { price, volume, inventory, bargaining } };
