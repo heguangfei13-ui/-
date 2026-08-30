@@ -26,6 +26,6 @@ jobs:
       - name: Verify OAuth and two city transaction queries
         env:
           BEIKE_APP_KEY: ${{ secrets.BEIKE_APP_KEY }}
-          BEIKE_APP_SECRET: ${{ secrets.BEIKE_APP_SECRET }}
+          BEIKE_APP_SECRET: ${{ secrets.BEIKE_APP_SECRET || secrets.APPSECRET }}
         run: python scripts/beike_probe.py
 
