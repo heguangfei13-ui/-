@@ -1,5 +1,8 @@
 name: Collect official housing snapshots
 on:
+  push:
+    branches: [main]
+    paths: ['scripts/catalog.py', 'data/catalog-sources.json', '.github/workflows/collect.yml']
   schedule:
     - cron: '15 1 * * *'
     - cron: '25 0,2-23 * * *'
@@ -26,7 +29,7 @@ jobs:
       - name: Install PDF table reader
         run: pip install pypdf==6.10.0
       - name: Test parsers against archived fixtures
-        run: python -m unittest tests/test_collect.py tests/test_enrich.py
+        run: python -m unittest tests/test_collect.py tests/test_enrich.py tests/test_catalog.py
       - name: Fetch, validate, archive and ingest
         env:
           INGEST_URL: ${{ secrets.INGEST_URL }}
@@ -43,5 +46,6 @@ jobs:
           git add data/archive
           if test -f data/verified-enrichment.json; then git add data/verified-enrichment.json; fi
           if test -f data/amap-latest.json; then git add data/amap-latest.json; fi
+          if test -f data/community-catalog.json; then git add data/community-catalog.json; fi
           git diff --cached --quiet || git commit -m "data: archive official snapshots $(date +%F)"
           git push
