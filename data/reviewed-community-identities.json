@@ -1,0 +1,543 @@
+[
+  {
+    "id": "hz-xixi-chengyuan",
+    "name": "西溪诚园",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市西溪诚园",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "项目组团；各苑须分别核验，不合并成交"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-xixi-dieyuan",
+    "name": "西溪蝶园",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市西溪蝶园",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "项目组团；一期、二期须分别核验，不合并成交"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-vanke-xiwang-shangting",
+    "name": "万科溪望尚庭",
+    "city": "hangzhou",
+    "district": "余杭区",
+    "address": "余杭区闲林街道华溪社区",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xiwang",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1756/site/attach/0/d96ad2d9ec9a49cca23d8412068f68a6.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-rongxin-poly-chuangshiji",
+    "name": "融信保利创世纪",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市融信保利创世纪",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-aoti",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2243/site/attach/0/8a2fec65cd494f71b80a3fbc36305d2c.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-zhonghai-xixi-huafu",
+    "name": "中海西溪华府",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市中海西溪华府",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-vanke-zhenglu",
+    "name": "万科正庐",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市万科正庐",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-huaxia-siji",
+    "name": "华夏四季",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市华夏四季",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-beida-weimingfu",
+    "name": "北大资源未名府",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市北大资源未名府",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-weilaiyue",
+    "name": "未来悦",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市未来悦",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-xixi-meian",
+    "name": "西溪美岸",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市西溪美岸",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-xixi-boan",
+    "name": "西溪泊岸",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市西溪泊岸",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  },
+  {
+    "id": "hz-fuli-mingrizhicheng",
+    "name": "富力明日之城",
+    "city": "hangzhou",
+    "district": "杭州市·区属待核验",
+    "address": "杭州市富力明日之城",
+    "developer": "待核验",
+    "housingType": "resale",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "政务公示目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "二手成交、当前价格及具体可售房源未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "政务公开文档检索摘录核实名称；原文件当前访问受限，不证明当前房源供应"
+    },
+    "source": {
+      "id": "hz-xixi",
+      "name": "浙江政务公开·建设项目环境影响报告",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf",
+      "publishedAt": "",
+      "collectedAt": "2026-08-30T18:00:00+08:00",
+      "basisVersion": "CATALOG-IDENTITY-INDEX-REVIEW-V1",
+      "quality": "stale",
+      "note": "本次仅核验公开检索摘录中的小区名称。原PDF当前访问受限；发布日期未知，非实时资料；无价格、户数、通勤或评分推断。"
+    }
+  }
+]
+
