@@ -18,5 +18,11 @@
   "hz-tmsf": {
     "status": "stale",
     "error": "source unavailable without bypass: HTTP Error 405: Not Allowed"
+  },
+  "amap": {
+    "status": "verified",
+    "projects_updated": 3,
+    "projects_failed": 3,
+    "refreshed": true
   }
 }
