@@ -21,6 +21,8 @@
   },
   "amap": {
     "status": "stale",
-    "error": "AMap location ambiguous"
+    "projects_updated": 1,
+    "projects_failed": 5,
+    "refreshed": true
   }
 }

@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-08-30T08:52:15.599321+08:00",
-  "basisVersion": "AMAP-WEB-V5",
+  "generatedAt": "2026-08-30T09:15:47.225463+08:00",
+  "basisVersion": "AMAP-WEB-V5-LOCATION-V2",
   "projects": {
     "hz-lucheng-xijinghenglu": {
       "location": "119.957919,30.235817",
+      "geocode": {
+        "location": "119.957919,30.235817",
+        "level": "住宅区",
+        "formattedAddress": "浙江省杭州市余杭区绿城溪径恒庐",
+        "query": "绿城溪径恒庐 余杭区"
+      },
+      "collectedAt": "2026-08-30T09:15:47.225463+08:00",
       "amenities": [
         {
           "category": "公园水系",
@@ -49,162 +56,41 @@
       "commutes": [
         {
           "destination": "未来科技城",
-          "driveMinutes": 18,
+          "destinationAddress": "杭州未来科技城",
+          "driveMinutes": 17,
           "transitMinutes": 67,
-          "transfers": 2
+          "transfers": 1
         },
         {
           "destination": "滨江",
-          "driveMinutes": 47,
+          "destinationAddress": "杭州滨江区政府",
+          "driveMinutes": 50,
           "transitMinutes": 102,
-          "transfers": 3
+          "transfers": 2
         },
         {
           "destination": "钱江新城",
-          "driveMinutes": 37,
+          "destinationAddress": "杭州钱江新城",
+          "driveMinutes": 39,
           "transitMinutes": 84,
-          "transfers": 2
+          "transfers": 1
         }
       ]
     },
     "hz-jiuyindanqingfu": {
-      "error": "AMap rejected request: 30001 ENGINE_RESPONSE_DATA_ERROR"
+      "error": "AMap rejected request at /v3/geocode/geo: 30001"
     },
     "hz-diantanyunzhicheng": {
-      "error": "AMap rejected request: 30001 ENGINE_RESPONSE_DATA_ERROR"
+      "error": "AMap rejected request at /v3/geocode/geo: 30001"
     },
     "nj-yuemanyunchuanfu": {
-      "location": "118.849902,31.923159",
-      "amenities": [
-        {
-          "category": "公园水系",
-          "name": "未来体育公园",
-          "distance": "854米"
-        },
-        {
-          "category": "公园水系",
-          "name": "江宁开发区滨河体育公园",
-          "distance": "890米"
-        },
-        {
-          "category": "轨道交通",
-          "name": "科宁路(地铁站)",
-          "distance": "29米"
-        },
-        {
-          "category": "轨道交通",
-          "name": "竹山路(地铁站)",
-          "distance": "1046米"
-        },
-        {
-          "category": "商业",
-          "name": "武夷广场",
-          "distance": "1130米"
-        },
-        {
-          "category": "商业",
-          "name": "宜悦里G66",
-          "distance": "1197米"
-        },
-        {
-          "category": "医院",
-          "name": "潭桥社区卫生服务中心站",
-          "distance": "494米"
-        },
-        {
-          "category": "医院",
-          "name": "南京鼓楼医院集团享悦医院",
-          "distance": "836米"
-        }
-      ],
-      "commutes": [
-        {
-          "destination": "河西",
-          "driveMinutes": 29,
-          "transitMinutes": 70,
-          "transfers": 2
-        },
-        {
-          "destination": "软件谷",
-          "driveMinutes": 27,
-          "transitMinutes": 57,
-          "transfers": 3
-        },
-        {
-          "destination": "新街口",
-          "driveMinutes": 35,
-          "transitMinutes": 59,
-          "transfers": 2
-        }
-      ]
+      "error": "AMap project location ambiguous"
     },
     "nj-binheyuncheng": {
-      "error": "AMap rejected request: 30001 ENGINE_RESPONSE_DATA_ERROR"
+      "error": "AMap rejected request at /v3/geocode/geo: 30001"
     },
     "nj-jinxiuchengyuefu": {
-      "location": "118.839510,31.953195",
-      "amenities": [
-        {
-          "category": "公园水系",
-          "name": "东山公园(戴家塘)",
-          "distance": "253米"
-        },
-        {
-          "category": "公园水系",
-          "name": "东山公园(戴家塘)-半山走廊",
-          "distance": "317米"
-        },
-        {
-          "category": "轨道交通",
-          "name": "东山(地铁站)",
-          "distance": "411米"
-        },
-        {
-          "category": "轨道交通",
-          "name": "文靖路(地铁站)",
-          "distance": "606米"
-        },
-        {
-          "category": "商业",
-          "name": "江宁商业街(南京江宁万达广场店)",
-          "distance": "377米"
-        },
-        {
-          "category": "商业",
-          "name": "GGVV(万达广场南京江宁店)",
-          "distance": "378米"
-        },
-        {
-          "category": "医院",
-          "name": "东山街道中前社区卫生服务站",
-          "distance": "210米"
-        },
-        {
-          "category": "医院",
-          "name": "江宁区东山街道外港社区卫生服务站",
-          "distance": "750米"
-        }
-      ],
-      "commutes": [
-        {
-          "destination": "河西",
-          "driveMinutes": 21,
-          "transitMinutes": 69,
-          "transfers": 2
-        },
-        {
-          "destination": "软件谷",
-          "driveMinutes": 19,
-          "transitMinutes": 58,
-          "transfers": 3
-        },
-        {
-          "destination": "新街口",
-          "driveMinutes": 26,
-          "transitMinutes": 58,
-          "transfers": 2
-        }
-      ]
+      "error": "AMap project location ambiguous"
     }
   }
 }
