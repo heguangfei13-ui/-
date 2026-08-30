@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "hz-xixi": {"url":"https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/6ce1540b6632486b895d3d2dadcc2c24.pdf","name":"浙江政务公开·建设项目环境影响报告","format":"pdf"},
+    "hz-xiwang": {"url":"https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1756/site/attach/0/d96ad2d9ec9a49cca23d8412068f68a6.pdf","name":"浙江政务公开·建设项目环境影响报告","format":"pdf"},
+    "hz-aoti": {"url":"https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2243/site/attach/0/8a2fec65cd494f71b80a3fbc36305d2c.pdf","name":"浙江政务公开·建设项目环境影响报告","format":"pdf"},
+    "hz-yubin": {"url":"https://www.hz-notary.com/lottery/detail_content?lotteryContent.id=1706840a8b5c4131b20a708fad283e6a","name":"杭州市国立公证处·御滨府摇号公示","format":"html"}
+  },
+  "hangzhou": [
+    {"id":"hz-xixi-chengyuan","name":"西溪诚园","sourceId":"hz-xixi","scope":"项目组团；各苑须分别核验，不合并成交"},
+    {"id":"hz-xixi-dieyuan","name":"西溪蝶园","sourceId":"hz-xixi","scope":"项目组团；一期、二期须分别核验，不合并成交"},
+    {"id":"hz-vanke-xiwang-shangting","name":"万科溪望尚庭","sourceId":"hz-xiwang","district":"余杭区","address":"余杭区闲林街道华溪社区"},
+    {"id":"hz-binjiang-yubinfu","name":"滨江御滨府","matchName":"御滨府","sourceId":"hz-yubin","housingType":"unknown","scope":"历史公证公示仅核实项目身份，不证明当前在售状态"},
+    {"id":"hz-rongxin-poly-chuangshiji","name":"融信保利创世纪","sourceId":"hz-aoti"},
+    {"id":"hz-zhonghai-xixi-huafu","name":"中海西溪华府","sourceId":"hz-xixi"},
+    {"id":"hz-vanke-zhenglu","name":"万科正庐","sourceId":"hz-xixi"},
+    {"id":"hz-huaxia-siji","name":"华夏四季","sourceId":"hz-xixi"},
+    {"id":"hz-beida-weimingfu","name":"北大资源未名府","sourceId":"hz-xixi"},
+    {"id":"hz-weilaiyue","name":"未来悦","sourceId":"hz-xixi"},
+    {"id":"hz-xixi-meian","name":"西溪美岸","sourceId":"hz-xixi"},
+    {"id":"hz-xixi-boan","name":"西溪泊岸","sourceId":"hz-xixi"},
+    {"id":"hz-fuli-mingrizhicheng","name":"富力明日之城","sourceId":"hz-xixi"}
+  ],
+  "nanjing": [
+    {"id":"nj-yuemanyunchuanfu","number":"4596200","name":"樾满云川府","housingType":"new"},
+    {"id":"nj-binheyuncheng","number":"109026","name":"滨河云城","housingType":"new"},
+    {"id":"nj-jinxiuchengyuefu","number":"4099150","name":"锦绣前程悦府","housingType":"new"},
+    {"id":"nj-vanke-jinyulanwan","number":"107827","name":"万科金域蓝湾","housingType":"resale"},
+    {"id":"nj-tianyuehuayuan","number":"108728","name":"天悦花园","housingType":"resale"},
+    {"id":"nj-renheng-jiangwancheng","number":"107703","name":"仁恒江湾城","housingType":"resale"},
+    {"id":"nj-huaxincheng","number":"108062","name":"华新城","housingType":"resale"},
+    {"id":"nj-jiuxi-taohuayuan","number":"108873","name":"玖溪桃花源墅","housingType":"resale"}
+  ]
+}
+
