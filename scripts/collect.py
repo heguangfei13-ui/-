@@ -312,6 +312,13 @@ def main() -> int:
             dashboard['macro']=[m for m in dashboard['macro'] if m['sourceId']!='profile']
         health['history-projects']={'status':'verified','price_months':len(enrichment['prices'])}
     except Exception as exc:health['history-projects']={'status':'stale','error':type(exc).__name__}
+    try:
+        from catalog import collect_catalog, apply_catalog
+        catalog = collect_catalog()
+        apply_catalog(dashboards, catalog)
+        health['community-catalog'] = {'status':'verified' if all(h.get('status')=='verified' for h in catalog['health'].values()) else 'stale', 'projects':len(catalog['projects']), 'complete':False}
+    except Exception as exc:
+        health['community-catalog'] = {'status':'stale','error':type(exc).__name__}
     raw = {}
     for source_id, url in SOURCES.items():
         try:
