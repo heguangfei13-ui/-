@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-08-31T15:05:29.553513+08:00",
+  "sourceSha256": "e08eeab3250a9d33800d7b506524593fe07eda0c22526964a018855eeaf86be2",
+  "rows": [
+    {
+      "number": "3910150",
+      "name": "半山玥府",
+      "district": "栖霞区",
+      "address": "南京市栖霞区仙林街道NO.2022G35地块项目",
+      "usage": "住宅"
+    },
+    {
+      "number": "4565200",
+      "name": "江韵瑧悦瑞园",
+      "district": "江北新区",
+      "address": "江北新区广西埂大街以北、横江大道以东（NJJBd010-24-14）地块",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2389300",
+      "name": "紫金悦峰广场",
+      "district": "玄武区",
+      "address": "南京市玄武区红山街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2566150",
+      "name": "润禾府",
+      "district": "江北新区",
+      "address": "南京市六合区葛塘街道",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "4592200",
+      "name": "南湖明悦府",
+      "district": "建邺区",
+      "address": "南京市建邺区莫愁湖街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4584200",
+      "name": "滨江璟园",
+      "district": "江北新区",
+      "address": "江北新区沿江街道",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "4531200",
+      "name": "合禧东方府",
+      "district": "建邺区",
+      "address": "建邺区南苑街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4245150",
+      "name": "嘉和华府",
+      "district": "江宁区",
+      "address": "江宁区江宁高新区竹山路以东，横二路以北",
+      "usage": "住宅"
+    },
+    {
+      "number": "4136400",
+      "name": "润悦府",
+      "district": "江北新区",
+      "address": "浦口区江北兴隆路6号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "4558200",
+      "name": "珑樾府",
+      "district": "鼓楼区",
+      "address": "鼓楼区凤凰街道NO.2024G16房地产开发项目",
+      "usage": "一般住宅、门面房、小商店"
+    },
+    {
+      "number": "4010151",
+      "name": "天琴府",
+      "district": "建邺区",
+      "address": "建邺区双闸街道红菱街以西、扬子江大道以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "2581152",
+      "name": "明日之城",
+      "district": "玄武区",
+      "address": "南京市玄武区北苑东路以东NO.2020G22地块",
+      "usage": "丙二类杂物间,丙二类丙二类杂物间,一般住宅"
+    },
+    {
+      "number": "2400200",
+      "name": "山语春风雅居",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道研发东路3号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1348150",
+      "name": "未来城",
+      "district": "溧水区",
+      "address": "溧水经济开发区星河路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "4105150",
+      "name": "天逸华府",
+      "district": "六合区",
+      "address": "南京市六合区横梁街街道河山路29号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "1920150",
+      "name": "睦水香邻花园",
+      "district": "高淳区",
+      "address": "学奋路9号、学奋路13号",
+      "usage": "住宅"
+    },
+    {
+      "number": "4587200",
+      "name": "贤坤北院",
+      "district": "建邺区",
+      "address": "南京市建邺区江心洲街道NO.2024G50项目",
+      "usage": "一般住宅、其它辅助设施"
+    },
+    {
+      "number": "4269150",
+      "name": "绿洲·云湖十里院",
+      "district": "江宁区",
+      "address": "江宁区星汉路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2224250",
+      "name": "海玥华府",
+      "district": "江宁区",
+      "address": "江宁区湖山路99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108817",
+      "name": "逸品花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道嘉业路8号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

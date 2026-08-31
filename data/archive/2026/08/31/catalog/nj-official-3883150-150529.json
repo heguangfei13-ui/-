@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3883150",
+    "name": "兰溪樾府",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "南京市浦口区江浦街道 NO.2022G54 地块项目",
+    "developer": "南京溪语通途置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3883150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3883150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-08-31T15:05:29.553513+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3883150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-31T15:05:29.553513+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3883150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1219,
+        "sold": 108,
+        "available": 1016,
+        "subscribed": 95,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1219,
+      "sold": 108,
+      "available": 1016
+    }
+  },
+  "sourceSha256": "5f265ee9257f5b532184306a2947ed789eb048bd6607e96f781dbfed75b26053"
+}

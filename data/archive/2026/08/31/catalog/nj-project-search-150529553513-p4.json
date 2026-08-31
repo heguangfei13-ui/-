@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-08-31T15:05:29.553513+08:00",
+  "sourceSha256": "56219fbb4add2ef650eb43c5076cf48f4fe518262a96d46608c88b32566ea0f5",
+  "rows": [
+    {
+      "number": "4064200",
+      "name": "合锦观澜茉莉园",
+      "district": "六合区",
+      "address": "南京市六合区雄州街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4454300",
+      "name": "鼓北博悦府",
+      "district": "鼓楼区",
+      "address": "南京市鼓楼区幕府山街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "4575212",
+      "name": "七里江澜府",
+      "district": "江北新区",
+      "address": "浦口区顶山街道",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "1761150",
+      "name": "烟岚云庄",
+      "district": "江宁区",
+      "address": "江宁区谷里街道安康路以南，经四路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "4578200",
+      "name": "映象星潮花园",
+      "district": "江北新区",
+      "address": "江北新区广西埂大街以北，万寿路以西(NJJBd010-14-18)地块",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3789150",
+      "name": "云来府",
+      "district": "江宁区",
+      "address": "江宁区上元路299号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3201150",
+      "name": "紫京四季雅园",
+      "district": "江宁区",
+      "address": "江宁区玉麟街99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3544150",
+      "name": "天曜琅苑",
+      "district": "浦口区",
+      "address": "浦口区江浦街道台北路以南、兰源路以东号01地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "4589200",
+      "name": "紫金观云府",
+      "district": "玄武区",
+      "address": "南京市玄武区红山街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4136350",
+      "name": "山川江樾花园",
+      "district": "江北新区",
+      "address": "浦口区七里河西侧、兴隆路以北",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3883150",
+      "name": "兰溪樾府",
+      "district": "浦口区",
+      "address": "南京市浦口区江浦街道 NO.2022G54 地块项目",
+      "usage": "住宅"
+    },
+    {
+      "number": "4485300",
+      "name": "翠语云庐",
+      "district": "溧水区",
+      "address": "南京市溧水经济开发区秀山中路8号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108986",
+      "name": "翡翠天悦花园",
+      "district": "栖霞区",
+      "address": "栖霞区官窑山南路以西（K地块）",
+      "usage": "住宅"
+    },
+    {
+      "number": "3966150",
+      "name": "紫金和旭府",
+      "district": "玄武区",
+      "address": "南京市玄武区孝陵卫街道N0.2022G22 地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "3367150",
+      "name": "暄玥府",
+      "district": "江北新区",
+      "address": "六合区大厂街道",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "4556200",
+      "name": "山和月府",
+      "district": "玄武区",
+      "address": "玄武区玄武湖街道NO.2024G02房地产开发项目",
+      "usage": "一般住宅、其它辅助设施"
+    },
+    {
+      "number": "3556150",
+      "name": "瀚林雅境园",
+      "district": "浦口区",
+      "address": "浦口区卓溪路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3531150",
+      "name": "云尚紫薇府",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109177",
+      "name": "颐和翡翠府",
+      "district": "溧水区",
+      "address": "溧水区永阳街道琉璃路66号",
+      "usage": "储藏室,一般住宅"
+    },
+    {
+      "number": "2858150",
+      "name": "溪望城",
+      "district": "高淳区",
+      "address": "南京市 高淳区淳溪街道石臼湖北路以西、凤山路以南、北漪路以东",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
