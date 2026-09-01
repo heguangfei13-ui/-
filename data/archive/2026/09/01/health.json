@@ -1,0 +1,52 @@
+{
+  "history-projects": {
+    "status": "verified",
+    "price_months": 7
+  },
+  "community-catalog": {
+    "status": "stale",
+    "projects": 281,
+    "complete": false
+  },
+  "nbs-70": {
+    "status": "verified",
+    "http": 200
+  },
+  "nbs-national": {
+    "status": "verified",
+    "http": 200
+  },
+  "lpr": {
+    "status": "verified",
+    "http": 200
+  },
+  "nj-house": {
+    "status": "verified",
+    "http": 200
+  },
+  "hz-tmsf": {
+    "status": "stale",
+    "error": "source unavailable without bypass: HTTP Error 405: Not Allowed"
+  },
+  "hz-fundamentals": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 5
+  },
+  "nj-fundamentals": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 2
+  },
+  "nj-population": {
+    "status": "verified",
+    "http": 200,
+    "indicators": 2
+  },
+  "amap": {
+    "status": "stale",
+    "projects_updated": 1,
+    "projects_failed": 283,
+    "refreshed": false
+  }
+}

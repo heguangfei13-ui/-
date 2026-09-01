@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4554200",
+    "name": "沁百合庭",
+    "city": "nanjing",
+    "district": "鼓楼区",
+    "address": "鼓楼区宝塔桥街道，东至方家营南路，南至煤炭港路，西至方兴路，北至南堡新寓",
+    "developer": "南京绿滨置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-4554200",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4554200/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:18:55.186232+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4554200",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-01T14:18:55.186232+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4554200/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 615,
+        "sold": 271,
+        "available": 15,
+        "subscribed": 329,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 615,
+      "sold": 271,
+      "available": 15
+    }
+  },
+  "sourceSha256": "13f66dc77c089edda31d54934e30cdd667a9f4269ace00cddf8750c0406c92c1"
+}
