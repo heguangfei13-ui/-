@@ -1,0 +1,15 @@
+{
+  "payload_meta": {
+    "schema_version": 1,
+    "run_id": "2026-09-02-47714d8bcfdb",
+    "observed_at": "2026-09-02T13:51:50.705368+08:00",
+    "checksum": "243b926aa2a8d46c15c0caf0870d1ef125f265cff65afe8d0343f089f2aa7dd6"
+  },
+  "result": {
+    "ok": true,
+    "idempotent": false,
+    "run_id": "2026-09-02-47714d8bcfdb",
+    "dashboards": 2,
+    "projects": 342
+  }
+}

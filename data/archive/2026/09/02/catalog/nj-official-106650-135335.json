@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-106650",
+    "name": "南京欧洲城",
+    "city": "nanjing",
+    "district": "建邺区",
+    "address": "建邺区江东南路与纬八路交界处东北角",
+    "developer": "江苏信达置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-106650",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/106650/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T13:53:35.277269+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "106650",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-02T13:53:35.277269+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/106650/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业、车位",
+        "total": 2346,
+        "sold": 1492,
+        "available": 854,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2346,
+      "sold": 1492,
+      "available": 854
+    }
+  },
+  "sourceSha256": "cae44f8a25160ac43cbad8e0e1d4233e87d5556d320cef2b0c9cf911d3adbb6a"
+}

@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-33883",
+    "name": "蓝天慧融花园",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "南京市江宁区禄口街道永欣大道66号",
+    "developer": "南京禄口国际机场建设开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-33883",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/33883/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T13:53:35.277269+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "33883",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-02T13:53:35.277269+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/33883/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅、商业",
+        "total": 1580,
+        "sold": 725,
+        "available": 847,
+        "subscribed": 8,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1580,
+      "sold": 725,
+      "available": 847
+    }
+  },
+  "sourceSha256": "554c2406d9d686925242f2c4d2e21d4f44c83ebd12e1eca410ddeffe5ff5bd58"
+}

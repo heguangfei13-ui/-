@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-02T13:53:35.277269+08:00",
+  "sourceSha256": "2e653668c4066c1f74698a5463f20c22093ecc1c502988a00c3b14af8b1e849a",
+  "rows": [
+    {
+      "number": "3187250",
+      "name": "晴樾府",
+      "district": "江北新区",
+      "address": "南京市江北新区顶山街道",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3605151",
+      "name": "翰锦院",
+      "district": "秦淮区",
+      "address": "秦淮区朝天宫街道NO.2019G17地块项目",
+      "usage": "住宅"
+    },
+    {
+      "number": "106763",
+      "name": "博恩花园",
+      "district": "江宁区",
+      "address": "江宁区禄口街道天禄大道1号",
+      "usage": "住宅、别墅、商业"
+    },
+    {
+      "number": "109009",
+      "name": "鹭语源墅·惠园",
+      "district": "浦口区",
+      "address": "南京市浦口区山水大道3号",
+      "usage": "住宅"
+    },
+    {
+      "number": "4020150",
+      "name": "江湾之镜花园",
+      "district": "建邺区",
+      "address": "建邺区江心洲街道NO.2023G04地块房地产开发项目",
+      "usage": "住宅"
+    },
+    {
+      "number": "3575150",
+      "name": "兰亭和颂府",
+      "district": "栖霞区",
+      "address": "南京市栖霞区西岗街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "4382250",
+      "name": "江南玖序花园",
+      "district": "建邺区",
+      "address": "建邺区双闸街道NO.2023G53地块房地产开发项目",
+      "usage": "住宅"
+    },
+    {
+      "number": "2400301",
+      "name": "大成雅境花园",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "4533200",
+      "name": "金陵序花园",
+      "district": "建邺区",
+      "address": "南京市建邺区莫愁湖街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2412300",
+      "name": "玖栖和院",
+      "district": "江宁区",
+      "address": "江宁区谷里街道安康路以北、经四路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "3005150",
+      "name": "晴翠府",
+      "district": "江北新区",
+      "address": "南京市浦口区顶山街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107441",
+      "name": "现代城世纪国际公寓",
+      "district": "江宁区",
+      "address": "江宁开发区双龙大道1539号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3291150",
+      "name": "嘉逸滨江广场",
+      "district": "江北新区",
+      "address": "浦口区顶山街道横江大道以东，七里河大街以北地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108825",
+      "name": "睿创新筑",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道智汇路92号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106617",
+      "name": "骏景园、龙海-新加坡花园城",
+      "district": "六合区",
+      "address": "六合区冶浦路99号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "3679200",
+      "name": "天悦风华西苑",
+      "district": "浦口区",
+      "address": "南京市浦口区江浦街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "3492150",
+      "name": "天悦风华东苑",
+      "district": "浦口区",
+      "address": "南京市浦口区江浦街道康健路与浦滨路交叉口",
+      "usage": "住宅"
+    },
+    {
+      "number": "2719150",
+      "name": "云悦艺境园",
+      "district": "浦口区",
+      "address": "南京市浦口区桥林街道双峰路以西、沧浪路以东、北至建兰路、南至空地",
+      "usage": "住宅"
+    },
+    {
+      "number": "3922150",
+      "name": "云翼中心、凌云尊邸",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "2903151",
+      "name": "景粼悦府",
+      "district": "浦口区",
+      "address": "浦口区汤泉街道银泉西路以南、惠济南路以西地块",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

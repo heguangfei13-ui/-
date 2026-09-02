@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3839150",
+    "name": "瞻月商业中心、瞻月府",
+    "city": "nanjing",
+    "district": "秦淮区",
+    "address": "秦淮区光华路街道",
+    "developer": "南京金基正煊房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3839150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3839150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T13:53:35.277269+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3839150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-02T13:53:35.277269+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3839150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "商业、住宅",
+        "total": 1108,
+        "sold": 551,
+        "available": 552,
+        "subscribed": 5,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1108,
+      "sold": 551,
+      "available": 552
+    }
+  },
+  "sourceSha256": "42880d24b1f569c447e9c04f2171c565636c4273823d5591d9529aba53d8e8ca"
+}

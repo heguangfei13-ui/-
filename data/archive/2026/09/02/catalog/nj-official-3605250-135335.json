@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3605250",
+    "name": "萃云台花园",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区 广西埂大街以北、九袱洲路（NJJBd010-14-20、14-22）以东地块，东至规划道路，南至广西梗大街，西至九袱洲路，北至规划道路",
+    "developer": "南京盛新房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3605250",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3605250/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T13:53:35.277269+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3605250",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-02T13:53:35.277269+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3605250/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1623,
+        "sold": 1058,
+        "available": 556,
+        "subscribed": 9,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1623,
+      "sold": 1058,
+      "available": 556
+    }
+  },
+  "sourceSha256": "b952ca451691b99be55b999d584862e316199ca56c8e5493963af6990f213bfd"
+}
