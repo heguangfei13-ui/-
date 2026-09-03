@@ -1,0 +1,80 @@
+{
+  "project": {
+    "id": "nj-official-4596201",
+    "name": "华曦璟园",
+    "city": "nanjing",
+    "district": "栖霞区",
+    "address": "栖霞区N0.2025G53地块",
+    "developer": "南京泓盛置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-4596201",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4596201/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T13:52:45.533173+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4596201",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T23:38:08.345692+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4596201/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅、门面房、小商店",
+        "total": 447,
+        "sold": 342,
+        "available": 93,
+        "subscribed": 12,
+        "todaySold": 0
+      },
+      {
+        "observedAt": "2026-09-03T13:52:45.533173+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4596201/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅、门面房、小商店",
+        "total": 447,
+        "sold": 346,
+        "available": 88,
+        "subscribed": 13,
+        "todaySold": 1
+      }
+    ],
+    "inventory": {
+      "total": 447,
+      "sold": 346,
+      "available": 88
+    }
+  },
+  "sourceSha256": "15c81f944b9a5971d45d91c480732d0ce6d1a7b4d37daffb0ca4b744d69c5c71"
+}

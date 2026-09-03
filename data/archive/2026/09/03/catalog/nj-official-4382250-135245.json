@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4382250",
+    "name": "江南玖序花园",
+    "city": "nanjing",
+    "district": "建邺区",
+    "address": "建邺区双闸街道NO.2023G53地块房地产开发项目",
+    "developer": "南京领潮房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-4382250",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4382250/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T13:52:45.533173+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4382250",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-03T13:52:45.533173+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4382250/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1063,
+        "sold": 270,
+        "available": 679,
+        "subscribed": 114,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1063,
+      "sold": 270,
+      "available": 679
+    }
+  },
+  "sourceSha256": "11237bd7c58000ff303a36496d81b3dd68e57d223fead5b13663be461f8ffc09"
+}

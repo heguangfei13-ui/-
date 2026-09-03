@@ -1,0 +1,80 @@
+{
+  "project": {
+    "id": "nj-official-109137",
+    "name": "尚峰尚水山庄熙园",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "南京市浦口区汤泉街道山水大道39号",
+    "developer": "南京宁浦房地产开发有限责任公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109137",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109137/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T13:52:45.533173+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109137",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T23:38:08.345692+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109137/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 630,
+        "sold": 112,
+        "available": 456,
+        "subscribed": 62,
+        "todaySold": 0
+      },
+      {
+        "observedAt": "2026-09-03T13:52:45.533173+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109137/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 630,
+        "sold": 113,
+        "available": 451,
+        "subscribed": 66,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 630,
+      "sold": 113,
+      "available": 451
+    }
+  },
+  "sourceSha256": "fd37a2851577996555dce8a6a68cfc690050b7c2da8287eb03c41c8af2aed2c7"
+}

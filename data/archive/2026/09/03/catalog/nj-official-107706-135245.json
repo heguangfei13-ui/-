@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107706",
+    "name": "万江共和新城地和苑",
+    "city": "nanjing",
+    "district": "南京市·区属待核验",
+    "address": "泰山街道小柳村",
+    "developer": "南京嘉泰隆房地产实业有限公司",
+    "housingType": "new",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-official-107706",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107706/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T13:52:45.533173+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107706",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-03T13:52:45.533173+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107706/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 414,
+        "sold": 41,
+        "available": 368,
+        "subscribed": 5,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 414,
+      "sold": 41,
+      "available": 368
+    }
+  },
+  "sourceSha256": "603c07d6d70fd36973e3bece77bd0e62742cc4a1157055328506b354eaf50ba2"
+}
