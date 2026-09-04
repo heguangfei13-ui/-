@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3707150",
+    "name": "颐和缦山居",
+    "city": "nanjing",
+    "district": "栖霞区",
+    "address": "栖霞区NO.2022G36地块",
+    "developer": "南京颐群置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3707150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3707150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T13:58:36.890945+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3707150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-04T13:58:36.890945+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3707150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 312,
+        "sold": 299,
+        "available": 13,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 312,
+      "sold": 299,
+      "available": 13
+    }
+  },
+  "sourceSha256": "747de8c1db43d9a9cfee13ede954ee2a680f49115c17d9c1a4b1a46defc6a0eb"
+}
