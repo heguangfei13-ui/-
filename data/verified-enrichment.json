@@ -29,7 +29,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-02",
@@ -60,7 +60,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-03",
@@ -91,7 +91,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-04",
@@ -122,7 +122,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-05",
@@ -153,7 +153,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-06",
@@ -184,7 +184,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     {
       "period": "2026-07",
@@ -215,7 +215,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     }
   ],
   "projects": {
@@ -422,57 +422,54 @@
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965050.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     },
     "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73775": {
       "status": "stale",
       "error": "TimeoutError"
     },
     "nj-yuemanyunchuanfu": {
-      "status": "verified",
-      "indicators": 2,
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "status": "stale",
+      "error": "RuntimeError"
     },
     "nj-binheyuncheng": {
-      "status": "verified",
-      "indicators": 2,
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "status": "stale",
+      "error": "RuntimeError"
     },
     "nj-jinxiuchengyuefu": {
-      "status": "verified",
-      "indicators": 2,
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "status": "stale",
+      "error": "RuntimeError"
     },
     "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html": {
       "status": "verified",
-      "collectedAt": "2026-09-04T13:56:40.654261+08:00"
+      "collectedAt": "2026-09-05T13:47:08.198402+08:00"
     }
   },
-  "generatedAt": "2026-09-04T13:56:40.654261+08:00",
+  "generatedAt": "2026-09-05T13:47:08.198402+08:00",
   "fundamentals": {
     "hz-fundamentals": {
       "city": "hangzhou",
