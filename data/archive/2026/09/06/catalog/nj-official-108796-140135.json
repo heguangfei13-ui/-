@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108796",
+    "name": "紫郡兰园",
+    "city": "nanjing",
+    "district": "鼓楼区",
+    "address": "鼓楼区和燕路以北线路器材厂地块",
+    "developer": "葛洲坝南京置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108796",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108796/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108796",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-06T14:01:35.954543+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108796/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 5995,
+        "sold": 3847,
+        "available": 2061,
+        "subscribed": 87,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 5995,
+      "sold": 3847,
+      "available": 2061
+    }
+  },
+  "sourceSha256": "8c77e3a446029c328fb52b849d3ef6f2db75fcbae713539f1abc10932080e1e3"
+}

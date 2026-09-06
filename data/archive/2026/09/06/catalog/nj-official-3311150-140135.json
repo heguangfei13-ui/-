@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3311150",
+    "name": "臻境城",
+    "city": "nanjing",
+    "district": "玄武区",
+    "address": "南京市玄武区红山街道",
+    "developer": "南京玄盛房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3311150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3311150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3311150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-06T14:01:35.954543+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3311150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 4826,
+        "sold": 2466,
+        "available": 2303,
+        "subscribed": 57,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 4826,
+      "sold": 2466,
+      "available": 2303
+    }
+  },
+  "sourceSha256": "dc3fa5ed1e94b658652221f2ad7b81cc1c7060c57d3170897d96f96ab1f466b3"
+}

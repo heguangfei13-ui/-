@@ -1,0 +1,155 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+  "sourceSha256": "638f3d691cb1adf48f51679150661aa31a2fecac4fae9b0724c888bd550e6e61",
+  "rows": [
+    {
+      "number": "2264250",
+      "name": "凤汇壹品居",
+      "district": "雨花台区",
+      "address": "雨花台区雨花经济开发区凤汇地块二",
+      "usage": "住宅"
+    },
+    {
+      "number": "107544",
+      "name": "加州城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道弘景大道3888号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107543",
+      "name": "加州城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道弘景大道3888号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108781",
+      "name": "风华雅居",
+      "district": "建邺区",
+      "address": "建邺区河西南部D-2-1~4一号城市综合体地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "3726150",
+      "name": "璞悦隽园",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道",
+      "usage": "门面房、小商店、一般住宅"
+    },
+    {
+      "number": "2149200",
+      "name": "云启雅庭",
+      "district": "江宁区",
+      "address": "南京市江宁区科技东路1号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3189151",
+      "name": "观江越府",
+      "district": "江北新区",
+      "address": "江北新区浦滨路以东、康安路以南（NJJBd030-06-04）地块",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3151150",
+      "name": "都会江来府",
+      "district": "江北新区",
+      "address": "江北新区葛塘街道葛中路以西，宁六路以北地块",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "3847150",
+      "name": "中宁府",
+      "district": "建邺区",
+      "address": "建邺区NO.2022G29地块",
+      "usage": "一般住宅,一般住宅、储藏室"
+    },
+    {
+      "number": "3889200",
+      "name": "文璟和颂府",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2587150",
+      "name": "都会风华苑",
+      "district": "六合区",
+      "address": "南京市六合区雄洲街道六合大道以西、雄州西路以南地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3064200",
+      "name": "阅云台雅居",
+      "district": "江北新区",
+      "address": "江北新区浦滨路以东、康华路以南（NJJBd030-06-10）地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2803150",
+      "name": "颐和铂岸江璟府",
+      "district": "江北新区",
+      "address": "江北新区顶山街道康健路以北、横江大道以西",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108793",
+      "name": "梁台煦府",
+      "district": "江宁区",
+      "address": "江宁区湖熟街道润湖大道398号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2558152",
+      "name": "天宸云筑",
+      "district": "江北新区",
+      "address": "南京市江北新区东至规划道路，南至规划地块，西至新浦路（延长段），北至万寿路",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2299150",
+      "name": "云漾滨江观澜苑",
+      "district": "江宁区",
+      "address": "南京市江宁区江宁街道栖凤路128号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2722150",
+      "name": "淮风晓月府",
+      "district": "雨花台区",
+      "address": "雨花台区赛虹桥街道，东至宁芜铁路、南至规划用地，西至凤台南路、北至西营村路",
+      "usage": "住宅"
+    },
+    {
+      "number": "3151200",
+      "name": "玖华府",
+      "district": "江宁区",
+      "address": "南京市江宁区秣陵街道丰年路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3155250",
+      "name": "玖誉府",
+      "district": "江北新区",
+      "address": "南京市浦口区顶山街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2452150",
+      "name": "朝悦府",
+      "district": "高淳区",
+      "address": "南京市高淳区芜太路以南、北漪路以西",
+      "usage": "一般住宅"
+    }
+  ],
+  "rejected": []
+}

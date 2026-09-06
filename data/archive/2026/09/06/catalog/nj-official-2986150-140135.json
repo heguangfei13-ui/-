@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-2986150",
+    "name": "越江时代苑",
+    "city": "nanjing",
+    "district": "江北新区",
+    "address": "南京市江北新区浦乌路以西、规划道路以北（NJJBd030-02-23）地块",
+    "developer": "南京招锦弘新房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-2986150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/2986150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "2986150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-06T14:01:35.954543+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/2986150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 2618,
+        "sold": 1578,
+        "available": 1018,
+        "subscribed": 22,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2618,
+      "sold": 1578,
+      "available": 1018
+    }
+  },
+  "sourceSha256": "b9bb1944e22871277f761adc55dbbd5c751c312928b600cd00434c11128371ea"
+}

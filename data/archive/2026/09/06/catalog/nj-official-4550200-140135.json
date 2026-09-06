@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4550200",
+    "name": "雁江澜苑",
+    "city": "nanjing",
+    "district": "鼓楼区",
+    "address": "鼓楼区金燕路以东，金陵村以西，燕康园小区以南，江雁山水雅苑以北",
+    "developer": "南京市下关城市建设开发（集团）有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-4550200",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4550200/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4550200",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-06T14:01:35.954543+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4550200/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 143,
+        "sold": 81,
+        "available": 61,
+        "subscribed": 1,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 143,
+      "sold": 81,
+      "available": 61
+    }
+  },
+  "sourceSha256": "5869d22e63b13d108d5c4aa499323b102287124868254aa9562bda3171c08f0e"
+}

@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3942150",
+    "name": "瑧拾花园",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "雨花台区西善桥街道NO.2023G05地块项目",
+    "developer": "南京裕越置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3942150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3942150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-06T14:01:35.954543+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3942150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-06T14:01:35.954543+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3942150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅,一般住宅、储藏间",
+        "total": 1744,
+        "sold": 1531,
+        "available": 212,
+        "subscribed": 1,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1744,
+      "sold": 1531,
+      "available": 212
+    }
+  },
+  "sourceSha256": "aa41191efac305a9b9e9124f92dabd479f8fb938f98050b97fa951ed26f0e139"
+}
