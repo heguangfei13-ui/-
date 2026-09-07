@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108793",
+    "name": "梁台煦府",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区湖熟街道润湖大道398号",
+    "developer": "南京恒和置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108793",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108793/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108793",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-07T14:10:57.383671+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108793/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 977,
+        "sold": 517,
+        "available": 445,
+        "subscribed": 15,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 977,
+      "sold": 517,
+      "available": 445
+    }
+  },
+  "sourceSha256": "b6228341a3a45a5b5ecda6de9b75d6a693f3baf57c1afee50b98408bc2fc79f0"
+}

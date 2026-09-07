@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107543",
+    "name": "加州城",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区秣陵街道弘景大道3888号",
+    "developer": "南京景山置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107543",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107543/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107543",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-07T14:10:57.383671+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107543/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 3225,
+        "sold": 2426,
+        "available": 696,
+        "subscribed": 103,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3225,
+      "sold": 2426,
+      "available": 696
+    }
+  },
+  "sourceSha256": "7fb3cf53bb252ce34aa3ed77e3ff641222fe925bab2fb5f0b9b1b67b7db4609a"
+}

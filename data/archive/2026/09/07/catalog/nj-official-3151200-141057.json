@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3151200",
+    "name": "玖华府",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "南京市江宁区秣陵街道丰年路9号",
+    "developer": "南京骏玖房地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3151200",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3151200/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3151200",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-07T14:10:57.383671+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3151200/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1684,
+        "sold": 1204,
+        "available": 480,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1684,
+      "sold": 1204,
+      "available": 480
+    }
+  },
+  "sourceSha256": "207a6fa381b5ea69ddcb861fe650da52baa427b85427df7a01165849d22a1999"
+}

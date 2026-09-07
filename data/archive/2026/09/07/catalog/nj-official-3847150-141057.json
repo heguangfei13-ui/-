@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-3847150",
+    "name": "中宁府",
+    "city": "nanjing",
+    "district": "建邺区",
+    "address": "建邺区NO.2022G29地块",
+    "developer": "葛洲坝唯逸（南京）房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-3847150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/3847150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "3847150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-07T14:10:57.383671+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/3847150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅,一般住宅、储藏室",
+        "total": 1098,
+        "sold": 803,
+        "available": 285,
+        "subscribed": 10,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1098,
+      "sold": 803,
+      "available": 285
+    }
+  },
+  "sourceSha256": "083e8efa851f55be4dc1b08695143ad149d57e631eb9df70a4557a5159f760f9"
+}

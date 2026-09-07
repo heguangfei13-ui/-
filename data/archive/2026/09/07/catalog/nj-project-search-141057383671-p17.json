@@ -1,0 +1,155 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+  "sourceSha256": "2b45e346b70aa4a7c4994adf25424b594a72ac1c2c805c81c7c32c99b186922f",
+  "rows": [
+    {
+      "number": "2090150",
+      "name": "瑞雅苑",
+      "district": "江宁区",
+      "address": "南京市江宁区崇正路11号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2939201",
+      "name": "时光璟宸名苑",
+      "district": "江宁区",
+      "address": "江宁区星辉路111号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3141150",
+      "name": "臻璟苑",
+      "district": "浦口区",
+      "address": "南京市浦口区桥林街道双峰路和东垅路交界处",
+      "usage": "住宅"
+    },
+    {
+      "number": "3549150",
+      "name": "凤起云台花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区铁心桥街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2418251",
+      "name": "水岸云际花园",
+      "district": "江北新区",
+      "address": "南京市江北新区浦乌路以西、规划道路以北地块15-25-01地块",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2237301",
+      "name": "都荟诚品岚院",
+      "district": "江北新区",
+      "address": "江北新区高新路以东、侨康路以南",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2237300",
+      "name": "都荟诚品尚院",
+      "district": "江北新区",
+      "address": "江北新区江北大道以西，侨康路以南",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "27043",
+      "name": "滨江雅园",
+      "district": "江北新区",
+      "address": "江北新区浦洲路172号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2431150",
+      "name": "礼樾云居",
+      "district": "溧水区",
+      "address": "南京市溧水区永阳街道中山东路以北、秦淮大道以东、地铁S7号线以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "3989150",
+      "name": "颐和天晟府",
+      "district": "建邺区",
+      "address": "建邺区NO.2022G67地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2505150",
+      "name": "翠语江岚花苑",
+      "district": "栖霞区",
+      "address": "南京市栖霞区栖霞街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3569150",
+      "name": "大方鸣翠府",
+      "district": "江宁区",
+      "address": "南京市江宁区莺啼路566号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108889",
+      "name": "昕悦雅苑",
+      "district": "江宁区",
+      "address": "江宁区淳化街道梨树园路10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108882",
+      "name": "理想名苑、云璟商务中心",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道高塘路99号",
+      "usage": "住宅、商业、办公、酒店式公寓"
+    },
+    {
+      "number": "2005150",
+      "name": "花语熙岸府",
+      "district": "江北新区",
+      "address": "浦口区江北快速路以东、临滁路以南地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "4166200",
+      "name": "聚景园",
+      "district": "江宁区",
+      "address": "江宁区东山街道上元二街499号",
+      "usage": "一般住宅,商业"
+    },
+    {
+      "number": "2929150",
+      "name": "紫辰光年花园",
+      "district": "江宁区",
+      "address": "江宁区高麟路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2382150",
+      "name": "宸光府",
+      "district": "江北新区",
+      "address": "南京市江北新区新浦路以东，兴隆路以南09-17-02地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3310200",
+      "name": "南岸潮鸣花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区西善桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "2814150",
+      "name": "雨悦光年花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区西善桥街道平湖路",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

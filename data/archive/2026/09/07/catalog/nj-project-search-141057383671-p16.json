@@ -1,0 +1,156 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+  "sourceSha256": "fa2683c3b85a8adc19e42c762a9601868207cc78640e99f1b65b14478c4ed3f6",
+  "rows": [
+    {
+      "number": "2221201",
+      "name": "紫麒苑",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道泰盈路2号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "3865150",
+      "name": "朗拾东苑",
+      "district": "雨花台区",
+      "address": "南京市雨花台区赛虹桥街道NO.2023G06地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "2575150",
+      "name": "印宸府",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪街道北岭路以南、固城湖北路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "2558200",
+      "name": "天宸江樾花园",
+      "district": "江北新区",
+      "address": "南京市江北新区 迎江路以西、天浦路以南",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3243150",
+      "name": "璟原府",
+      "district": "浦口区",
+      "address": "南京市浦口区双峰路与小年丰路交汇处",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3170151",
+      "name": "芳华名邸",
+      "district": "江北新区",
+      "address": "南京市六合区山潘街09-25地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "2069150",
+      "name": "华宸院",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪镇宝塔路163号、镇兴路212号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2884150",
+      "name": "和章府",
+      "district": "江北新区",
+      "address": "南京市六合区葛塘街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "2570150",
+      "name": "和著府",
+      "district": "江北新区",
+      "address": "南京市六合区葛塘街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "109194",
+      "name": "美泉花园",
+      "district": "江宁区",
+      "address": "南京市江宁区汤山街道美泉路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108051",
+      "name": "阳光帝景",
+      "district": "江北新区",
+      "address": "顶山街道吉庆路6号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3634150",
+      "name": "云湖悦府",
+      "district": "江宁区",
+      "address": "南京市江宁区羲和路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2939150",
+      "name": "嘉玥府",
+      "district": "雨花台区",
+      "address": "雨花台区西善桥街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108759",
+      "name": "格致名邸",
+      "district": "江宁区",
+      "address": "江宁区淳化街道格致西路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3003151",
+      "name": "翡丽铂湾府",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108010",
+      "name": "九月森林",
+      "district": "浦口区",
+      "address": "江浦街道象山路29号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108541",
+      "name": "浦润花园",
+      "district": "江北新区",
+      "address": "广西埂大街100号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2379150",
+      "name": "珑润华府",
+      "district": "玄武区",
+      "address": "玄武区北苑东路以西 NO.2020G 21 地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "2173150",
+      "name": "江畔月明府",
+      "district": "江北新区",
+      "address": "浦口区行知路11号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "109082",
+      "name": "上悦花苑",
+      "district": "江宁区",
+      "address": "江宁区东山街道石麟路1号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

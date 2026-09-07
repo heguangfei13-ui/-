@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-2913150",
+    "name": "紫玥居",
+    "city": "nanjing",
+    "district": "溧水区",
+    "address": "溧水区永阳街道琉璃路333号",
+    "developer": "南京瑄置房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-2913150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/2913150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:10:57.383671+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "2913150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-07T14:10:57.383671+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/2913150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1198,
+        "sold": 714,
+        "available": 476,
+        "subscribed": 8,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1198,
+      "sold": 714,
+      "available": 476
+    }
+  },
+  "sourceSha256": "473c65557aab59bc3be81aced0dfca3d1fce5858012b0cbdb941c7661f96c41d"
+}
