@@ -1,0 +1,154 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-09T14:02:38.078925+08:00",
+  "sourceSha256": "9b6e51aefb1305ba79dca955aa206475f2ab0b3b1bcb03e7156c3def5324fbe7",
+  "rows": [
+    {
+      "number": "1913150",
+      "name": "悦茂花园",
+      "district": "江北新区",
+      "address": "浦口区七里河大街以东、九洑洲路以南",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108710",
+      "name": "龙津广场",
+      "district": "六合区",
+      "address": "雄州街道龙棠路76号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "2952150",
+      "name": "铂玥江南府",
+      "district": "雨花台区",
+      "address": "雨花台区雨花经济开发区",
+      "usage": "住宅"
+    },
+    {
+      "number": "1964150",
+      "name": "锦绣和樾府",
+      "district": "江北新区",
+      "address": "南京市浦口区顶山街道吉庆路9号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2132150",
+      "name": "龙池映园",
+      "district": "六合区",
+      "address": "六合区龙池街道龙池湖南侧",
+      "usage": "住宅"
+    },
+    {
+      "number": "2426150",
+      "name": "云曜府",
+      "district": "江北新区",
+      "address": "江北新区浦乌路以西，规划道路以北",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2217150",
+      "name": "云上雅筑",
+      "district": "秦淮区",
+      "address": "南京市秦淮区月牙湖街道",
+      "usage": "门面房、小商店,一般住宅"
+    },
+    {
+      "number": "1922150",
+      "name": "山和宸园",
+      "district": "江宁区",
+      "address": "江宁区映红路28号",
+      "usage": "住宅"
+    },
+    {
+      "number": "4064150",
+      "name": "枫情玥府",
+      "district": "栖霞区",
+      "address": "南京市栖霞区栖霞街道NO.2022G37地块（变更）",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3676250",
+      "name": "云颂府",
+      "district": "浦口区",
+      "address": "浦口区江浦街道珠泉路以北、同心路以东地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "109019",
+      "name": "东望府",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道四望路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3231150",
+      "name": "香江华府",
+      "district": "江宁区",
+      "address": "江宁区禄口街道永欣大道21号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3957200",
+      "name": "禧樾府",
+      "district": "江宁区",
+      "address": "南京市江宁区站前二路以北，绿都大道以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "2785150",
+      "name": "紫星荣院",
+      "district": "江宁区",
+      "address": "江宁区润苏路198号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2815150",
+      "name": "新棠合著花园",
+      "district": "六合区",
+      "address": "南京市六合区金牛湖街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "1874150",
+      "name": "栖樾府",
+      "district": "江北新区",
+      "address": "南京市浦口区江北快速路以西、规划道路以南地块，东至江北快速路，南至规划道路，西至规划道路，北至七里河大街",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "1418150",
+      "name": "水沐云筑",
+      "district": "浦口区",
+      "address": "南京市浦口区桥林街道东至浦乌北路，南至秋韵路，西至丹桂路，北至双峰路",
+      "usage": "住宅"
+    },
+    {
+      "number": "2558150",
+      "name": "云境尊邸",
+      "district": "溧水区",
+      "address": "城南新区石虎路以南，仪凤南路以东（G）地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "109199",
+      "name": "江湾世纪花园",
+      "district": "建邺区",
+      "address": "建邺区江心洲街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "2617200",
+      "name": "时代芳华里",
+      "district": "江北新区",
+      "address": "六合区大厂街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    }
+  ],
+  "rejected": []
+}

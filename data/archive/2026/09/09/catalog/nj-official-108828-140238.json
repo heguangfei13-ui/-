@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108828",
+    "name": "中岛花园",
+    "city": "nanjing",
+    "district": "六合区",
+    "address": "六合区马鞍街道鹭岛中路26号",
+    "developer": "南京华欧舜都置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108828",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108828/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:02:38.078925+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108828",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-09T14:02:38.078925+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108828/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 5678,
+        "sold": 3080,
+        "available": 2563,
+        "subscribed": 35,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 5678,
+      "sold": 3080,
+      "available": 2563
+    }
+  },
+  "sourceSha256": "580f4f383977770fa4a44123870f149a7c6937ea5433c5a528dede20773f2029"
+}

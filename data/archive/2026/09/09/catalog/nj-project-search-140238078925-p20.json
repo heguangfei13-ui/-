@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-09T14:02:38.078925+08:00",
+  "sourceSha256": "f8b0de6f5a58e546c9d37bae969286f72609aec6aedc098f756aa38f8f9dafa5",
+  "rows": [
+    {
+      "number": "2558151",
+      "name": "拾光艺境园",
+      "district": "浦口区",
+      "address": "浦口区桥林街道兰花塘路以南、双峰路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "1950150",
+      "name": "秦尚栖庭",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道凤仪街50号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3624150",
+      "name": "都会和樾府",
+      "district": "建邺区",
+      "address": "建邺区沙洲街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2289150",
+      "name": "燕然居",
+      "district": "栖霞区",
+      "address": "栖霞区观音门街2号",
+      "usage": "储藏室,门面房、小商店,一般住宅"
+    },
+    {
+      "number": "3544151",
+      "name": "百家臻园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道NO.2022G51地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "107446",
+      "name": "青山湾花园",
+      "district": "江宁区",
+      "address": "江宁区东山街道宏运大道以南、中心河以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "3808150",
+      "name": "紫麟景院",
+      "district": "江宁区",
+      "address": "南京市江宁区麒麟科创园东麒路以北、光华路以东",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2972151",
+      "name": "天悦锦麟府·逸境苑",
+      "district": "浦口区",
+      "address": "浦口区江浦街道浦滨路以北、河滨路以东地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108586",
+      "name": "依山溪谷花园",
+      "district": "江北新区",
+      "address": "高新区星火北路以东，永新路以南",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2306150",
+      "name": "宝棠府",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪街道丹阳湖南路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2264300",
+      "name": "云江印月花园",
+      "district": "江北新区",
+      "address": "浦口区横江大道以东、石佛路以南",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2893150",
+      "name": "云玥美著苑",
+      "district": "江北新区",
+      "address": "江北新区新华路以东，园东路以南地块",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "2642150",
+      "name": "映樾里",
+      "district": "江北新区",
+      "address": "浦口区新浦路19号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108735",
+      "name": "云栖山庄",
+      "district": "江宁区",
+      "address": "江宁区汤山街道阳明路99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3293150",
+      "name": "润淮府",
+      "district": "秦淮区",
+      "address": "秦淮区红花街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "3267150",
+      "name": "晨逸府",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道数字大道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108432",
+      "name": "江洲府",
+      "district": "建邺区",
+      "address": "建邺区纬七路过江隧道以北居住及社区中心地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "2001150",
+      "name": "雍锦逸境府",
+      "district": "栖霞区",
+      "address": "栖霞区工农路以西11#地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "3543150",
+      "name": "朗拾花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区赛虹桥街道NO.2022G04地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "1818150",
+      "name": "蓝湖庭",
+      "district": "六合区",
+      "address": "六合区龙池街道林场路299号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
