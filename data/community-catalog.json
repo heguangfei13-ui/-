@@ -38416,7 +38416,7 @@
       "city": "nanjing",
       "district": "浦口区",
       "address": "南京市浦口区桥林街道东至浦乌北路，南至秋韵路，西至丹桂路，北至双峰路",
-      "developer": "待核验",
+      "developer": "南京市和锦置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38445,16 +38445,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-1418150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/1418150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "1418150"
+      "officialProjectNumber": "1418150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/1418150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3112,
+          "sold": 1792,
+          "available": 1293,
+          "subscribed": 27,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 3112,
+        "sold": 1792,
+        "available": 1293
+      }
     },
     {
       "id": "nj-official-2558150",
@@ -38462,7 +38481,7 @@
       "city": "nanjing",
       "district": "溧水区",
       "address": "城南新区石虎路以南，仪凤南路以东（G）地块",
-      "developer": "待核验",
+      "developer": "天安（南京）投资发展有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38491,16 +38510,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2558150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2558150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2558150"
+      "officialProjectNumber": "2558150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2558150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 372,
+          "sold": 164,
+          "available": 198,
+          "subscribed": 10,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 372,
+        "sold": 164,
+        "available": 198
+      }
     },
     {
       "id": "nj-official-109199",
@@ -38508,7 +38546,7 @@
       "city": "nanjing",
       "district": "建邺区",
       "address": "建邺区江心洲街道",
-      "developer": "待核验",
+      "developer": "南京仁恒江岛置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38537,24 +38575,43 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-109199",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/109199/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "109199"
+      "officialProjectNumber": "109199",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/109199/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3082,
+          "sold": 2076,
+          "available": 999,
+          "subscribed": 7,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 3082,
+        "sold": 2076,
+        "available": 999
+      }
     },
     {
       "id": "nj-official-2617200",
       "name": "时代芳华里",
       "city": "nanjing",
-      "district": "江北新区",
+      "district": "六合区",
       "address": "六合区大厂街道",
-      "developer": "待核验",
+      "developer": "南京金卓城房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38583,16 +38640,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2617200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2617200/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(六合区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2617200"
+      "officialProjectNumber": "2617200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2617200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 779,
+          "sold": 507,
+          "available": 220,
+          "subscribed": 52,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 779,
+        "sold": 507,
+        "available": 220
+      }
     },
     {
       "id": "nj-official-2558151",
@@ -38600,7 +38676,7 @@
       "city": "nanjing",
       "district": "浦口区",
       "address": "浦口区桥林街道兰花塘路以南、双峰路以西",
-      "developer": "待核验",
+      "developer": "南京金璨房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38629,16 +38705,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2558151",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2558151/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2558151"
+      "officialProjectNumber": "2558151",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2558151/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 600,
+          "sold": 515,
+          "available": 48,
+          "subscribed": 37,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 600,
+        "sold": 515,
+        "available": 48
+      }
     },
     {
       "id": "nj-official-1950150",
@@ -38646,7 +38741,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区秣陵街道凤仪街50号",
-      "developer": "待核验",
+      "developer": "南京恺信房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38675,16 +38770,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-1950150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/1950150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "1950150"
+      "officialProjectNumber": "1950150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/1950150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1358,
+          "sold": 776,
+          "available": 582,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1358,
+        "sold": 776,
+        "available": 582
+      }
     },
     {
       "id": "nj-official-3624150",
@@ -38692,7 +38806,7 @@
       "city": "nanjing",
       "district": "建邺区",
       "address": "建邺区沙洲街道",
-      "developer": "待核验",
+      "developer": "南京越嘉房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38721,16 +38835,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3624150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3624150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3624150"
+      "officialProjectNumber": "3624150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3624150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 841,
+          "sold": 607,
+          "available": 233,
+          "subscribed": 1,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 841,
+        "sold": 607,
+        "available": 233
+      }
     },
     {
       "id": "nj-official-2289150",
@@ -38738,7 +38871,7 @@
       "city": "nanjing",
       "district": "栖霞区",
       "address": "栖霞区观音门街2号",
-      "developer": "待核验",
+      "developer": "南京佳兆业佳御房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38767,16 +38900,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2289150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2289150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2289150"
+      "officialProjectNumber": "2289150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2289150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "储藏室,门面房、小商店,一般住宅",
+          "total": 1046,
+          "sold": 536,
+          "available": 490,
+          "subscribed": 20,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1046,
+        "sold": 536,
+        "available": 490
+      }
     },
     {
       "id": "nj-official-3544151",
@@ -38784,7 +38936,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区秣陵街道NO.2022G51地块",
-      "developer": "待核验",
+      "developer": "南京耀盛房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38813,16 +38965,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3544151",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3544151/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3544151"
+      "officialProjectNumber": "3544151",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3544151/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 890,
+          "sold": 826,
+          "available": 46,
+          "subscribed": 18,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 890,
+        "sold": 826,
+        "available": 46
+      }
     },
     {
       "id": "nj-official-107446",
@@ -38830,7 +39001,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区东山街道宏运大道以南、中心河以西",
-      "developer": "待核验",
+      "developer": "南京常宁房地产建设发展有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38859,16 +39030,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-107446",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/107446/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "107446"
+      "officialProjectNumber": "107446",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107446/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1870,
+          "sold": 1459,
+          "available": 408,
+          "subscribed": 3,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1870,
+        "sold": 1459,
+        "available": 408
+      }
     },
     {
       "id": "nj-official-3808150",
@@ -38876,7 +39066,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "南京市江宁区麒麟科创园东麒路以北、光华路以东",
-      "developer": "待核验",
+      "developer": "南京高科时代开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38905,16 +39095,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3808150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3808150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3808150"
+      "officialProjectNumber": "3808150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3808150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 445,
+          "sold": 357,
+          "available": 66,
+          "subscribed": 22,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 445,
+        "sold": 357,
+        "available": 66
+      }
     },
     {
       "id": "nj-official-2972151",
@@ -38922,7 +39131,7 @@
       "city": "nanjing",
       "district": "浦口区",
       "address": "浦口区江浦街道浦滨路以北、河滨路以东地块",
-      "developer": "待核验",
+      "developer": "南京悦锦成房地产实业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38951,16 +39160,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2972151",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2972151/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2972151"
+      "officialProjectNumber": "2972151",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2972151/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2854,
+          "sold": 1629,
+          "available": 1211,
+          "subscribed": 14,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 2854,
+        "sold": 1629,
+        "available": 1211
+      }
     },
     {
       "id": "nj-official-108586",
@@ -38968,7 +39196,7 @@
       "city": "nanjing",
       "district": "江北新区",
       "address": "高新区星火北路以东，永新路以南",
-      "developer": "待核验",
+      "developer": "南京招商招盛房地产有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -38997,16 +39225,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-108586",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108586/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(浦口区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "108586"
+      "officialProjectNumber": "108586",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108586/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 5091,
+          "sold": 4996,
+          "available": 86,
+          "subscribed": 9,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 5091,
+        "sold": 4996,
+        "available": 86
+      }
     },
     {
       "id": "nj-official-2306150",
@@ -39014,7 +39261,7 @@
       "city": "nanjing",
       "district": "高淳区",
       "address": "南京市高淳区淳溪街道丹阳湖南路18号",
-      "developer": "待核验",
+      "developer": "南京海蓝浩越置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39043,24 +39290,43 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2306150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2306150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2306150"
+      "officialProjectNumber": "2306150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2306150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 789,
+          "sold": 376,
+          "available": 413,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 789,
+        "sold": 376,
+        "available": 413
+      }
     },
     {
       "id": "nj-official-2264300",
       "name": "云江印月花园",
       "city": "nanjing",
-      "district": "江北新区",
+      "district": "浦口区",
       "address": "浦口区横江大道以东、石佛路以南",
-      "developer": "待核验",
+      "developer": "南京大华滨江置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39089,16 +39355,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2264300",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2264300/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(浦口区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2264300"
+      "officialProjectNumber": "2264300",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2264300/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 939,
+          "sold": 527,
+          "available": 407,
+          "subscribed": 5,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 939,
+        "sold": 527,
+        "available": 407
+      }
     },
     {
       "id": "nj-official-2893150",
@@ -39106,7 +39391,7 @@
       "city": "nanjing",
       "district": "江北新区",
       "address": "江北新区新华路以东，园东路以南地块",
-      "developer": "待核验",
+      "developer": "南京通弘房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39135,24 +39420,43 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2893150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2893150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(六合区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2893150"
+      "officialProjectNumber": "2893150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2893150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 321,
+          "sold": 252,
+          "available": 68,
+          "subscribed": 1,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 321,
+        "sold": 252,
+        "available": 68
+      }
     },
     {
       "id": "nj-official-2642150",
       "name": "映樾里",
       "city": "nanjing",
-      "district": "江北新区",
+      "district": "浦口区",
       "address": "浦口区新浦路19号",
-      "developer": "待核验",
+      "developer": "南京中北金基置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39181,16 +39485,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2642150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2642150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(浦口区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2642150"
+      "officialProjectNumber": "2642150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2642150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1416,
+          "sold": 772,
+          "available": 643,
+          "subscribed": 1,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1416,
+        "sold": 772,
+        "available": 643
+      }
     },
     {
       "id": "nj-official-108735",
@@ -39198,7 +39521,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区汤山街道阳明路99号",
-      "developer": "待核验",
+      "developer": "南京豪阳置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39227,16 +39550,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-108735",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108735/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "108735"
+      "officialProjectNumber": "108735",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108735/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 78,
+          "sold": 77,
+          "available": 0,
+          "subscribed": 1,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 78,
+        "sold": 77,
+        "available": 0
+      }
     },
     {
       "id": "nj-official-3293150",
@@ -39244,7 +39586,7 @@
       "city": "nanjing",
       "district": "秦淮区",
       "address": "秦淮区红花街道",
-      "developer": "待核验",
+      "developer": "南京润鼎房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39273,16 +39615,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3293150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3293150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3293150"
+      "officialProjectNumber": "3293150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3293150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 1127,
+          "sold": 761,
+          "available": 261,
+          "subscribed": 105,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1127,
+        "sold": 761,
+        "available": 261
+      }
     },
     {
       "id": "nj-official-3267150",
@@ -39290,7 +39651,7 @@
       "city": "nanjing",
       "district": "雨花台区",
       "address": "雨花台区铁心桥街道数字大道",
-      "developer": "待核验",
+      "developer": "南京宁创置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39319,16 +39680,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3267150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3267150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3267150"
+      "officialProjectNumber": "3267150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3267150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1361,
+          "sold": 720,
+          "available": 525,
+          "subscribed": 116,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1361,
+        "sold": 720,
+        "available": 525
+      }
     },
     {
       "id": "nj-official-108432",
@@ -39336,7 +39716,7 @@
       "city": "nanjing",
       "district": "建邺区",
       "address": "建邺区纬七路过江隧道以北居住及社区中心地块",
-      "developer": "待核验",
+      "developer": "南京升龙元发置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39365,16 +39745,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-108432",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108432/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "108432"
+      "officialProjectNumber": "108432",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108432/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3817,
+          "sold": 2604,
+          "available": 1136,
+          "subscribed": 77,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 3817,
+        "sold": 2604,
+        "available": 1136
+      }
     },
     {
       "id": "nj-official-2001150",
@@ -39382,7 +39781,7 @@
       "city": "nanjing",
       "district": "栖霞区",
       "address": "栖霞区工农路以西11#地块",
-      "developer": "待核验",
+      "developer": "南京国中和骏置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39411,16 +39810,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2001150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2001150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2001150"
+      "officialProjectNumber": "2001150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2001150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1124,
+          "sold": 405,
+          "available": 706,
+          "subscribed": 13,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1124,
+        "sold": 405,
+        "available": 706
+      }
     },
     {
       "id": "nj-official-3543150",
@@ -39428,7 +39846,7 @@
       "city": "nanjing",
       "district": "雨花台区",
       "address": "南京市雨花台区赛虹桥街道NO.2022G04地块",
-      "developer": "待核验",
+      "developer": "南京裕珩置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39457,16 +39875,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3543150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3543150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3543150"
+      "officialProjectNumber": "3543150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3543150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1157,
+          "sold": 999,
+          "available": 153,
+          "subscribed": 5,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1157,
+        "sold": 999,
+        "available": 153
+      }
     },
     {
       "id": "nj-official-1818150",
@@ -39474,7 +39911,7 @@
       "city": "nanjing",
       "district": "六合区",
       "address": "六合区龙池街道林场路299号",
-      "developer": "待核验",
+      "developer": "南京冠城嘉泰置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39503,16 +39940,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-1818150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/1818150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "1818150"
+      "officialProjectNumber": "1818150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/1818150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2410,
+          "sold": 1310,
+          "available": 1085,
+          "subscribed": 15,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 2410,
+        "sold": 1310,
+        "available": 1085
+      }
     },
     {
       "id": "nj-official-2884200",
@@ -39520,7 +39976,7 @@
       "city": "nanjing",
       "district": "溧水区",
       "address": "南京市溧水区机场路55号",
-      "developer": "待核验",
+      "developer": "南京金雁元锦房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39549,24 +40005,43 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2884200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2884200/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2884200"
+      "officialProjectNumber": "2884200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2884200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 576,
+          "sold": 389,
+          "available": 187,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 576,
+        "sold": 389,
+        "available": 187
+      }
     },
     {
       "id": "nj-official-100201",
       "name": "金泉泰来苑",
       "city": "nanjing",
-      "district": "江北新区",
+      "district": "浦口区",
       "address": "浦口区泰西路28号",
-      "developer": "待核验",
+      "developer": "南京集成房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39595,16 +40070,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-100201",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/100201/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。 源区属：江北新区(浦口区)。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "100201"
+      "officialProjectNumber": "100201",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/100201/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、别墅",
+          "total": 3186,
+          "sold": 3025,
+          "available": 113,
+          "subscribed": 48,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 3186,
+        "sold": 3025,
+        "available": 113
+      }
     },
     {
       "id": "nj-official-2595150",
@@ -39612,7 +40106,7 @@
       "city": "nanjing",
       "district": "六合区",
       "address": "南京市六合区雄州街道延安路以东、秦苑路以南",
-      "developer": "待核验",
+      "developer": "南京景珑尚御实业发展有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39641,16 +40135,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2595150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2595150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2595150"
+      "officialProjectNumber": "2595150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2595150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1479,
+          "sold": 1036,
+          "available": 425,
+          "subscribed": 18,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1479,
+        "sold": 1036,
+        "available": 425
+      }
     },
     {
       "id": "nj-official-2375150",
@@ -39658,7 +40171,7 @@
       "city": "nanjing",
       "district": "栖霞区",
       "address": "南京市栖霞区栖霞街道",
-      "developer": "待核验",
+      "developer": "南京招盈房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39687,16 +40200,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2375150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2375150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2375150"
+      "officialProjectNumber": "2375150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2375150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 958,
+          "sold": 500,
+          "available": 454,
+          "subscribed": 4,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 958,
+        "sold": 500,
+        "available": 454
+      }
     },
     {
       "id": "nj-official-108932",
@@ -39704,7 +40236,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区麒麟街道运粮河东路99号",
-      "developer": "待核验",
+      "developer": "南京锦安中垠房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39733,16 +40265,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-108932",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108932/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "108932"
+      "officialProjectNumber": "108932",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108932/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 4642,
+          "sold": 2808,
+          "available": 1819,
+          "subscribed": 15,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 4642,
+        "sold": 2808,
+        "available": 1819
+      }
     },
     {
       "id": "nj-official-2924150",
@@ -39750,7 +40301,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "江宁区腾飞路27号",
-      "developer": "待核验",
+      "developer": "南京禄园房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39779,16 +40330,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2924150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2924150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2924150"
+      "officialProjectNumber": "2924150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2924150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 402,
+          "sold": 341,
+          "available": 61,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 402,
+        "sold": 341,
+        "available": 61
+      }
     },
     {
       "id": "nj-official-2418250",
@@ -39796,7 +40366,7 @@
       "city": "nanjing",
       "district": "六合区",
       "address": "六合区雄州街道",
-      "developer": "待核验",
+      "developer": "南京卓雄置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39825,16 +40395,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2418250",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2418250/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2418250"
+      "officialProjectNumber": "2418250",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2418250/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "储藏室,一般住宅",
+          "total": 704,
+          "sold": 543,
+          "available": 156,
+          "subscribed": 5,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 704,
+        "sold": 543,
+        "available": 156
+      }
     },
     {
       "id": "nj-official-2259300",
@@ -39842,7 +40431,7 @@
       "city": "nanjing",
       "district": "浦口区",
       "address": "南京市浦口区迎江路以南、 康盛路以东地块",
-      "developer": "待核验",
+      "developer": "南京滨晖房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39871,16 +40460,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2259300",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2259300/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2259300"
+      "officialProjectNumber": "2259300",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2259300/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2469,
+          "sold": 1352,
+          "available": 1117,
+          "subscribed": 0,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 2469,
+        "sold": 1352,
+        "available": 1117
+      }
     },
     {
       "id": "nj-official-2239300",
@@ -39888,7 +40496,7 @@
       "city": "nanjing",
       "district": "溧水区",
       "address": "溧水区永阳街道小西门街51号",
-      "developer": "待核验",
+      "developer": "南京科俊房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39917,16 +40525,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2239300",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2239300/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2239300"
+      "officialProjectNumber": "2239300",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2239300/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1647,
+          "sold": 910,
+          "available": 735,
+          "subscribed": 2,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1647,
+        "sold": 910,
+        "available": 735
+      }
     },
     {
       "id": "nj-official-108108",
@@ -39934,7 +40561,7 @@
       "city": "nanjing",
       "district": "溧水区",
       "address": "红光东路8号",
-      "developer": "待核验",
+      "developer": "南京远拓房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -39963,16 +40590,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-108108",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/108108/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "108108"
+      "officialProjectNumber": "108108",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108108/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3462,
+          "sold": 2910,
+          "available": 525,
+          "subscribed": 27,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 3462,
+        "sold": 2910,
+        "available": 525
+      }
     },
     {
       "id": "nj-official-3597150",
@@ -39980,7 +40626,7 @@
       "city": "nanjing",
       "district": "建邺区",
       "address": "南京市建邺区双闸街道NO.2022G31地块项目",
-      "developer": "待核验",
+      "developer": "南京奥颐房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -40009,16 +40655,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3597150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3597150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3597150"
+      "officialProjectNumber": "3597150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3597150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 736,
+          "sold": 335,
+          "available": 379,
+          "subscribed": 22,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 736,
+        "sold": 335,
+        "available": 379
+      }
     },
     {
       "id": "nj-official-3485250",
@@ -40026,7 +40691,7 @@
       "city": "nanjing",
       "district": "建邺区",
       "address": "南京市建邺区江心洲街道东至思泽路，南至文武街，西至亚鹏路 ，北至洲宁街",
-      "developer": "待核验",
+      "developer": "南京旭和房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -40055,16 +40720,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-3485250",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/3485250/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "3485250"
+      "officialProjectNumber": "3485250",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/3485250/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅、储藏室",
+          "total": 339,
+          "sold": 163,
+          "available": 174,
+          "subscribed": 2,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 339,
+        "sold": 163,
+        "available": 174
+      }
     },
     {
       "id": "nj-official-1469150",
@@ -40072,7 +40756,7 @@
       "city": "nanjing",
       "district": "溧水区",
       "address": "溧水区溧水区永阳街道",
-      "developer": "待核验",
+      "developer": "南京佳期房地产开发有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -40101,16 +40785,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-1469150",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/1469150/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "1469150"
+      "officialProjectNumber": "1469150",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/1469150/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "一般住宅",
+          "total": 1214,
+          "sold": 841,
+          "available": 366,
+          "subscribed": 7,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 1214,
+        "sold": 841,
+        "available": 366
+      }
     },
     {
       "id": "nj-official-2311200",
@@ -40118,7 +40821,7 @@
       "city": "nanjing",
       "district": "江宁区",
       "address": "南京市江宁区莺啼路99号",
-      "developer": "待核验",
+      "developer": "南京远鸿置业有限公司",
       "housingType": "unknown",
       "areaRange": [
         null,
@@ -40147,16 +40850,35 @@
         "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
       },
       "source": {
-        "id": "nj-project-search",
-        "name": "南京网上房地产·住宅项目公开目录",
-        "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+        "id": "nj-official-2311200",
+        "name": "南京网上房地产·官方项目销售公示",
+        "url": "https://www.njhouse.com.cn/project/info/2311200/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-09T14:02:38.078925+08:00",
-        "basisVersion": "NJHOUSE-RESIDENTIAL-DIRECTORY-V1",
+        "collectedAt": "2026-09-10T14:02:01.796981+08:00",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
-        "note": "官方住宅项目目录；历史开盘记录不推断当前新房/二手房供应，价格和成交待另核验。 发布时间未提供，采集时间为观察时间。"
+        "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
       },
-      "officialProjectNumber": "2311200"
+      "officialProjectNumber": "2311200",
+      "salesHistory": [
+        {
+          "observedAt": "2026-09-10T14:02:01.796981+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/2311200/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2947,
+          "sold": 1700,
+          "available": 1230,
+          "subscribed": 17,
+          "todaySold": 0
+        }
+      ],
+      "inventory": {
+        "total": 2947,
+        "sold": 1700,
+        "available": 1230
+      }
     },
     {
       "id": "nj-official-3562150",
@@ -41975,7 +42697,7 @@
     "hz-xiwang": {
       "status": "stale",
       "error": "HTTPError",
-      "lastAttemptAt": "2026-09-09T14:02:38.078925+08:00"
+      "lastAttemptAt": "2026-09-10T14:02:01.796981+08:00"
     },
     "hz-aoti": {
       "status": "verified",
@@ -41991,7 +42713,7 @@
     },
     "nj-discovery": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-09T14:02:38.078925+08:00",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00",
       "boundedNewLimit": 16
     },
     "nj-yuemanyunchuanfu": {
@@ -42377,7 +43099,7 @@
     "nj-official-2977200": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-09-09T14:02:38.078925+08:00"
+      "lastAttemptAt": "2026-09-10T14:02:01.796981+08:00"
     },
     "nj-official-1790150": {
       "status": "verified",
@@ -43134,7 +43856,7 @@
     "nj-official-108245": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-09-09T14:02:38.078925+08:00"
+      "lastAttemptAt": "2026-09-10T14:02:01.796981+08:00"
     },
     "nj-official-3189150": {
       "status": "verified",
@@ -43535,8 +44257,160 @@
     "nj-official-1874150": {
       "status": "verified",
       "lastSuccessAt": "2026-09-09T14:02:38.078925+08:00"
+    },
+    "nj-official-1418150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2558150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-109199": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2617200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2558151": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-1950150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3624150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2289150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3544151": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-107446": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3808150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2972151": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-108586": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2306150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2264300": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2893150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2642150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-108735": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3293150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3267150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-108432": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2001150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3543150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-1818150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2884200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-100201": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2595150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2375150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-108932": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2924150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2418250": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2259300": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2239300": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-108108": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3597150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-3485250": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-1469150": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
+    },
+    "nj-official-2311200": {
+      "status": "verified",
+      "lastSuccessAt": "2026-09-10T14:02:01.796981+08:00"
     }
   },
-  "generatedAt": "2026-09-09T14:02:38.078925+08:00",
+  "generatedAt": "2026-09-10T14:02:01.796981+08:00",
   "complete": false
 }
