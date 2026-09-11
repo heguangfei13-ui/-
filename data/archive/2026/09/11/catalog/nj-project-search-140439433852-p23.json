@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-11T14:04:39.433852+08:00",
+  "sourceSha256": "b6961f804d61c3fbbcfe4775dfff429cb0963834a31acb42aed5fc4e29f44efd",
+  "rows": [
+    {
+      "number": "2492200",
+      "name": "赋雅苑",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪街道康乐路166号（康乐路以南、石臼湖北路以东）",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108795",
+      "name": "深悦滨江花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区江边路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "42024",
+      "name": "林景紫园",
+      "district": "江北新区",
+      "address": "顶山街道七里桥北路西侧02号地块",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "3806150",
+      "name": "和玥居",
+      "district": "江宁区",
+      "address": "南京市江宁区汤山街道广进路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2398200",
+      "name": "江悦光年花园",
+      "district": "江北新区",
+      "address": "江北新区新浦路以东、四方路以南14-12地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2940151",
+      "name": "玖荣府",
+      "district": "六合区",
+      "address": "六合区开发区江北大道以西、集群路以南",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109015",
+      "name": "紫京叠院",
+      "district": "浦口区",
+      "address": "江浦街道黄山岭路21号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109145",
+      "name": "天鹅堡花园",
+      "district": "建邺区",
+      "address": "南京市建邺区双闸街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "2753200",
+      "name": "瑜憬尚府",
+      "district": "栖霞区",
+      "address": "栖霞区逸文路16号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107788",
+      "name": "凤滨嘉园",
+      "district": "江北新区",
+      "address": "大厂凤滨路18号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "1540150",
+      "name": "和悦澜庭",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪街道凯悦路10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3323150",
+      "name": "颐和云台源筑",
+      "district": "建邺区",
+      "address": "南京市建邺区双闸街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2492201",
+      "name": "星语雅苑",
+      "district": "江宁区",
+      "address": "南京市江宁区腾飞路28号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3202150",
+      "name": "都荟紫京苑",
+      "district": "栖霞区",
+      "address": "南京市栖霞区燕子矶街道恒竞路以南、经十三路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "2451300",
+      "name": "石溪原著小区",
+      "district": "浦口区",
+      "address": "南京市浦口区桥林街道紫峰路和新柳路交界处",
+      "usage": "住宅"
+    },
+    {
+      "number": "109109",
+      "name": "璟阅新寓",
+      "district": "栖霞区",
+      "address": "栖霞区龙潭街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "2031150",
+      "name": "澜悦溪山家园",
+      "district": "江宁区",
+      "address": "南京市江宁区映红路336号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109141",
+      "name": "青麓上居",
+      "district": "江宁区",
+      "address": "东山街道武成路68号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109069",
+      "name": "龙茂嘉苑",
+      "district": "江宁区",
+      "address": "江宁区嘉茂路33号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109188",
+      "name": "如意名邸",
+      "district": "江宁区",
+      "address": "江宁区禄口街道仁寿路10号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

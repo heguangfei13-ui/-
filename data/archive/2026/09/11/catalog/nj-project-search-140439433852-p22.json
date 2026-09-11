@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-11T14:04:39.433852+08:00",
+  "sourceSha256": "1a876227a05a5e0d56e2f432bff7488a474356fc47891d05d7e161335b30419f",
+  "rows": [
+    {
+      "number": "2024200",
+      "name": "锦合悦名邸",
+      "district": "溧水区",
+      "address": "永阳街道双塘景苑以西、栖凤北路以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "108035",
+      "name": "康利华府",
+      "district": "溧水区",
+      "address": "致远路68号",
+      "usage": "住宅、商业、储藏室"
+    },
+    {
+      "number": "1819150",
+      "name": "西江瑞府",
+      "district": "浦口区",
+      "address": "南京市浦口区江浦街道浦云路以东、紫创路以南02地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "109057",
+      "name": "云栖玫瑰园",
+      "district": "雨花台区",
+      "address": "雨花台区云隐路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109052",
+      "name": "紫熙府",
+      "district": "溧水区",
+      "address": "溧水永阳镇琉璃路318号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2939151",
+      "name": "云辰原麓苑",
+      "district": "江宁区",
+      "address": "南京市江宁区若水路6号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2703150",
+      "name": "天曜府",
+      "district": "浦口区",
+      "address": "浦口区江浦街道光明路以东、文德西路以北地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109159",
+      "name": "洺悦雅苑",
+      "district": "雨花台区",
+      "address": "南京市雨花台区西善桥街道",
+      "usage": "门面房、小商店,一般住宅"
+    },
+    {
+      "number": "109077",
+      "name": "平澜府",
+      "district": "高淳区",
+      "address": "湖滨路157号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2284201",
+      "name": "鸣桐花苑",
+      "district": "高淳区",
+      "address": "南京市高淳区淳兴路以南、 南漪路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "3816150",
+      "name": "新亭府",
+      "district": "江宁区",
+      "address": "江宁区骆村路118号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108855",
+      "name": "江雁郦湖美墅",
+      "district": "六合区",
+      "address": "马鞍街道弘湖路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109165",
+      "name": "天颂花园",
+      "district": "玄武区",
+      "address": "玄武区红山街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108689",
+      "name": "湖光山色街区",
+      "district": "江宁区",
+      "address": "江宁区谷里街道悦湖路16号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107901",
+      "name": "骏景华庭",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道铺岗街28号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2257150",
+      "name": "钟山峰景苑",
+      "district": "秦淮区",
+      "address": "秦淮区2020G05地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108677",
+      "name": "原香颂花园",
+      "district": "江宁区",
+      "address": "江宁区江宁街道宁桥南路108号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "1823151",
+      "name": "上棠颐和府",
+      "district": "六合区",
+      "address": "六合区龙池街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "109113",
+      "name": "茉语兰庭",
+      "district": "六合区",
+      "address": "南京市六合区金牛湖街道新荣路5号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2220200",
+      "name": "大江悦府",
+      "district": "江北新区",
+      "address": "南京市江北新区兴隆路以北、横江大道以西",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    }
+  ],
+  "rejected": []
+}
