@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4601207",
+    "name": "尚峰尚水山庄锦园",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "南京市浦口区汤泉街道山水大道39号",
+    "developer": "南京宁浦房地产开发有限责任公司",
+    "housingType": "new",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-official-4601207",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4601207/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-12T13:51:46.639940+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4601207",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-12T13:51:46.639940+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4601207/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 29,
+        "sold": 0,
+        "available": 29,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 29,
+      "sold": 0,
+      "available": 29
+    }
+  },
+  "sourceSha256": "a92e50d6bffb819af426f375374a3d6832290c0536534a082922b7a94bfd93d2"
+}

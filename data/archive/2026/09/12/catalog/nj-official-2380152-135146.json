@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-2380152",
+    "name": "雍澜和府",
+    "city": "nanjing",
+    "district": "江北新区",
+    "address": "江北新区江苑路以北、新浦路以西08-24-01地块",
+    "developer": "南京十心房地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-2380152",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/2380152/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-12T13:51:46.639940+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "2380152",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-12T13:51:46.639940+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/2380152/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1229,
+        "sold": 683,
+        "available": 526,
+        "subscribed": 20,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1229,
+      "sold": 683,
+      "available": 526
+    }
+  },
+  "sourceSha256": "88c2294f89c7764d2c5be26985542eaba22435b2345f12fef2107a1d388b959b"
+}
