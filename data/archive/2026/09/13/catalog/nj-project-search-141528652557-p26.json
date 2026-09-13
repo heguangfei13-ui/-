@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-13T14:15:28.652557+08:00",
+  "sourceSha256": "ef0b4632cc540066b1bf0cbaeee21254f601c868fb72b044fb5c63bd935fc3d7",
+  "rows": [
+    {
+      "number": "2916151",
+      "name": "云锦四季府",
+      "district": "秦淮区",
+      "address": "秦淮区NO.2021G31地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "106602",
+      "name": "海都嘉园",
+      "district": "浦口区",
+      "address": "南京市浦口区珠江镇龙华路",
+      "usage": "住宅、车库"
+    },
+    {
+      "number": "1412150",
+      "name": "悦辰府",
+      "district": "江北新区",
+      "address": "南京市江北新区广西埂大街以南，迎江路以东",
+      "usage": "成套住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2897150",
+      "name": "新悦光年花园",
+      "district": "江北新区",
+      "address": "江北新区广西埂大街以北，江北大道以西",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "2304250",
+      "name": "璞境园",
+      "district": "建邺区",
+      "address": "南京市建邺区江心洲街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2117200",
+      "name": "江悦润府",
+      "district": "栖霞区",
+      "address": "南京经济技术开发区东至仙新路，南至栖霞大道，西至兴盟路（规划），北至恒发路（规划）",
+      "usage": "储藏室,一般住宅"
+    },
+    {
+      "number": "109038",
+      "name": "美临香逸花园",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇双湖路5号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108562",
+      "name": "万悦城",
+      "district": "高淳区",
+      "address": "开发区古檀大道以东、茅山路以南",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "2433150",
+      "name": "未来里花园",
+      "district": "高淳区",
+      "address": "高淳经济开发区檀溪路36号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "1788150",
+      "name": "璟文府",
+      "district": "高淳区",
+      "address": "镇兴路以南，学山路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "108490",
+      "name": "鹭语源墅",
+      "district": "浦口区",
+      "address": "汤泉街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108641",
+      "name": "骏府南苑",
+      "district": "六合区",
+      "address": "兴镇路168号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109078",
+      "name": "浦熙雅园",
+      "district": "江北新区",
+      "address": "安浦路71号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "109010",
+      "name": "珑玥名邸",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道四望路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108261",
+      "name": "天生御景",
+      "district": "溧水区",
+      "address": "洪蓝镇凤凰井路26号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109001",
+      "name": "海宸花园·澜园",
+      "district": "江北新区",
+      "address": "南京市浦口区七里河大街以东、九袱洲路以南C1地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "1448151",
+      "name": "上东逸境花园",
+      "district": "江宁区",
+      "address": "江宁区武成路98号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108596",
+      "name": "武夷名仕园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道平和路8号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "2939200",
+      "name": "长江华府",
+      "district": "鼓楼区",
+      "address": "鼓楼区润江路18号、19号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108265",
+      "name": "中宏万家新城",
+      "district": "高淳区",
+      "address": "淳溪镇北漪路129号",
+      "usage": "商业、住宅"
+    }
+  ],
+  "rejected": []
+}

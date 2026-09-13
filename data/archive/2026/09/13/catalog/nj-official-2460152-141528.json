@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-2460152",
+    "name": "锦方栖苑",
+    "city": "nanjing",
+    "district": "江北新区",
+    "address": "江北新区商务西街以南，迎江路以东地块",
+    "developer": "南京中交建设发展有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-2460152",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/2460152/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-13T14:15:28.652557+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "2460152",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-13T14:15:28.652557+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/2460152/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 573,
+        "sold": 535,
+        "available": 33,
+        "subscribed": 5,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 573,
+      "sold": 535,
+      "available": 33
+    }
+  },
+  "sourceSha256": "8c099ff944bc331b90161a4ad593a8a9a7377df735ec73a60e94f899b43c98b5"
+}

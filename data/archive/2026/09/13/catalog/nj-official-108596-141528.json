@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108596",
+    "name": "武夷名仕园",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区淳化街道平和路8号",
+    "developer": "南京名仕园置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108596",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108596/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-13T14:15:28.652557+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108596",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-13T14:15:28.652557+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108596/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "商业、住宅",
+        "total": 2895,
+        "sold": 1847,
+        "available": 1046,
+        "subscribed": 2,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2895,
+      "sold": 1847,
+      "available": 1046
+    }
+  },
+  "sourceSha256": "8a1f3f3f3e45d61dc65d1923a7d262d76d87e96b73a99dd93fcc21fb6e65288c"
+}

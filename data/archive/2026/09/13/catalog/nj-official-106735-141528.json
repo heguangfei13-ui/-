@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-106735",
+    "name": "润富花园（中低价商品房）",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区沿江街道复兴600号",
+    "developer": "南京天华百润投资发展有限责任公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-106735",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/106735/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-13T14:15:28.652557+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "106735",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-13T14:15:28.652557+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/106735/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1590,
+        "sold": 1314,
+        "available": 263,
+        "subscribed": 13,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1590,
+      "sold": 1314,
+      "available": 263
+    }
+  },
+  "sourceSha256": "e464303f2cf2c6849c32b6a6b614ca50bb4153ca416ea7e44d45e11e063cd6e8"
+}
