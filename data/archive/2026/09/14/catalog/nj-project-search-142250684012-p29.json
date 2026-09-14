@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-14T14:22:50.684012+08:00",
+  "sourceSha256": "364984dd3478ffe9ecdd2c00e4d85dcee6755d60165677cc479afc58c4102108",
+  "rows": [
+    {
+      "number": "2116150",
+      "name": "鼓悦兰园",
+      "district": "鼓楼区",
+      "address": "鼓楼区起重机械厂地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "1297151",
+      "name": "天著尚居",
+      "district": "江宁区",
+      "address": "南京市江宁区空港新城信诚大道以北、玉振路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "3176150",
+      "name": "鼎瑞嘉苑",
+      "district": "江宁区",
+      "address": "江宁区礼尚路9号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109012",
+      "name": "金都华府",
+      "district": "溧水区",
+      "address": "溧水区经济开发区宝塔北路以东、马场路北",
+      "usage": "住宅"
+    },
+    {
+      "number": "1738150",
+      "name": "水沐雍荣府",
+      "district": "栖霞区",
+      "address": "栖霞区西岗街道毕升路东侧地块一",
+      "usage": "住宅"
+    },
+    {
+      "number": "1480150",
+      "name": "荟领未来苑",
+      "district": "溧水区",
+      "address": "溧水区溧水经济开发区",
+      "usage": "住宅"
+    },
+    {
+      "number": "109007",
+      "name": "江山荟小区",
+      "district": "浦口区",
+      "address": "浦口区海桥路9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "2385350",
+      "name": "云望府",
+      "district": "雨花台区",
+      "address": "南京市雨花台区铁心桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "1845150",
+      "name": "时光泊月园",
+      "district": "浦口区",
+      "address": "浦口区桥林街道浦乌路以南，南湾街以西地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109167",
+      "name": "云靖花园",
+      "district": "江宁区",
+      "address": "江宁区东山街道龙昌路7号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109143",
+      "name": "金樾府",
+      "district": "浦口区",
+      "address": "浦口区江浦街道新浦路北侧、康华路西侧地块",
+      "usage": "成套住宅"
+    },
+    {
+      "number": "2370150",
+      "name": "山语境府",
+      "district": "栖霞区",
+      "address": "南京市栖霞区栖霞街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "3107150",
+      "name": "江宸府",
+      "district": "建邺区",
+      "address": "建邺区沙洲街道",
+      "usage": "门面房、小商店、一般住宅"
+    },
+    {
+      "number": "1477150",
+      "name": "茉湖书苑",
+      "district": "六合区",
+      "address": "南京市六合区龙池街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "109105",
+      "name": "雍宁府",
+      "district": "浦口区",
+      "address": "浦口区江浦街道雨山西路以西、广电路以南地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108944",
+      "name": "湖岸佳苑",
+      "district": "江宁区",
+      "address": "江宁区淳化街道端拱路21号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108708",
+      "name": "锦绣江山花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区江边路以西3号地(02-17地块）",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "2205150",
+      "name": "锦绣珑湾花园",
+      "district": "秦淮区",
+      "address": "南京市秦淮区",
+      "usage": "住宅"
+    },
+    {
+      "number": "1654150",
+      "name": "云际花园",
+      "district": "建邺区",
+      "address": "建邺区新城科技园D-15地块A",
+      "usage": "住宅"
+    },
+    {
+      "number": "1896150",
+      "name": "北悦雅苑",
+      "district": "江北新区",
+      "address": "江北新区东大路以南、泰山西路以东地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    }
+  ],
+  "rejected": []
+}

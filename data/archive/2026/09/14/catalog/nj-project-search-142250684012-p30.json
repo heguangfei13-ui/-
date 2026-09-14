@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-14T14:22:50.684012+08:00",
+  "sourceSha256": "b976449da3bdc2d7eef4b19e82bf12c8838cc50381396740c0d8cd455d026b3c",
+  "rows": [
+    {
+      "number": "2280150",
+      "name": "悦熙台花苑",
+      "district": "高淳区",
+      "address": "江苏省南京市高淳区凤山路以北、新塘路两侧",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109149",
+      "name": "云梦尚品西苑",
+      "district": "六合区",
+      "address": "六合区程桥街道荷青路15号",
+      "usage": "储藏室,一般住宅"
+    },
+    {
+      "number": "109147",
+      "name": "佳源五星商业广场玖棠府",
+      "district": "江北新区",
+      "address": "江北新区研创园云飞街以南、浦滨路以东地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108513",
+      "name": "滨湖花苑",
+      "district": "江宁区",
+      "address": "江宁区江宁街道地秀路522号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2511150",
+      "name": "悦鸣嘉苑",
+      "district": "江宁区",
+      "address": "南京市江宁区禄口街道东至福禄路，南至仁寿路，西至玉振路，北至越秀路",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2236200",
+      "name": "滨江府",
+      "district": "栖霞区",
+      "address": "栖霞区燕子矶街道滨江商务区一期地块",
+      "usage": "储藏室,一般住宅"
+    },
+    {
+      "number": "108583",
+      "name": "仁恒江湾城四期",
+      "district": "建邺区",
+      "address": "建邺区乐山路208号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "107703",
+      "name": "仁恒江湾城",
+      "district": "建邺区",
+      "address": "建邺区乐山路198号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "108934",
+      "name": "仓巷花园",
+      "district": "秦淮区",
+      "address": "秦淮区朝天宫街道",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "108821",
+      "name": "东方雅园",
+      "district": "高淳区",
+      "address": "东方曼园北侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108685",
+      "name": "颐和府",
+      "district": "玄武区",
+      "address": "玄武区中山东路301号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "108869",
+      "name": "秦河世家花园",
+      "district": "溧水区",
+      "address": "石湫镇金碧路1号，辉煌路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107581",
+      "name": "群盛北江豪庭",
+      "district": "浦口区",
+      "address": "南京市浦口区雨山西路89号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109190",
+      "name": "昱龙府",
+      "district": "六合区",
+      "address": "南京市六合区龙池街道浦六路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109070",
+      "name": "若水雅苑",
+      "district": "江宁区",
+      "address": "南京市江宁区汤山街道上善路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109041",
+      "name": "燕颐花园",
+      "district": "栖霞区",
+      "address": "栖霞区太新路46号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1527150",
+      "name": "长江尊邸",
+      "district": "建邺区",
+      "address": "建邺区邺城路与友谊街交界处",
+      "usage": "住宅"
+    },
+    {
+      "number": "2241151",
+      "name": "栖尧美著花园",
+      "district": "栖霞区",
+      "address": "栖霞区尧辰路以东，栖霞大道以南",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "1698150",
+      "name": "领东苑",
+      "district": "江宁区",
+      "address": "江苏南京市江宁区麒麟街道智通路215号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108885",
+      "name": "海珀星晖花园",
+      "district": "建邺区",
+      "address": "建邺区河西南部鱼背地块",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-14T14:22:50.684012+08:00",
+  "sourceSha256": "e6d7d4cd5e96cd95edb4040e5db3a8bff6f4e7fe089779677419634511b27e3c",
+  "rows": [
+    {
+      "number": "2916150",
+      "name": "南汕印象府",
+      "district": "雨花台区",
+      "address": "雨花台区NO.2021G37地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "2100150",
+      "name": "玖熙府",
+      "district": "溧水区",
+      "address": "珍珠南路以东，高平大街以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "1908150",
+      "name": "晶铂街区",
+      "district": "江宁区",
+      "address": "江宁区江宁街道弘利路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1801150",
+      "name": "前塘名邸",
+      "district": "栖霞区",
+      "address": "栖霞区翠林路5号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "2107150",
+      "name": "和悦江南苑",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪街道南漪路56号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2672150",
+      "name": "雅郡兰庭",
+      "district": "江宁区",
+      "address": "江宁区东山街道天云北街6号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108918",
+      "name": "林景尊园",
+      "district": "浦口区",
+      "address": "江浦街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108603",
+      "name": "丽湖湾",
+      "district": "溧水区",
+      "address": "溧水开发区群力大道28号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3001150",
+      "name": "铭望府",
+      "district": "江北新区",
+      "address": "东至山潘三路南至山潘四路西至山潘二路北至通潘路",
+      "usage": "一般住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107917",
+      "name": "冠城大通蓝郡家园",
+      "district": "六合区",
+      "address": "龙池街道雄州南路333号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109127",
+      "name": "青奥村",
+      "district": "建邺区",
+      "address": "青奥南路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109049",
+      "name": "璟悦名邸",
+      "district": "江宁区",
+      "address": "江宁区东山街道永胜路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "3059200",
+      "name": "迈上品院",
+      "district": "栖霞区",
+      "address": "栖霞区2019G41地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108912",
+      "name": "荣域家园",
+      "district": "高淳区",
+      "address": "凤山路以南、丹阳湖北路以西",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109201",
+      "name": "中城花园.塞纳名邸",
+      "district": "溧水区",
+      "address": "溧水区经济开发区机场路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2085150",
+      "name": "紫京云筑",
+      "district": "江宁区",
+      "address": "江宁区玉凤街9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108744",
+      "name": "红树林花园",
+      "district": "江北新区",
+      "address": "江山路6号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108618",
+      "name": "樾园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道泉东路58号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108987",
+      "name": "浅水湾馥园",
+      "district": "高淳区",
+      "address": "南京市高淳区淳溪镇戴村路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2180250",
+      "name": "和悦风华苑",
+      "district": "高淳区",
+      "address": "高淳区淳溪街道宝塔路216号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
