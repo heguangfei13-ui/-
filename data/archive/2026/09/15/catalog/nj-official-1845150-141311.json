@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-1845150",
+    "name": "时光泊月园",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区桥林街道浦乌路以南，南湾街以西地块",
+    "developer": "南京港弘房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-1845150",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/1845150/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T14:13:11.670450+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "1845150",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-15T14:13:11.670450+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/1845150/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 765,
+        "sold": 389,
+        "available": 369,
+        "subscribed": 7,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 765,
+      "sold": 389,
+      "available": 369
+    }
+  },
+  "sourceSha256": "91c611a7eaac916741dfdc7d2c871b27f4fd75249184c8a4ae6211d8870fcd00"
+}

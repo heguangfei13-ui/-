@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109007",
+    "name": "江山荟小区",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区海桥路9号",
+    "developer": "南京国诚置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109007",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109007/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T14:13:11.670450+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109007",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-15T14:13:11.670450+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109007/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 3354,
+        "sold": 1826,
+        "available": 1519,
+        "subscribed": 9,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3354,
+      "sold": 1826,
+      "available": 1519
+    }
+  },
+  "sourceSha256": "bf7d3159b9e9af957235df75c25fa5de9aa3f312a7b956ba2fa5f3e69dfd5e34"
+}
