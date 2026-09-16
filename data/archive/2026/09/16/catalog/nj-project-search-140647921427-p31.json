@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-16T14:06:47.921427+08:00",
+  "sourceSha256": "3a0557a347df8cdf0f2cf929114ae33a5860bad4ba0e2471d3a551266d91d374",
+  "rows": [
+    {
+      "number": "109195",
+      "name": "花语江南府",
+      "district": "雨花台区",
+      "address": "南京市雨花台区南西营村A地块",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109168",
+      "name": "紫京熙院",
+      "district": "浦口区",
+      "address": "浦口区大马山9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109002",
+      "name": "悦茂花园观邸",
+      "district": "江北新区",
+      "address": "南京市浦口区九袱洲路与七里河大街东南侧",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108570",
+      "name": "尚都荟花园",
+      "district": "雨花台区",
+      "address": "雨花台区南京南站广场站东片区12号地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "107410",
+      "name": "大地雅特花园",
+      "district": "栖霞区",
+      "address": "和燕路329号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108495",
+      "name": "香地美舍",
+      "district": "六合区",
+      "address": "程桥街道荷青路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109095",
+      "name": "雅尊府",
+      "district": "浦口区",
+      "address": "南京市浦口区江浦街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108707",
+      "name": "锦绣华府",
+      "district": "鼓楼区",
+      "address": "鼓楼区宝塔桥",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109116",
+      "name": "隽峰雅苑",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道顺塘街6号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109046",
+      "name": "语山棠花园",
+      "district": "浦口区",
+      "address": "浦云路226号、棠云路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108984",
+      "name": "丰茂悦园",
+      "district": "江宁区",
+      "address": "江宁区东山街道武成路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108819",
+      "name": "溧水万达广场",
+      "district": "溧水区",
+      "address": "仪凤南路70号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "2112200",
+      "name": "揽湾玖筑",
+      "district": "六合区",
+      "address": "六合区龙池街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108852",
+      "name": "阅山居",
+      "district": "江北新区",
+      "address": "沿山大道189号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "109086",
+      "name": "文蕴府",
+      "district": "栖霞区",
+      "address": "经天路南侧地块二 （NO.2015G51地块）",
+      "usage": "住宅"
+    },
+    {
+      "number": "109197",
+      "name": "睿湾广场",
+      "district": "雨花台区",
+      "address": "南京市雨花台区西善桥街道",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "108979",
+      "name": "澜悦方山居",
+      "district": "江宁区",
+      "address": "江宁区淳化街道瑞艺路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2196250",
+      "name": "翡翠滨江花园",
+      "district": "建邺区",
+      "address": "南京市建邺区扬子江大道以南、友谊街以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "1550150",
+      "name": "花语馨城",
+      "district": "栖霞区",
+      "address": "南京市栖霞区龙潭街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108748",
+      "name": "龙珺花园",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道袁家边路9号",
+      "usage": "商业、住宅"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-16T14:06:47.921427+08:00",
+  "sourceSha256": "a1169a8385700637b25d44b943ca4fe63a71b20d79bc1229394b039f42d543a2",
+  "rows": [
+    {
+      "number": "1961150",
+      "name": "都荟澜岸花园",
+      "district": "雨花台区",
+      "address": "雨花台区岱山东路以东C8地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108605",
+      "name": "翡翠逸景花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道双龙大道1699号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2588150",
+      "name": "云栖风华璟园",
+      "district": "栖霞区",
+      "address": "栖霞区NO.2020G93地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108611",
+      "name": "中交锦兰荟",
+      "district": "浦口区",
+      "address": "江浦街道卓溪路10号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "1392150",
+      "name": "尚上悦苑",
+      "district": "江北新区",
+      "address": "南京市江北新区泰山街道浦珠北路东侧、华江路北侧19-05商住地块",
+      "usage": "商业、住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "109153",
+      "name": "宁珑名筑",
+      "district": "江宁区",
+      "address": "江宁区东山街道石林路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1795150",
+      "name": "新悦嘉园",
+      "district": "江宁区",
+      "address": "江苏南京市江宁区禄口街道永欣大道32号",
+      "usage": "一般住宅,商业"
+    },
+    {
+      "number": "108593",
+      "name": "风情雅苑",
+      "district": "江宁区",
+      "address": "江宁区江宁街道景明北大街1009号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109118",
+      "name": "公园世纪苑",
+      "district": "栖霞区",
+      "address": "栖霞区燕园路37号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1670150",
+      "name": "翠山名邸",
+      "district": "江宁区",
+      "address": "南京市江宁区海慧路88号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "1774150",
+      "name": "山语隽府",
+      "district": "栖霞区",
+      "address": "栖霞区栖霞街道工农路以西14#",
+      "usage": "住宅"
+    },
+    {
+      "number": "1439150",
+      "name": "紫樾府",
+      "district": "栖霞区",
+      "address": "栖霞区经济技术开发区兴智科技城地块二（A地块）",
+      "usage": "住宅"
+    },
+    {
+      "number": "109128",
+      "name": "望景名府",
+      "district": "溧水区",
+      "address": "洪蓝镇凤凰井路20号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1659153",
+      "name": "泉悦春风居",
+      "district": "六合区",
+      "address": "六合区龙袍街道奶山路19号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108963",
+      "name": "海颂街区",
+      "district": "江北新区",
+      "address": "七里河大街以东、九袱洲路以南",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "27863",
+      "name": "江山府",
+      "district": "浦口区",
+      "address": "浦口区光固路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109114",
+      "name": "颐辉花苑",
+      "district": "浦口区",
+      "address": "南京市浦口区荣庄路西侧",
+      "usage": "住宅"
+    },
+    {
+      "number": "108666",
+      "name": "海麟广场",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道天光路22号",
+      "usage": "住宅"
+    },
+    {
+      "number": "1945150",
+      "name": "华著兰庭",
+      "district": "秦淮区",
+      "address": "南京市秦淮区红花街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "109135",
+      "name": "澜苑",
+      "district": "江北新区",
+      "address": "江北新区浦滨路以东、康盛路以南地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    }
+  ],
+  "rejected": []
+}

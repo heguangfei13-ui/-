@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108819",
+    "name": "溧水万达广场",
+    "city": "nanjing",
+    "district": "溧水区",
+    "address": "仪凤南路70号",
+    "developer": "南京溧水万达广场有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108819",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108819/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T14:06:47.921427+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108819",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-16T14:06:47.921427+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108819/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "商业、住宅",
+        "total": 6939,
+        "sold": 5412,
+        "available": 1488,
+        "subscribed": 39,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 6939,
+      "sold": 5412,
+      "available": 1488
+    }
+  },
+  "sourceSha256": "6a3541b29ce8dbb631d8c5ac9e1864d96e0e156da4e6f801ba1cc3efb24e0f56"
+}
