@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-17T14:12:20.323978+08:00",
+  "sourceSha256": "a0d8db5077e81f7b37856940cb2989b4209db8a8bf6fff8184f0f8bb854c804b",
+  "rows": [
+    {
+      "number": "108322",
+      "name": "华府国际花园",
+      "district": "浦口区",
+      "address": "沿山西大道88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108876",
+      "name": "风景名邸、吉山花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道秣周西路33号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109085",
+      "name": "远棠花园",
+      "district": "六合区",
+      "address": "南京市六合区金牛湖街道博文路107号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108472",
+      "name": "花样城",
+      "district": "高淳区",
+      "address": "双高路50号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108956",
+      "name": "珑翠芳庭东园",
+      "district": "六合区",
+      "address": "方州路199号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108907",
+      "name": "桃园世纪华庭",
+      "district": "鼓楼区",
+      "address": "鼓楼区热河南路",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "108146",
+      "name": "海峡城",
+      "district": "建邺区",
+      "address": "建邺区扬子江大道以南，江东南路以北，东至淮河路、西至天宝街、北至扬子江大道、南至江东南路",
+      "usage": "住宅、商业、办公、车位"
+    },
+    {
+      "number": "109039",
+      "name": "天誉府、世茂国际商业中心",
+      "district": "建邺区",
+      "address": "南京市建邺区南苑街道",
+      "usage": "住宅、酒店式公寓"
+    },
+    {
+      "number": "1691150",
+      "name": "润怡花园",
+      "district": "栖霞区",
+      "address": "栖霞区燕栖路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107819",
+      "name": "和天下家园",
+      "district": "江北新区",
+      "address": "江山路9号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "1657150",
+      "name": "紫樾澜庭",
+      "district": "江宁区",
+      "address": "南京市江宁区湖熟街道友谊路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109157",
+      "name": "泊云花园",
+      "district": "江宁区",
+      "address": "南京市江宁区秣陵街道天禧路十九号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2058150",
+      "name": "博翠花园",
+      "district": "栖霞区",
+      "address": "栖霞区燕春路26号",
+      "usage": "一般住宅"
+    },
+    {
+      "number": "109028",
+      "name": "荟湖雅居",
+      "district": "溧水区",
+      "address": "徐母塘路116号、徐母塘路118号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108499",
+      "name": "滨水花园",
+      "district": "溧水区",
+      "address": "永阳镇秀园路6号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106603",
+      "name": "世茂滨江新城",
+      "district": "鼓楼区",
+      "address": "鼓楼区宝善小区",
+      "usage": "住宅"
+    },
+    {
+      "number": "109170",
+      "name": "誉峰苑",
+      "district": "江宁区",
+      "address": "誉峰苑",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "1473150",
+      "name": "大鱼山居",
+      "district": "栖霞区",
+      "address": "南京市栖霞区仙林街道汇通路以西，大浦塘以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "108978",
+      "name": "澜悦栖原居",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道天禧路6号",
+      "usage": "住宅"
+    },
+    {
+      "number": "2051150",
+      "name": "凤凰园",
+      "district": "溧水区",
+      "address": "溧水区和凤镇双牌石凤凰路39号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

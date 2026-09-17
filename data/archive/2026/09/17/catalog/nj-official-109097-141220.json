@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109097",
+    "name": "瑞林嘉园",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区禄口街道鸣鹤路1号",
+    "developer": "南京普耀房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109097",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109097/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-17T14:12:20.323978+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109097",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-17T14:12:20.323978+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109097/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 520,
+        "sold": 508,
+        "available": 11,
+        "subscribed": 1,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 520,
+      "sold": 508,
+      "available": 11
+    }
+  },
+  "sourceSha256": "6b47f6bd24f0c1dd94e899ccad04b58d2b55841b88df64fb5373b620ce5cb3de"
+}

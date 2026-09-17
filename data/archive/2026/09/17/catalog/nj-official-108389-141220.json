@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108389",
+    "name": "高淳雅居乐花园",
+    "city": "nanjing",
+    "district": "高淳区",
+    "address": "淳溪镇双高路北侧",
+    "developer": "南京高淳雅居乐房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108389",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108389/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-17T14:12:20.323978+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108389",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-17T14:12:20.323978+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108389/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 7684,
+        "sold": 5459,
+        "available": 1830,
+        "subscribed": 395,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 7684,
+      "sold": 5459,
+      "available": 1830
+    }
+  },
+  "sourceSha256": "e1008418ab7691dc30bec12db677b03825d4518c418df682562b092feb2ccf1f"
+}

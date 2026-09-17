@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-17T14:12:20.323978+08:00",
+  "sourceSha256": "0a688907ad3c570a8fc29ae0a2467a3d8d459a734fc6ac719a68665d2c12978f",
+  "rows": [
+    {
+      "number": "108897",
+      "name": "千禧华府",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇双高路26号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107435",
+      "name": "卧龙湖风情小镇",
+      "district": "溧水区",
+      "address": "溧水区卧龙湖大道1号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "108757",
+      "name": "荣城中苑",
+      "district": "六合区",
+      "address": "六合区龙池街道莉湖路7号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108688",
+      "name": "荣城南苑",
+      "district": "六合区",
+      "address": "南京市六合区龙池街道莉湖路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109036",
+      "name": "君兰苑",
+      "district": "溧水区",
+      "address": "溧水区经济开发区高山路1号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108451",
+      "name": "尚悦居",
+      "district": "雨花台区",
+      "address": "板桥新城七期地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "109133",
+      "name": "水映华庭",
+      "district": "高淳区",
+      "address": "淳溪镇汶溪路177号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108941",
+      "name": "当代河畔花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区热河南路",
+      "usage": "住宅、商业、储藏室"
+    },
+    {
+      "number": "108947",
+      "name": "悦茂花园名邸",
+      "district": "江北新区",
+      "address": "江北新区顶山街道九袱洲路与七里河大街东南侧",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108459",
+      "name": "天汇雅苑",
+      "district": "建邺区",
+      "address": "南京市建邺区天河路以东，新梗街与新河路间",
+      "usage": "住宅"
+    },
+    {
+      "number": "108721",
+      "name": "星洲府",
+      "district": "建邺区",
+      "address": "江心洲中部地区05-23、05-25地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108129",
+      "name": "中航樾府",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道静淮街128号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109066",
+      "name": "沁江府",
+      "district": "建邺区",
+      "address": "建邺区江心洲街道，东至亚鹏路、西至长江水道、南临城市公共绿带，北至绿水街",
+      "usage": "住宅"
+    },
+    {
+      "number": "108669",
+      "name": "安品园",
+      "district": "秦淮区",
+      "address": "秦淮区安品街",
+      "usage": "住宅"
+    },
+    {
+      "number": "108747",
+      "name": "紫御东方花园",
+      "district": "栖霞区",
+      "address": "栖霞区燕子矶",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "2256200",
+      "name": "江天瓴筑",
+      "district": "建邺区",
+      "address": "建邺区江心洲，东至环岛东路，南至星影街，西至科技路，北至星月街",
+      "usage": "住宅"
+    },
+    {
+      "number": "107355",
+      "name": "宏进锦绣家园",
+      "district": "溧水区",
+      "address": "永阳镇秦淮北路99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108635",
+      "name": "四季嘉园",
+      "district": "浦口区",
+      "address": "台南路10号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "1424200",
+      "name": "滨江观澜府",
+      "district": "栖霞区",
+      "address": "南京市栖霞区龙潭街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "1473151",
+      "name": "昕悦尚宸苑",
+      "district": "溧水区",
+      "address": "南京市溧水区体育公园路以北、S246省道以西",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

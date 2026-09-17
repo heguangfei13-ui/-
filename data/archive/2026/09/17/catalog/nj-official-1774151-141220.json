@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-1774151",
+    "name": "檀悦花园",
+    "city": "nanjing",
+    "district": "鼓楼区",
+    "address": "东至清江南路，南至集慧路，西至清河路，北至汉中门大街",
+    "developer": "南京鼓楼国际软件与服务外包产业园有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-1774151",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/1774151/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-17T14:12:20.323978+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "1774151",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-17T14:12:20.323978+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/1774151/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "门面房、小商店,一般住宅",
+        "total": 3064,
+        "sold": 1994,
+        "available": 1069,
+        "subscribed": 1,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3064,
+      "sold": 1994,
+      "available": 1069
+    }
+  },
+  "sourceSha256": "bc01373e8e26905d0d24f9c5dab63851ae64d411242cff40d1255dc3dcde6316"
+}
