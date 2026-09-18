@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108876",
+    "name": "风景名邸、吉山花园",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区秣陵街道秣周西路33号",
+    "developer": "南京金远置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108876",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108876/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-18T13:59:04.452000+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108876",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-18T13:59:04.452000+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108876/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1997,
+        "sold": 1672,
+        "available": 321,
+        "subscribed": 4,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1997,
+      "sold": 1672,
+      "available": 321
+    }
+  },
+  "sourceSha256": "cab47e79bbf74b45050378a05c1d0d347cc5b27e714483c170554a6795d9f1c7"
+}
