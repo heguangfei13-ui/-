@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109117",
+    "name": "天钜府",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "雨花台区铁心桥街道龙西路",
+    "developer": "南京名盛置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109117",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109117/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-19T13:58:39.429717+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109117",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-19T13:58:39.429717+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109117/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 3312,
+        "sold": 3101,
+        "available": 187,
+        "subscribed": 24,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3312,
+      "sold": 3101,
+      "available": 187
+    }
+  },
+  "sourceSha256": "a817d488a8e95b34a17b1b3d21e7a73ff643e94febc30d9b7685ae256355c1ef"
+}

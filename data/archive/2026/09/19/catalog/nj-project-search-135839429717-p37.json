@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-19T13:58:39.429717+08:00",
+  "sourceSha256": "b63335a36697580abe6c8f836317a83c6117c686e962ee25c8b0e431353c1744",
+  "rows": [
+    {
+      "number": "108898",
+      "name": "静水花园",
+      "district": "溧水区",
+      "address": "永阳街道小西门街11号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109192",
+      "name": "悦东府",
+      "district": "栖霞区",
+      "address": "栖霞区龙潭街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108959",
+      "name": "龙华生活广场",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇学山北路272号",
+      "usage": "住宅"
+    },
+    {
+      "number": "42043",
+      "name": "林语山墅",
+      "district": "江北新区",
+      "address": "胡桥路以东、南工大东侧01号地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108645",
+      "name": "紫金观邸",
+      "district": "栖霞区",
+      "address": "栖霞区马群街道",
+      "usage": "门面房、小商店、住宅"
+    },
+    {
+      "number": "108996",
+      "name": "观榕华府",
+      "district": "江宁区",
+      "address": "江宁区东山街道龙昌路50号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "2005151",
+      "name": "迈皋瑞福城二期",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109080",
+      "name": "海翔花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区铁心桥街道龙西路",
+      "usage": "住宅、车位、储藏室"
+    },
+    {
+      "number": "108973",
+      "name": "君誉澜山苑",
+      "district": "浦口区",
+      "address": "浦口区江浦街道白马路10号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108975",
+      "name": "风华府",
+      "district": "浦口区",
+      "address": "江淼路65号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108942",
+      "name": "合悦花苑",
+      "district": "六合区",
+      "address": "南京市六合区龙池街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108867",
+      "name": "尊华府",
+      "district": "六合区",
+      "address": "南京市六合区雄州街道桥西路180号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108806",
+      "name": "溧水国际中心",
+      "district": "溧水区",
+      "address": "中大街81号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "109067",
+      "name": "东泉名邸",
+      "district": "江宁区",
+      "address": "江宁区汤山街道汤泉东路以西、若水路以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "108871",
+      "name": "蓝天星港花园",
+      "district": "江宁区",
+      "address": "江宁区禄口街道来凤路5号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108829",
+      "name": "泛悦广场",
+      "district": "鼓楼区",
+      "address": "鼓楼区小市街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108420",
+      "name": "乐活城",
+      "district": "溧水区",
+      "address": "团山西路26号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "103712",
+      "name": "翠屏湾花园城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道将军大道129号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107288",
+      "name": "天泽苑",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道竹山路588号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109117",
+      "name": "天钜府",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道龙西路",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
