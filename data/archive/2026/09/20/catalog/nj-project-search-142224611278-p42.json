@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-20T14:22:24.611278+08:00",
+  "sourceSha256": "74aa2ce1d51615500e0c7d7e03d0bd37b4b953812277dd2126274c271bf01b85",
+  "rows": [
+    {
+      "number": "108370",
+      "name": "涟城",
+      "district": "建邺区",
+      "address": "建邺区西城路以西，吉山路以东，规一路以南，白鹭东街以北",
+      "usage": "住宅"
+    },
+    {
+      "number": "108107",
+      "name": "金域华府",
+      "district": "雨花台区",
+      "address": "雨花台区板桥街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108578",
+      "name": "学府瑞苑",
+      "district": "秦淮区",
+      "address": "南京市秦淮区瑞金路",
+      "usage": "住宅"
+    },
+    {
+      "number": "108598",
+      "name": "金鼎湾如院",
+      "district": "鼓楼区",
+      "address": "鼓楼区中山北路279号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108180",
+      "name": "清香雅苑",
+      "district": "六合区",
+      "address": "雄州街道园林西路188号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108314",
+      "name": "恒辉广场",
+      "district": "江北新区",
+      "address": "明辉东路1号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108774",
+      "name": "万景佳苑",
+      "district": "溧水区",
+      "address": "溧水经济开发区红光路19号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108924",
+      "name": "翡翠天域花园",
+      "district": "栖霞区",
+      "address": "栖霞区临江南路东侧（B）地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "107790",
+      "name": "阳光聚宝山庄二期",
+      "district": "玄武区",
+      "address": "玄武大道88号",
+      "usage": "住宅、商业、别墅、车位"
+    },
+    {
+      "number": "108348",
+      "name": "高淳碧桂园",
+      "district": "高淳区",
+      "address": "淳溪镇石臼湖北路76、78号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108556",
+      "name": "津桥华府",
+      "district": "江宁区",
+      "address": "江宁区淳化街道修文路3号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108626",
+      "name": "鹭岛南苑",
+      "district": "六合区",
+      "address": "南京市六合区马鞍街道鹭岛中路3号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108722",
+      "name": "临淮铂悦府",
+      "district": "江宁区",
+      "address": "江宁区东山街道农花路102号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108539",
+      "name": "上水云锦",
+      "district": "建邺区",
+      "address": "建邺区南苑",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107315",
+      "name": "协众雅居",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道龙眠大道618号",
+      "usage": "住宅、商业、办公、酒店式公寓、车位"
+    },
+    {
+      "number": "107833",
+      "name": "金地华城",
+      "district": "高淳区",
+      "address": "石臼湖北路69号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108599",
+      "name": "山语湖花园",
+      "district": "江北新区",
+      "address": "高新开发区永固路3号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108320",
+      "name": "兰台花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道长亭街59号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107995",
+      "name": "华菁水苑",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道文鸿路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108656",
+      "name": "梦享家花园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道瑞文路199号",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}

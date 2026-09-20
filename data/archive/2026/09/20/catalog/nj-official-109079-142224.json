@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109079",
+    "name": "雨山花园",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "南京市浦口区江浦街建设路1号",
+    "developer": "南京中海海浦房地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109079",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109079/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-20T14:22:24.611278+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109079",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-20T14:22:24.611278+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109079/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1484,
+        "sold": 1085,
+        "available": 397,
+        "subscribed": 2,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1484,
+      "sold": 1085,
+      "available": 397
+    }
+  },
+  "sourceSha256": "cbdde313f15a9582fcb9c08734e11a9927996bc3eeb88bc7fcce87d6dc87172b"
+}

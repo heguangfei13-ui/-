@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-20T14:22:24.611278+08:00",
+  "sourceSha256": "9bd5d3e82e550d2ee62eb517cb640c05e9bf89f1fa6fe52f9adcd5e12d696d6c",
+  "rows": [
+    {
+      "number": "108330",
+      "name": "珑湾花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道长亭街55号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108903",
+      "name": "玉澜府",
+      "district": "江北新区",
+      "address": "泰山街道泰山西路与左所东路夹角地块",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108529",
+      "name": "香山花园",
+      "district": "浦口区",
+      "address": "大马山路6号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108896",
+      "name": "源筑花园",
+      "district": "溧水区",
+      "address": "双塘南路68号、马场路18号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108879",
+      "name": "云禧花苑",
+      "district": "浦口区",
+      "address": "江浦街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108600",
+      "name": "林景熙园",
+      "district": "江北新区",
+      "address": "江浦街道沿山大道",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108769",
+      "name": "鑫宁府",
+      "district": "浦口区",
+      "address": "江浦街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108550",
+      "name": "堂悦花园",
+      "district": "秦淮区",
+      "address": "南京市秦淮区宁溧路东侧",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108993",
+      "name": "建熙嘉园",
+      "district": "浦口区",
+      "address": "浦口区江浦街道宁合高速南侧、康华路西侧地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108500",
+      "name": "青春街区",
+      "district": "江宁区",
+      "address": "江宁区禄口街道来凤路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108510",
+      "name": "双湖壹号公馆",
+      "district": "高淳区",
+      "address": "高淳区芜太公路以北、双湖路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "108436",
+      "name": "藏珑谷",
+      "district": "溧水区",
+      "address": "乌夏路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108361",
+      "name": "新都雅苑",
+      "district": "六合区",
+      "address": "六合区雄州街道王桥路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "109125",
+      "name": "阅熙广场",
+      "district": "鼓楼区",
+      "address": "鼓楼区江边路以西1号地块（NO.2010G32）内07-09地块",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108478",
+      "name": "绿洲新岛花园",
+      "district": "建邺区",
+      "address": "建邺区江心洲",
+      "usage": "住宅"
+    },
+    {
+      "number": "108414",
+      "name": "紫金华府",
+      "district": "玄武区",
+      "address": "玄武区孝陵卫街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108862",
+      "name": "江山汇悦山府",
+      "district": "鼓楼区",
+      "address": "鼓楼区宝塔桥",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108770",
+      "name": "都荟南苑",
+      "district": "雨花台区",
+      "address": "雨花台区南京南站广场地区",
+      "usage": "住宅"
+    },
+    {
+      "number": "107027",
+      "name": "罗托鲁拉小镇",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道竹山南路688号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "108662",
+      "name": "云樾广场",
+      "district": "江宁区",
+      "address": "江宁区淳化街道经贸学院路8号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

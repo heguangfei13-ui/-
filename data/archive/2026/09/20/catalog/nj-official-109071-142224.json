@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109071",
+    "name": "翡翠尚居",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "雨花台安德门街66、67号",
+    "developer": "南京悦颐房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109071",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109071/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-20T14:22:24.611278+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109071",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-20T14:22:24.611278+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109071/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 2176,
+        "sold": 1688,
+        "available": 475,
+        "subscribed": 13,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2176,
+      "sold": 1688,
+      "available": 475
+    }
+  },
+  "sourceSha256": "5c9ae551c1df849730dd4bf3d1c53938a1f9de2f5fd54c64f94ee26f96824663"
+}
