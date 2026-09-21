@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-21T14:26:12.301584+08:00",
+  "sourceSha256": "e1c5961210ee404295a8571054a277c15abb58046dcf69f92458e4d50311d09e",
+  "rows": [
+    {
+      "number": "108515",
+      "name": "翡翠星城",
+      "district": "高淳区",
+      "address": "宝塔路南侧、湿地公园东侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108309",
+      "name": "碧景山庄",
+      "district": "江北新区",
+      "address": "六合区大厂丁家山路36号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108732",
+      "name": "建熙花苑",
+      "district": "浦口区",
+      "address": "江佑铂庭西侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108476",
+      "name": "瑜憬湾花园",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108727",
+      "name": "东岳府",
+      "district": "秦淮区",
+      "address": "秦淮区光华路",
+      "usage": "门面房、小商店、住宅"
+    },
+    {
+      "number": "108205",
+      "name": "东屏湖小区",
+      "district": "溧水区",
+      "address": "金山路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108697",
+      "name": "海玥名都苑",
+      "district": "建邺区",
+      "address": "南京市建邺区兴隆（月安街11号）",
+      "usage": "住宅"
+    },
+    {
+      "number": "108723",
+      "name": "翔宇花园",
+      "district": "江宁区",
+      "address": "江宁区禄口街道乾清路77号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108520",
+      "name": "海赋尚城",
+      "district": "栖霞区",
+      "address": "栖霞区燕子矶街道下庙村",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107943",
+      "name": "垠领城市街区",
+      "district": "高淳区",
+      "address": "东坝镇振兴路180号、胥溪路9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108545",
+      "name": "天阙苑",
+      "district": "秦淮区",
+      "address": "南京市秦淮区中山东路518号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108018",
+      "name": "莲花新城嘉园",
+      "district": "建邺区",
+      "address": "建邺区莲花村",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107776",
+      "name": "长江峰景花园",
+      "district": "鼓楼区",
+      "address": "中山北路645号",
+      "usage": "办公、住宅"
+    },
+    {
+      "number": "108971",
+      "name": "武夷商城",
+      "district": "江宁区",
+      "address": "江宁区东山街道宏运大道1818号",
+      "usage": "办公、酒店式公寓、住宅"
+    },
+    {
+      "number": "108272",
+      "name": "未来街区",
+      "district": "江北新区",
+      "address": "高新技术开发区永新路",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108905",
+      "name": "紫阙花园",
+      "district": "建邺区",
+      "address": "建邺区河西南部地区D-2-5~7地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108621",
+      "name": "奥和雅苑",
+      "district": "建邺区",
+      "address": "南京市建邺区淮河路以南，规划七号支路以北，规划三号之路以西，新梗街以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "108549",
+      "name": "万达茂商业中心",
+      "district": "栖霞区",
+      "address": "栖霞区仙林街道",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "109024",
+      "name": "雍禧华府",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道西春路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108036",
+      "name": "汇锦水岸城",
+      "district": "六合区",
+      "address": "六合区雄州街道彤华街8号",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}

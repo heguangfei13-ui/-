@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-21T14:26:12.301584+08:00",
+  "sourceSha256": "dea0e0d7bed556cdbe525f357ab2dbb3443367e7eec9e357595273133d59ce35",
+  "rows": [
+    {
+      "number": "108312",
+      "name": "金地名阁",
+      "district": "高淳区",
+      "address": "漆桥镇新港西路56号",
+      "usage": "住宅、车库"
+    },
+    {
+      "number": "108325",
+      "name": "启迪城",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道东麒路333号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108455",
+      "name": "正荣润江城",
+      "district": "江北新区",
+      "address": "镇南河路99号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107383",
+      "name": "钟山晶典",
+      "district": "栖霞区",
+      "address": "栖霞区白龙山以西",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108482",
+      "name": "颐和家园宏域",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108502",
+      "name": "润峰花园",
+      "district": "建邺区",
+      "address": "河西南部27-1号A地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108713",
+      "name": "荣华府",
+      "district": "六合区",
+      "address": "六合区雄州街道古棠大道2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108658",
+      "name": "吉庆里",
+      "district": "雨花台区",
+      "address": "雨花台区赛虹桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108456",
+      "name": "未来街区东苑",
+      "district": "江北新区",
+      "address": "高新技术开发区永新路",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108349",
+      "name": "湖城艺境花园",
+      "district": "栖霞区",
+      "address": "仙林大学城",
+      "usage": "住宅"
+    },
+    {
+      "number": "108498",
+      "name": "正荣润锦城",
+      "district": "江北新区",
+      "address": "望江路2号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108642",
+      "name": "天福江南小区",
+      "district": "高淳区",
+      "address": "淳溪镇宝塔路358号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108286",
+      "name": "天岳城",
+      "district": "溧水区",
+      "address": "秦淮大道399号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108606",
+      "name": "梅珑雅苑",
+      "district": "江宁区",
+      "address": "江宁区淳化街道龙济路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108509",
+      "name": "未来家",
+      "district": "江宁区",
+      "address": "江宁区江宁街道润寿北路1115号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108592",
+      "name": "悦峰时光里",
+      "district": "江北新区",
+      "address": "高新区蓝海路以北、侨康路以南",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108782",
+      "name": "云尚城",
+      "district": "雨花台区",
+      "address": "雨花台区铁心桥街道宁双路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108474",
+      "name": "世纪雅苑",
+      "district": "栖霞区",
+      "address": "栖霞区马群街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108791",
+      "name": "慧谷水轩",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道吉山大道9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108594",
+      "name": "白马澜山苑",
+      "district": "浦口区",
+      "address": "江浦街道白马路81号",
+      "usage": "住宅、储藏室、商业"
+    }
+  ],
+  "rejected": []
+}

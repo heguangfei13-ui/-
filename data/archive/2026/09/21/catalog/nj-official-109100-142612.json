@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-109100",
+    "name": "云梦尚品东苑",
+    "city": "nanjing",
+    "district": "六合区",
+    "address": "南京市六合区程桥街道荷青路5号",
+    "developer": "南京新棠房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-109100",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109100/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-21T14:26:12.301584+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109100",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-21T14:26:12.301584+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109100/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 216,
+        "sold": 36,
+        "available": 178,
+        "subscribed": 2,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 216,
+      "sold": 36,
+      "available": 178
+    }
+  },
+  "sourceSha256": "b56332381c91e8e74ab1f0215b23fd8c7c5dff3bcc9def88e3178a2d047192df"
+}

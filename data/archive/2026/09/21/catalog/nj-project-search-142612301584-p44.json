@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-21T14:26:12.301584+08:00",
+  "sourceSha256": "c65693e148f0f50a319d2abc0d070003ea9e2da4db0eb7d130f5714056c7493c",
+  "rows": [
+    {
+      "number": "107387",
+      "name": "恒大金碧天下国际花园",
+      "district": "溧水区",
+      "address": "溧水永阳镇，宁杭高速和宁常高速之间",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "108616",
+      "name": "花漾紫郡花园",
+      "district": "江北新区",
+      "address": "高新区丹霞路以东，侨谊路以南",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107809",
+      "name": "九岛梦都城",
+      "district": "江宁区",
+      "address": "江宁区谷里街道庆兴路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108597",
+      "name": "润尧花园",
+      "district": "栖霞区",
+      "address": "栖霞区尧化街道",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108569",
+      "name": "依云华府",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108470",
+      "name": "中山首府",
+      "district": "溧水区",
+      "address": "崇文路68号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108739",
+      "name": "盛世臻园",
+      "district": "浦口区",
+      "address": "江浦街道雨山西路以西、广电南路以北",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108102",
+      "name": "双湖星城",
+      "district": "高淳区",
+      "address": "高淳区经济开发区松园南路18号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108637",
+      "name": "蔚蓝雅苑",
+      "district": "栖霞区",
+      "address": "南京市栖霞区迈皋桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108731",
+      "name": "汇福佳苑",
+      "district": "江宁区",
+      "address": "江宁区东山街道东新南路8号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108406",
+      "name": "雅居乐滨江花园东园",
+      "district": "江北新区",
+      "address": "江浦街道",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108664",
+      "name": "和春华府",
+      "district": "溧水区",
+      "address": "溧水区和凤镇",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108705",
+      "name": "时光里花园",
+      "district": "江北新区",
+      "address": "高新区高新北路以西、南大浦口校区以东",
+      "usage": "住宅、商业,",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108574",
+      "name": "晏山居",
+      "district": "玄武区",
+      "address": "玄武区钟灵街50号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108734",
+      "name": "灵溪玉园",
+      "district": "栖霞区",
+      "address": "栖霞区仙林街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108422",
+      "name": "NO.2009G75地块",
+      "district": "雨花台区",
+      "address": "雨花台区雨花新村",
+      "usage": "住宅"
+    },
+    {
+      "number": "108714",
+      "name": "海嘉花园",
+      "district": "玄武区",
+      "address": "玄武区恒嘉路以东，月苑南路以南地块",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108576",
+      "name": "雅颂居",
+      "district": "秦淮区",
+      "address": "大光路67号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108653",
+      "name": "爱上花园",
+      "district": "江北新区",
+      "address": "南京市高新区秦山街道123地块",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107717",
+      "name": "江雁云谷山庄",
+      "district": "鼓楼区",
+      "address": "鼓楼区幕府东路",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}
