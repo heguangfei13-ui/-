@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108309",
+    "name": "碧景山庄",
+    "city": "nanjing",
+    "district": "六合区",
+    "address": "六合区大厂丁家山路36号",
+    "developer": "江苏华亚房地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108309",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108309/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108309",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-22T14:19:07.570638+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108309/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 2970,
+        "sold": 2555,
+        "available": 308,
+        "subscribed": 107,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2970,
+      "sold": 2555,
+      "available": 308
+    }
+  },
+  "sourceSha256": "a35a60ff1502be8bcd54cbfc19db98537fae6bf973056c952fd84b536a3d781e"
+}

@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108556",
+    "name": "津桥华府",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁区淳化街道修文路3号",
+    "developer": "南京捷运房地产投资有限责任公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108556",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108556/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108556",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-22T14:19:07.570638+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108556/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1684,
+        "sold": 1536,
+        "available": 145,
+        "subscribed": 3,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1684,
+      "sold": 1536,
+      "available": 145
+    }
+  },
+  "sourceSha256": "0a510e979cdddf63de285a381844ff6c8f28931c669dd6695bb45406681554ee"
+}

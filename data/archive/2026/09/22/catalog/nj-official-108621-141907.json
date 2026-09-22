@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108621",
+    "name": "奥和雅苑",
+    "city": "nanjing",
+    "district": "建邺区",
+    "address": "南京市建邺区淮河路以南，规划七号支路以北，规划三号之路以西，新梗街以东",
+    "developer": "南京奥建置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108621",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108621/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108621",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-22T14:19:07.570638+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108621/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 3508,
+        "sold": 3415,
+        "available": 5,
+        "subscribed": 88,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3508,
+      "sold": 3415,
+      "available": 5
+    }
+  },
+  "sourceSha256": "5f56c9ddffd42dadf8e81dee6f27a3dd7efd639894c2313b65fd9fa1c93ab469"
+}
