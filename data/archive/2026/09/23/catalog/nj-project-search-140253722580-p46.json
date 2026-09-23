@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+  "sourceSha256": "45ab8f30e251c171d44aec1014a287e897be49281bf84e4a65f63addec07ba94",
+  "rows": [
+    {
+      "number": "108791",
+      "name": "慧谷水轩",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道吉山大道9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108594",
+      "name": "白马澜山苑",
+      "district": "浦口区",
+      "address": "江浦街道白马路81号",
+      "usage": "住宅、储藏室、商业"
+    },
+    {
+      "number": "108317",
+      "name": "华城名府",
+      "district": "六合区",
+      "address": "六合区雄州街道王桥路199号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106673",
+      "name": "东郊小镇",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道麒东路777号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108672",
+      "name": "南方绿邸",
+      "district": "溧水区",
+      "address": "永阳镇金龙路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108417",
+      "name": "阳光青城",
+      "district": "江北新区",
+      "address": "江浦街道海都路8号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108799",
+      "name": "景和名苑",
+      "district": "高淳区",
+      "address": "太安路118号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108628",
+      "name": "浅山艺境园",
+      "district": "江北新区",
+      "address": "顶山街道七里桥北路西侧",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107221",
+      "name": "旭日上城",
+      "district": "江北新区",
+      "address": "浦口区京新388号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107363",
+      "name": "万福城",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇北岭路199号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108554",
+      "name": "钟山府",
+      "district": "玄武区",
+      "address": "南京市玄武区",
+      "usage": "住宅"
+    },
+    {
+      "number": "108591",
+      "name": "尚书云邸",
+      "district": "江宁区",
+      "address": "江宁区东山街道文靖路599号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108632",
+      "name": "荣城北苑",
+      "district": "六合区",
+      "address": "南京市六合区龙池街道林场路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108864",
+      "name": "桃源花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区热河南路果品市场地块",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "108766",
+      "name": "璞樾苑",
+      "district": "栖霞区",
+      "address": "栖霞区马群街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108494",
+      "name": "翡翠华庭",
+      "district": "玄武区",
+      "address": "玄武区东至北苑东路",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108584",
+      "name": "荣城东苑",
+      "district": "六合区",
+      "address": "六合区龙池街道林场路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108392",
+      "name": "苏宁雅居",
+      "district": "高淳区",
+      "address": "宝塔路258号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108007",
+      "name": "尚逸华府",
+      "district": "江宁区",
+      "address": "江宁区东山街道宏运大道4699号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108028",
+      "name": "悦府",
+      "district": "建邺区",
+      "address": "建邺区所街7号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

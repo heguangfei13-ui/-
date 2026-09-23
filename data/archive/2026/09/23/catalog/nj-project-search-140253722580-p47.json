@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+  "sourceSha256": "432d9c3cbc041a9f15f1dd2a0e69c6fad542af7ca3820217b46d823ec94da1b4",
+  "rows": [
+    {
+      "number": "108745",
+      "name": "玉兰公馆花园",
+      "district": "栖霞区",
+      "address": "南京市栖霞区燕子矶街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "108530",
+      "name": "七里别院",
+      "district": "江北新区",
+      "address": "胡桥路9号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108577",
+      "name": "龙山云居",
+      "district": "江宁区",
+      "address": "江宁区淳化街道淳关路477号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108718",
+      "name": "滨江铂悦府",
+      "district": "建邺区",
+      "address": "建邺区乐山路99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108534",
+      "name": "紫京府",
+      "district": "建邺区",
+      "address": "建邺区兴隆大街北侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108551",
+      "name": "西江月花苑",
+      "district": "江北新区",
+      "address": "青奥体育公园A地块南侧",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108777",
+      "name": "左岸枫林花园",
+      "district": "雨花台区",
+      "address": "雨花台区板桥新城",
+      "usage": "住宅"
+    },
+    {
+      "number": "108604",
+      "name": "观山悦花园",
+      "district": "江北新区",
+      "address": "顶山街道定向河西侧",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108614",
+      "name": "云峰花园",
+      "district": "江宁区",
+      "address": "江宁区东山街道泉东路28号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108572",
+      "name": "文承熙苑",
+      "district": "江北新区",
+      "address": "六合区大厂惠泽路39号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108497",
+      "name": "南溪谷花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道创新东路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108457",
+      "name": "都荟雅园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道梅香路22号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108471",
+      "name": "恒大华府",
+      "district": "雨花台区",
+      "address": "雨花台区赛虹桥街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107961",
+      "name": "名都花园",
+      "district": "栖霞区",
+      "address": "栖霞区合班村69号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108050",
+      "name": "创维佳园",
+      "district": "溧水区",
+      "address": "中兴西路10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108595",
+      "name": "九著坊",
+      "district": "江宁区",
+      "address": "江宁区淳化街道科宁路219号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108526",
+      "name": "九都荟花园（万融）",
+      "district": "雨花台区",
+      "address": "雨花台区站东路3-5-7号地块",
+      "usage": "住宅"
+    },
+    {
+      "number": "108333",
+      "name": "七里楠花园",
+      "district": "六合区",
+      "address": "六合区龙池街道龙华路66号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108686",
+      "name": "蓝天水岸花园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道竹山路610号",
+      "usage": "住宅"
+    },
+    {
+      "number": "104086",
+      "name": "左邻右里",
+      "district": "江宁区",
+      "address": "岔路口宏运大道1188号",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}
