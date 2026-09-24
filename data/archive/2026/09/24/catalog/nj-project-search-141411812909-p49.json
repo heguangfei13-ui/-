@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-24T14:14:11.812909+08:00",
+  "sourceSha256": "44aac29745e070a9b4c10045cba3505a4abe36c0b1844313f5cb75ecab7a5095",
+  "rows": [
+    {
+      "number": "108496",
+      "name": "山语禧园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道吉印大道4199号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107482",
+      "name": "旭东新城",
+      "district": "江北新区",
+      "address": "大厂健民路400号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108297",
+      "name": "怡峰花园",
+      "district": "六合区",
+      "address": "龙池街道新集东路289号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108381",
+      "name": "红太阳财智广场",
+      "district": "高淳区",
+      "address": "淳溪镇宝塔路269号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108334",
+      "name": "石林城",
+      "district": "六合区",
+      "address": "六合区雄州街道王桥路99号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108790",
+      "name": "紫金铭苑",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "107860",
+      "name": "中海凤凰花园",
+      "district": "鼓楼区",
+      "address": "凤凰片，东临秦淮河，南至凤凰西街，西至规划道路，北至清凉门大街",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108186",
+      "name": "香江豪庭",
+      "district": "江宁区",
+      "address": "江宁区淳化街道湖山路388号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108339",
+      "name": "海麒花园",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道智康路115号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108423",
+      "name": "秦淮湾",
+      "district": "溧水区",
+      "address": "南京市溧水区宝塔路98号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108729",
+      "name": "依云和府",
+      "district": "栖霞区",
+      "address": "燕子矶太新路南侧枣林村B地块",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107827",
+      "name": "万科金域蓝湾",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道清水亭东路9号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108629",
+      "name": "玲珑华庭",
+      "district": "江宁区",
+      "address": "江宁区东山街道东新南路279号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108724",
+      "name": "春上西江花园",
+      "district": "雨花台区",
+      "address": "雨花经济开发区",
+      "usage": "住宅"
+    },
+    {
+      "number": "108709",
+      "name": "燕江府",
+      "district": "栖霞区",
+      "address": "栖霞区燕子矶太新路南侧枣林村A地块",
+      "usage": "住宅、门面房"
+    },
+    {
+      "number": "108083",
+      "name": "东方曼园",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇慢城大道68号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108256",
+      "name": "仁恒江湾城三期",
+      "district": "建邺区",
+      "address": "建邺区乐山路207号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108404",
+      "name": "艾菲花园",
+      "district": "江北新区",
+      "address": "丽景路",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108787",
+      "name": "东骏悦府",
+      "district": "六合区",
+      "address": "龙池街道莉湖西路31号",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "108316",
+      "name": "南郡国际花园",
+      "district": "雨花台区",
+      "address": "雨花台区板桥新城",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108628",
+    "name": "浅山艺境园",
+    "city": "nanjing",
+    "district": "江北新区",
+    "address": "顶山街道七里桥北路西侧",
+    "developer": "南京金硕房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108628",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108628/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T14:14:11.812909+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108628",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-24T14:14:11.812909+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108628/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1316,
+        "sold": 1310,
+        "available": 3,
+        "subscribed": 3,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1316,
+      "sold": 1310,
+      "available": 3
+    }
+  },
+  "sourceSha256": "5ecb7ffc4d216b4c2e13ca5c7e16bc5ecfbfc5e25e20dbd3c9310f4d241b5ab1"
+}

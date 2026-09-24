@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108333",
+    "name": "七里楠花园",
+    "city": "nanjing",
+    "district": "六合区",
+    "address": "六合区龙池街道龙华路66号",
+    "developer": "南京百德置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108333",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108333/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T14:14:11.812909+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108333",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-24T14:14:11.812909+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108333/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 2194,
+        "sold": 1315,
+        "available": 670,
+        "subscribed": 209,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2194,
+      "sold": 1315,
+      "available": 670
+    }
+  },
+  "sourceSha256": "1e66d5afa20c21f3424130496627caa9419752ca3657f1f5d7f1a94a11586b9a"
+}
