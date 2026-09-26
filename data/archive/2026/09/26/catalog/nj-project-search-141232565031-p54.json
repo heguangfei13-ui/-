@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-26T14:12:32.565031+08:00",
+  "sourceSha256": "c4919f181dec4963b346aa8a73411e99bec390491a49613bec3015a6fb02791e",
+  "rows": [
+    {
+      "number": "108280",
+      "name": "香溢紫郡花园（雅苑）",
+      "district": "浦口区",
+      "address": "星火北路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108242",
+      "name": "文承苑",
+      "district": "江北新区",
+      "address": "六合区松扬路99号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107093",
+      "name": "麒麟山庄",
+      "district": "江宁区",
+      "address": "江宁区汤山街道麒东路588号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107649",
+      "name": "武夷水岸",
+      "district": "江宁区",
+      "address": "江宁区东山街道湖山北路95号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108120",
+      "name": "边城世家",
+      "district": "鼓楼区",
+      "address": "南京市鼓楼区惠民大道",
+      "usage": "住宅"
+    },
+    {
+      "number": "106675",
+      "name": "翠屏国际城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道韩府路18号",
+      "usage": "住宅、别墅、商业、办公、车位"
+    },
+    {
+      "number": "108440",
+      "name": "湖滨壹號院",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇南漪路58号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107217",
+      "name": "长江路九号街区",
+      "district": "玄武区",
+      "address": "邓府巷西地块",
+      "usage": "住宅、商业、办公"
+    },
+    {
+      "number": "107803",
+      "name": "伴山香槟园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道格致路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106640",
+      "name": "百家湖西花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道利源中路168号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108255",
+      "name": "枫情水岸花园",
+      "district": "栖霞区",
+      "address": "仙林街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107726",
+      "name": "宜家国际公寓",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道文博路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108623",
+      "name": "五街坊",
+      "district": "六合区",
+      "address": "六合区雄州街道长江路66号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108364",
+      "name": "奕淳绿园",
+      "district": "高淳区",
+      "address": "奕淳绿园",
+      "usage": "住宅"
+    },
+    {
+      "number": "108104",
+      "name": "蓝天华门花园",
+      "district": "秦淮区",
+      "address": "秦淮区七里街",
+      "usage": "住宅"
+    },
+    {
+      "number": "108230",
+      "name": "北宸新苑",
+      "district": "溧水区",
+      "address": "溧水经济开发区秦淮大道188号",
+      "usage": "办公、住宅、商业"
+    },
+    {
+      "number": "105878",
+      "name": "广成东方名城",
+      "district": "溧水区",
+      "address": "溧水珍珠南路与金蛙路交叉东南侧",
+      "usage": "住宅、别墅、商业"
+    },
+    {
+      "number": "108287",
+      "name": "君望花园",
+      "district": "秦淮区",
+      "address": "秦淮区双麒路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107868",
+      "name": "紫金东郡花园",
+      "district": "玄武区",
+      "address": "苏宁大道8号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "108363",
+      "name": "丹桂园",
+      "district": "建邺区",
+      "address": "南京市建邺区兴隆",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

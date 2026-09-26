@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-26T14:12:32.565031+08:00",
+  "sourceSha256": "1d0d016dcbb30d55f02aba3261c9ca8d9419b3a582a319d5ceb5110061fdace8",
+  "rows": [
+    {
+      "number": "108620",
+      "name": "融悦花园",
+      "district": "玄武区",
+      "address": "玄武区双拜岗路",
+      "usage": "商店、住宅"
+    },
+    {
+      "number": "108219",
+      "name": "杏林北苑",
+      "district": "江北新区",
+      "address": "柳园路8号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108332",
+      "name": "青龙花园",
+      "district": "六合区",
+      "address": "金牛湖街道青龙市场街240号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106952",
+      "name": "星雨华府篱竹园",
+      "district": "建邺区",
+      "address": "建邺区河南村",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108249",
+      "name": "龙湖御景花园",
+      "district": "六合区",
+      "address": "六合区龙池街道华欧大道88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108207",
+      "name": "影都商汇",
+      "district": "溧水区",
+      "address": "横山西路8号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108473",
+      "name": "游山路2号居住区",
+      "district": "高淳区",
+      "address": "高淳开发区游山路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107789",
+      "name": "林景雅园",
+      "district": "浦口区",
+      "address": "江浦街道象山路东侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107603",
+      "name": "龙池翠洲花园",
+      "district": "六合区",
+      "address": "六合区雄州南路198号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107973",
+      "name": "骋望骊都华庭",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道弘景大道3889号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108200",
+      "name": "熙龙山院",
+      "district": "江北新区",
+      "address": "江浦街道海院路90号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108063",
+      "name": "香溢紫郡花园",
+      "district": "江北新区",
+      "address": "学府路",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108667",
+      "name": "青云端花园",
+      "district": "高淳区",
+      "address": "固城湖南路东侧、淳南路延伸段以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "108071",
+      "name": "金满庭",
+      "district": "栖霞区",
+      "address": "栖霞区东井村40号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108232",
+      "name": "福源名居",
+      "district": "高淳区",
+      "address": "濑渚路2号（水厂路与湖滨大道交汇处）",
+      "usage": "住宅"
+    },
+    {
+      "number": "107423",
+      "name": "嘉瑞山庄",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道开元欣街11号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "105881",
+      "name": "宏力花苑",
+      "district": "溧水区",
+      "address": "永阳镇中山东路19号",
+      "usage": "住宅、办公、商业"
+    },
+    {
+      "number": "108208",
+      "name": "京门府",
+      "district": "秦淮区",
+      "address": "通济门外大街7号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107653",
+      "name": "一品骊城",
+      "district": "溧水区",
+      "address": "溧水区经济开发区宝塔北路16号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108401",
+      "name": "林茵里",
+      "district": "江宁区",
+      "address": "江宁区淳化街道科建路371号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

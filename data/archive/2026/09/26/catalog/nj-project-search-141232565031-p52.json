@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-26T14:12:32.565031+08:00",
+  "sourceSha256": "61f2d38dc36d9c8754cbb0d3f8561d2a416869e18af61e0c4e7a5a14ca3580eb",
+  "rows": [
+    {
+      "number": "108266",
+      "name": "金尧华府",
+      "district": "栖霞区",
+      "address": "金尧路南侧",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "106860",
+      "name": "德国新城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道将军大道129号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107913",
+      "name": "绿色花园",
+      "district": "雨花台区",
+      "address": "新亭大街66号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108058",
+      "name": "凯阳花园",
+      "district": "溧水区",
+      "address": "永阳镇天生桥大道618号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107916",
+      "name": "宝驰景秀苑",
+      "district": "江宁区",
+      "address": "江宁区江宁街道地秀路518号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108335",
+      "name": "江月府",
+      "district": "江北新区",
+      "address": "泰山街道浦园北路1号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108248",
+      "name": "仙林湖西北角地块（NO.2012G37地块）",
+      "district": "栖霞区",
+      "address": "栖霞区仙林大学城",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108068",
+      "name": "梧桐语花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道修文路9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108175",
+      "name": "凤麟水苑",
+      "district": "溧水区",
+      "address": "新龙路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108110",
+      "name": "迴峰庄园",
+      "district": "溧水区",
+      "address": "白马镇康居路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108243",
+      "name": "滨江华苑",
+      "district": "江宁区",
+      "address": "江宁区江宁街道盛江路209号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108307",
+      "name": "江心洲C-7-1地块（NO.2012G34地块）",
+      "district": "建邺区",
+      "address": "建邺区江心洲",
+      "usage": "住宅"
+    },
+    {
+      "number": "108371",
+      "name": "碧湖天辰苑",
+      "district": "江宁区",
+      "address": "江宁区江宁街道宁桥南路178号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107882",
+      "name": "仁恒晶园",
+      "district": "建邺区",
+      "address": "建邺区嵩山路136号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108087",
+      "name": "静林湾花园",
+      "district": "江宁区",
+      "address": "江宁区湖熟街道汤铜路南侧",
+      "usage": "住宅"
+    },
+    {
+      "number": "107886",
+      "name": "学府世家",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道兴苑路18号",
+      "usage": "住宅、商业、办公、车位"
+    },
+    {
+      "number": "104351",
+      "name": "托乐嘉花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道将军大道9号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "108126",
+      "name": "江岸景城",
+      "district": "浦口区",
+      "address": "乌江镇故居路8号",
+      "usage": "住宅、车库"
+    },
+    {
+      "number": "108601",
+      "name": "翡翠谷花园",
+      "district": "雨花台区",
+      "address": "雨花台区赛虹桥街道纬九路以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "108369",
+      "name": "竹山华庭",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道天元东路19号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
