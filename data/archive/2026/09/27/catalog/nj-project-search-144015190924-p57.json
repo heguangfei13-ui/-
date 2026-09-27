@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-27T14:40:15.190924+08:00",
+  "sourceSha256": "9edbcb9fbe350fb5e78bb6017d43a2dfb8fd8f7ec0a5159d4de79590cb56fd79",
+  "rows": [
+    {
+      "number": "108057",
+      "name": "金色领域花园",
+      "district": "栖霞区",
+      "address": "仙林湖以北2号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108190",
+      "name": "金地名邸",
+      "district": "高淳区",
+      "address": "学山路260号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108224",
+      "name": "慧吉谷望山居",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道吉山大道8号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106844",
+      "name": "阳光家苑",
+      "district": "溧水区",
+      "address": "秦淮路159号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108076",
+      "name": "银庭馨苑",
+      "district": "高淳区",
+      "address": "淳溪镇镇兴路177号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108015",
+      "name": "景湖名都",
+      "district": "高淳区",
+      "address": "高淳区固城镇育才西路91号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108453",
+      "name": "将军庙40号地块",
+      "district": "鼓楼区",
+      "address": "南京市鼓楼区将军庙40号",
+      "usage": "车位、商业、住宅"
+    },
+    {
+      "number": "108060",
+      "name": "润龙锦园",
+      "district": "江宁区",
+      "address": "秣陵街道殷华街36号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108054",
+      "name": "水晶蓝湾",
+      "district": "江宁区",
+      "address": "江宁开发区双龙大道1568号",
+      "usage": "住宅、商业、办公、酒店式公寓"
+    },
+    {
+      "number": "108027",
+      "name": "睿域",
+      "district": "栖霞区",
+      "address": "北苑西路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107545",
+      "name": "上水园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区宁南8号地块",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108111",
+      "name": "花语馨苑",
+      "district": "六合区",
+      "address": "六合区雄州街道王桥路19号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107891",
+      "name": "金城丽景(北区)",
+      "district": "江北新区",
+      "address": "大桥北路33号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108125",
+      "name": "江宁万达广场",
+      "district": "江宁区",
+      "address": "江宁区东山街道竹山路59号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "108143",
+      "name": "鸿裕华庭",
+      "district": "江宁区",
+      "address": "淳化街道东月桥路246号",
+      "usage": "住宅、车库"
+    },
+    {
+      "number": "108222",
+      "name": "东骏华府",
+      "district": "六合区",
+      "address": "横梁街道瑞成路9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108116",
+      "name": "青春水岸家园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道秦淮路4号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108141",
+      "name": "旺运花园",
+      "district": "江宁区",
+      "address": "江宁区淳化街道东月桥路332号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107359",
+      "name": "绿城玫瑰园",
+      "district": "浦口区",
+      "address": "珍珠泉旅游度假区绿园路88号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "108074",
+      "name": "旭日学府街区",
+      "district": "江北新区",
+      "address": "宁六路75号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    }
+  ],
+  "rejected": []
+}
