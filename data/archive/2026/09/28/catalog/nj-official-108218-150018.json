@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-108218",
+    "name": "柒彩星城",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "西善桥北路87号",
+    "developer": "江苏安居高校投资置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-108218",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/108218/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T15:00:18.421837+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "108218",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-28T15:00:18.421837+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/108218/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 988,
+        "sold": 837,
+        "available": 147,
+        "subscribed": 4,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 988,
+      "sold": 837,
+      "available": 147
+    }
+  },
+  "sourceSha256": "c5049fc489b7607e92ef28267749b1e63e7954a74626c2acdbbabd71d43767b4"
+}

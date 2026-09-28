@@ -1,0 +1,150 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-28T15:00:18.421837+08:00",
+  "sourceSha256": "f071c3690c4c9a5b74b64590e2b79bdcbfcc168b3f7c44100a4b8acd89587d24",
+  "rows": [
+    {
+      "number": "108379",
+      "name": "茗芳苑",
+      "district": "建邺区",
+      "address": "月安街以南，苍山路以东",
+      "usage": "车位、商业、住宅"
+    },
+    {
+      "number": "107602",
+      "name": "雨山美地",
+      "district": "浦口区",
+      "address": "浦口区江浦街道雨山西路95号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108197",
+      "name": "银河湾紫苑",
+      "district": "江宁区",
+      "address": "江宁区麒麟街道丹青路8号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107988",
+      "name": "宏泰雅苑",
+      "district": "溧水区",
+      "address": "永阳镇交通路127号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107736",
+      "name": "阳明山庄",
+      "district": "江宁区",
+      "address": "江宁区汤山街道古泉社区",
+      "usage": "住宅"
+    },
+    {
+      "number": "108292",
+      "name": "银湖佳苑",
+      "district": "江宁区",
+      "address": "江宁区湖熟街道宝塔北路123号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108368",
+      "name": "南方名苑",
+      "district": "溧水区",
+      "address": "溧水区永阳镇体育公园路79号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "106916",
+      "name": "明都雅苑",
+      "district": "秦淮区",
+      "address": "秦淮区明都雅苑",
+      "usage": "住宅"
+    },
+    {
+      "number": "106794",
+      "name": "荣盛水景城",
+      "district": "江北新区",
+      "address": "大厂5号街区荣盛水景城",
+      "usage": "住宅、商业、车位",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108321",
+      "name": "文庭佳苑",
+      "district": "溧水区",
+      "address": "东屏镇常溧路南、文化中心西",
+      "usage": "住宅、商业、车库"
+    },
+    {
+      "number": "107797",
+      "name": "仙龙湾山庄",
+      "district": "栖霞区",
+      "address": "仙隐南路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107758",
+      "name": "中城花园·塞纳名邸",
+      "district": "溧水区",
+      "address": "溧水县经济开发区机场路8号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107777",
+      "name": "文馨花苑",
+      "district": "六合区",
+      "address": "六合区雄州街道雄州西路199号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108006",
+      "name": "千花溪苑",
+      "district": "江宁区",
+      "address": "秣陵街道清水亭东路10号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108296",
+      "name": "金牛华府",
+      "district": "六合区",
+      "address": "金牛湖街道茉莉花路368号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107082",
+      "name": "美之国花园",
+      "district": "江宁区",
+      "address": "江宁开发区将军大道2号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "103695",
+      "name": "复地朗香",
+      "district": "江宁区",
+      "address": "江宁经济开发区佛城西路138-158号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "107370",
+      "name": "东方龙湖湾",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道龙眠大道588号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108264",
+      "name": "瑞富广场",
+      "district": "高淳区",
+      "address": "淳溪镇甘霖路32号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108189",
+      "name": "中城国际广场",
+      "district": "秦淮区",
+      "address": "太平南路166号",
+      "usage": "车位、商业、住宅"
+    }
+  ],
+  "rejected": []
+}

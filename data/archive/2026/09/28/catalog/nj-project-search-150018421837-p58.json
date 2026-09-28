@@ -1,0 +1,153 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-28T15:00:18.421837+08:00",
+  "sourceSha256": "a7cd4989877c606bfffcec605a394e675c4cee1133f15b1f9e34aea2f0618548",
+  "rows": [
+    {
+      "number": "108202",
+      "name": "枫林湾花园",
+      "district": "江宁区",
+      "address": "江宁区东山街道北沿路15号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107772",
+      "name": "水岸明珠公寓",
+      "district": "江宁区",
+      "address": "江宁区东山街道双龙大道958号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107711",
+      "name": "南方新城",
+      "district": "溧水区",
+      "address": "溧水永阳镇金蛙路80号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106981",
+      "name": "盘金华府",
+      "district": "江北新区",
+      "address": "浦口区盘城镇丁解水库西侧",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108127",
+      "name": "翡翠名园",
+      "district": "建邺区",
+      "address": "南京市建邺区叶圩村",
+      "usage": "住宅"
+    },
+    {
+      "number": "108402",
+      "name": "观澜汐园",
+      "district": "建邺区",
+      "address": "建邺区江心洲",
+      "usage": "住宅"
+    },
+    {
+      "number": "108452",
+      "name": "君悦花园",
+      "district": "江北新区",
+      "address": "南京市六合区大厂浦六南路8号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108072",
+      "name": "怡园",
+      "district": "六合区",
+      "address": "冶山镇石柱林路188号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108302",
+      "name": "三金燕语庭",
+      "district": "栖霞区",
+      "address": "栖霞区神农路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107999",
+      "name": "时代景园",
+      "district": "溧水区",
+      "address": "崇文路88号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108226",
+      "name": "雍华府",
+      "district": "建邺区",
+      "address": "建邺区泰山路以东，怡康街以南，白鹭东街以北，吉山路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "108086",
+      "name": "棠雅苑",
+      "district": "江北新区",
+      "address": "六合区葛中北路188号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107905",
+      "name": "保利紫晶山",
+      "district": "栖霞区",
+      "address": "南京市栖霞区马群大庄6号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108211",
+      "name": "舜天大湖美锦",
+      "district": "高淳区",
+      "address": "高淳区淳溪镇湖滨路133号；淳南路122号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108019",
+      "name": "罗兰香谷花园",
+      "district": "栖霞区",
+      "address": "栖霞区仙林湖以北1号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108434",
+      "name": "宁南雅苑",
+      "district": "溧水区",
+      "address": "永阳镇韩湖南路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107568",
+      "name": "芳草名苑",
+      "district": "溧水区",
+      "address": "溧水区和凤镇凤凰东路9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108100",
+      "name": "欣城峰景花苑",
+      "district": "江北新区",
+      "address": "大厂欣乐路19号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107889",
+      "name": "逸翠居",
+      "district": "江宁区",
+      "address": "秣陵街道石柱街10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107304",
+      "name": "上逸园",
+      "district": "玄武区",
+      "address": "玄武区柳营",
+      "usage": "商业、住宅"
+    }
+  ],
+  "rejected": []
+}
