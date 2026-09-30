@@ -1,0 +1,154 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-30T14:48:06.078936+08:00",
+  "sourceSha256": "80b6198eb826c0f1420e5738949a429d4a32fb1ee130eea3fbf3f68a7860c3bc",
+  "rows": [
+    {
+      "number": "107907",
+      "name": "来凤街一号花园",
+      "district": "秦淮区",
+      "address": "秦淮区来凤街1号",
+      "usage": "车位、住宅"
+    },
+    {
+      "number": "107349",
+      "name": "自然天城",
+      "district": "江北新区",
+      "address": "浦口区江浦街道沿山东路188号",
+      "usage": "住宅、别墅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108216",
+      "name": "鑫怡园",
+      "district": "高淳区",
+      "address": "丹阳湖北路103号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108005",
+      "name": "聚泽园",
+      "district": "鼓楼区",
+      "address": "凤凰西街与江东北路交叉口北侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108217",
+      "name": "牌楼巷五十五号花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区牌楼巷55号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108040",
+      "name": "铭人丽岛花园",
+      "district": "江北新区",
+      "address": "星火南路16号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107975",
+      "name": "兰亭苑",
+      "district": "六合区",
+      "address": "大厂草芳路800号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106724",
+      "name": "钱塘望景花园",
+      "district": "浦口区",
+      "address": "浦口区珠江镇象山路11号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107986",
+      "name": "彩云居",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道吉印大道2009号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107851",
+      "name": "碧瑶花园二期",
+      "district": "建邺区",
+      "address": "滨江路以东，青石埂路以南",
+      "usage": "住宅"
+    },
+    {
+      "number": "107922",
+      "name": "绣景雅苑",
+      "district": "江北新区",
+      "address": "六合区大厂葛关路703号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "108206",
+      "name": "住宅(A地块)",
+      "district": "秦淮区",
+      "address": "乌衣巷28号1幢",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "108156",
+      "name": "汇景苑",
+      "district": "溧水区",
+      "address": "永阳镇致远路88号",
+      "usage": "车位、住宅"
+    },
+    {
+      "number": "106817",
+      "name": "上城风景",
+      "district": "栖霞区",
+      "address": "尧化门街179号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107828",
+      "name": "明发城市广场",
+      "district": "江北新区",
+      "address": "浦口区珍珠南路2号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "106779",
+      "name": "明发滨江新城",
+      "district": "江北新区",
+      "address": "浦口滨江大道1号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108174",
+      "name": "珑璟庭",
+      "district": "栖霞区",
+      "address": "后方冲东",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "107590",
+      "name": "钟鼎山庄",
+      "district": "玄武区",
+      "address": "孝陵卫韦陀巷",
+      "usage": "住宅"
+    },
+    {
+      "number": "108032",
+      "name": "名郡花园",
+      "district": "建邺区",
+      "address": "建邺区集庆门大街以北、湖西街以西",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107933",
+      "name": "德盈国际广场",
+      "district": "雨花台区",
+      "address": "赛虹桥街道北西营村",
+      "usage": "住宅、商业、办公、车位"
+    }
+  ],
+  "rejected": []
+}

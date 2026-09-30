@@ -1,0 +1,152 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-30T14:48:06.078936+08:00",
+  "sourceSha256": "346fee761ea6c202646c79328673b1b9255e7b7b449e8513a408d9e69dd19656",
+  "rows": [
+    {
+      "number": "103821",
+      "name": "明月港湾",
+      "district": "江宁区",
+      "address": "江宁区岔路口金盛路988号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "100384",
+      "name": "阅城国际花园",
+      "district": "雨花台区",
+      "address": "共青团路东",
+      "usage": "住宅"
+    },
+    {
+      "number": "107316",
+      "name": "海德北岸城",
+      "district": "江北新区",
+      "address": "泰山街道北引桥东侧",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108283",
+      "name": "万和尊邸",
+      "district": "玄武区",
+      "address": "中央路70号",
+      "usage": "住宅、商业、办公、车位"
+    },
+    {
+      "number": "108258",
+      "name": "光华路108号",
+      "district": "秦淮区",
+      "address": "光华路108号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107598",
+      "name": "滨河城市花园",
+      "district": "雨花台区",
+      "address": "雨花台区板桥B地块",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107837",
+      "name": "御江金城",
+      "district": "建邺区",
+      "address": "梦都大街188号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107914",
+      "name": "江佑铂庭",
+      "district": "浦口区",
+      "address": "浦口区新浦路105号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108269",
+      "name": "学府雅苑",
+      "district": "六合区",
+      "address": "六合区程桥街道编钟东路112号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108135",
+      "name": "百丽明珠花园",
+      "district": "江宁区",
+      "address": "江宁区禄口街道信陵路448号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106827",
+      "name": "阅景龙华公寓",
+      "district": "浦口区",
+      "address": "浦口区珠江镇龙华路10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107953",
+      "name": "中冶天城",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道殷富街375号",
+      "usage": "办公、商业、住宅"
+    },
+    {
+      "number": "107317",
+      "name": "天华绿谷庄园",
+      "district": "江北新区",
+      "address": "浦口区泰冯路65号",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107959",
+      "name": "仁恒江湾城二期",
+      "district": "建邺区",
+      "address": "建邺区乐山路199号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "106647",
+      "name": "盛泉新城",
+      "district": "江北新区",
+      "address": "浦口区顶山街道临泉村花园88号",
+      "usage": "商业、住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107983",
+      "name": "紫金尚园",
+      "district": "栖霞区",
+      "address": "栖霞区马群街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "107326",
+      "name": "金庭国际花园",
+      "district": "溧水区",
+      "address": "溧水区永阳镇毓秀路",
+      "usage": "住宅、车库、商业"
+    },
+    {
+      "number": "107754",
+      "name": "紫庐",
+      "district": "玄武区",
+      "address": "玄武区蒋王庙街",
+      "usage": "车位、储藏间、住宅"
+    },
+    {
+      "number": "107010",
+      "name": "印湖山庄",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道印湖路39号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107831",
+      "name": "名城世家花园",
+      "district": "雨花台区",
+      "address": "南京市雨花台区小行路58号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

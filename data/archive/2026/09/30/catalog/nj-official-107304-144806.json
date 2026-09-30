@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107304",
+    "name": "上逸园",
+    "city": "nanjing",
+    "district": "玄武区",
+    "address": "玄武区柳营",
+    "developer": "江苏美易拍贸易有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107304",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107304/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-09-30T14:48:06.078936+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107304",
+    "salesHistory": [
+      {
+        "observedAt": "2026-09-30T14:48:06.078936+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107304/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "商业、住宅",
+        "total": 532,
+        "sold": 502,
+        "available": 27,
+        "subscribed": 3,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 532,
+      "sold": 502,
+      "available": 27
+    }
+  },
+  "sourceSha256": "6bac2f470a18725094b6f054c239a51448e7b78a1efc1a8e6ae5498512a6f392"
+}

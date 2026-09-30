@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-09-30T14:48:06.078936+08:00",
+  "sourceSha256": "5240567289498d75bb09e3904978795e543e0564d6d45bb99df709fae9d9bda6",
+  "rows": [
+    {
+      "number": "107449",
+      "name": "江雁依山郡花园",
+      "district": "鼓楼区",
+      "address": "鼓楼区幕府西路88号",
+      "usage": "住宅、商业、单身公寓、车位"
+    },
+    {
+      "number": "106924",
+      "name": "恒信缔景名苑",
+      "district": "浦口区",
+      "address": "浦口区珠江镇河滨路",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107324",
+      "name": "栖园",
+      "district": "栖霞区",
+      "address": "仙林大学城中心区东侧",
+      "usage": "住宅"
+    },
+    {
+      "number": "107890",
+      "name": "金郡花园",
+      "district": "栖霞区",
+      "address": "尧化街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107767",
+      "name": "尚品馨苑",
+      "district": "江北新区",
+      "address": "六合大厂葛中路629号",
+      "usage": "车库、住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107129",
+      "name": "幸福美地花园",
+      "district": "江北新区",
+      "address": "浦口区泰山街道桥北村",
+      "usage": "住宅、商业、车位",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108002",
+      "name": "都市尚品",
+      "district": "高淳区",
+      "address": "水厂路西侧、自来水厂南侧",
+      "usage": "住宅"
+    },
+    {
+      "number": "107396",
+      "name": "桠溪农民集中居住区",
+      "district": "高淳区",
+      "address": "高淳区桠溪镇桠定路2叼",
+      "usage": "住宅"
+    },
+    {
+      "number": "107822",
+      "name": "紫晶广场",
+      "district": "六合区",
+      "address": "六合区雄州街道专诸巷28号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107077",
+      "name": "绿野枫景花园",
+      "district": "江宁区",
+      "address": "江宁区湖熟镇灵顺北路318号",
+      "usage": "住宅、别墅、车库"
+    },
+    {
+      "number": "107608",
+      "name": "上城风景北苑",
+      "district": "栖霞区",
+      "address": "栖霞区尧化街道尧辰采石场",
+      "usage": "住宅"
+    },
+    {
+      "number": "107041",
+      "name": "世纪东山花园",
+      "district": "江宁区",
+      "address": "江宁区东山街道文靖东路以南、万安西路以北",
+      "usage": "住宅"
+    },
+    {
+      "number": "108139",
+      "name": "叶泊山庄",
+      "district": "江宁区",
+      "address": "江宁区谷里街道丹阳大道111号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107938",
+      "name": "圣马丽都",
+      "district": "六合区",
+      "address": "马集镇赤兔路61、62号",
+      "usage": "办公、住宅、商业"
+    },
+    {
+      "number": "107671",
+      "name": "东坝镇德维鑫建材市场",
+      "district": "高淳区",
+      "address": "东坝镇欧兰特大道9号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107924",
+      "name": "林溪山墅",
+      "district": "江宁区",
+      "address": "江宁区横溪街道甘泉湖路1号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107702",
+      "name": "珍珠佳苑",
+      "district": "溧水区",
+      "address": "溧水区经济开发区珍珠北路192号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107577",
+      "name": "紫气钟山苑",
+      "district": "玄武区",
+      "address": "玄武区徐庄软件园北侧地块",
+      "usage": "住宅、单身公寓"
+    },
+    {
+      "number": "107740",
+      "name": "恒山花苑",
+      "district": "建邺区",
+      "address": "金沙江东街以北，恒山路与黄山路之间",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107477",
+      "name": "金都悦园",
+      "district": "六合区",
+      "address": "六合区雄州街道雄州南路168号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}
