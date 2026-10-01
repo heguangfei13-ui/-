@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-10-01T15:14:00.886205+08:00",
+  "sourceSha256": "b47bcf170f7c4b72e26fe09e861c38cbe08fbaeef3ce2b81a0e70370e1588772",
+  "rows": [
+    {
+      "number": "108055",
+      "name": "紫金上河苑",
+      "district": "鼓楼区",
+      "address": "郑和南路88号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "107766",
+      "name": "鸿运嘉园",
+      "district": "栖霞区",
+      "address": "南京市栖霞区学海路28号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "107810",
+      "name": "丽池花园",
+      "district": "栖霞区",
+      "address": "南京市栖霞区前新塘",
+      "usage": "住宅、商业、单身公寓"
+    },
+    {
+      "number": "108045",
+      "name": "天苜雅园",
+      "district": "秦淮区",
+      "address": "秦淮区光华门146号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106841",
+      "name": "馨怡园",
+      "district": "栖霞区",
+      "address": "合班村8号",
+      "usage": "住宅、车位"
+    },
+    {
+      "number": "107135",
+      "name": "泰山天然居",
+      "district": "江北新区",
+      "address": "浦口区泰山新村泰西路5-1号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "108053",
+      "name": "阅景龙江国际公寓",
+      "district": "鼓楼区",
+      "address": "鼓楼区江东北路",
+      "usage": "住宅、商业、办公、车位"
+    },
+    {
+      "number": "107529",
+      "name": "横塘西苑",
+      "district": "建邺区",
+      "address": "所街石家庄组",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106837",
+      "name": "山水方舟雅苑",
+      "district": "江宁区",
+      "address": "江宁区东山镇宏运大道以北、秦淮河以东以南",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107167",
+      "name": "君悦华庭",
+      "district": "溧水区",
+      "address": "溧水区永阳镇文昌东街29号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107566",
+      "name": "春晓花园",
+      "district": "建邺区",
+      "address": "集庆门大街以南，云锦路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "107095",
+      "name": "金地康城",
+      "district": "高淳区",
+      "address": "高淳区胥河路88号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107352",
+      "name": "名境雅筑东苑",
+      "district": "江宁区",
+      "address": "江宁区东山街道宏运大道2298号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "106858",
+      "name": "爱涛漪水园",
+      "district": "江宁区",
+      "address": "江宁开发区爱涛路18号",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "108052",
+      "name": "石羊新寓(保障性住房)",
+      "district": "江宁区",
+      "address": "东山街道通湖路18号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107640",
+      "name": "东城世家",
+      "district": "栖霞区",
+      "address": "栖霞区尧辰路3号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106643",
+      "name": "中海塞纳丽舍",
+      "district": "建邺区",
+      "address": "嵩山路126号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "108059",
+      "name": "元茂大厦",
+      "district": "江北新区",
+      "address": "沿江工业开发区十村转盘北侧",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107796",
+      "name": "银河国际街区",
+      "district": "鼓楼区",
+      "address": "东起燕山路、西起清河路,南起集庆门大街,北至汉中门大街NO.2007G115地块中地块三",
+      "usage": "住宅"
+    },
+    {
+      "number": "107950",
+      "name": "兴龙家园",
+      "district": "溧水区",
+      "address": "溧水区石湫镇东横街88号",
+      "usage": "住宅"
+    }
+  ],
+  "rejected": []
+}

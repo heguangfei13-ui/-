@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107758",
+    "name": "中城花园·塞纳名邸",
+    "city": "nanjing",
+    "district": "溧水区",
+    "address": "溧水县经济开发区机场路8号",
+    "developer": "南京卓邦置业有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107758",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107758/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-01T15:14:00.886205+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107758",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-01T15:14:00.886205+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107758/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 155,
+        "sold": 155,
+        "available": 0,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 155,
+      "sold": 155,
+      "available": 0
+    }
+  },
+  "sourceSha256": "45bfdb69c97b0493fd5b6049d743008b3ba9f2958cc76b580aa3686d141cb8fd"
+}

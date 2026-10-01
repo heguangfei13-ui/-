@@ -1,0 +1,144 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-10-01T15:14:00.886205+08:00",
+  "sourceSha256": "a2a8915e7b9e6be6bd7a2fe0a983225aebbf5e3ebff4a5a0d671e8196e949cb5",
+  "rows": [
+    {
+      "number": "107477",
+      "name": "金都悦园",
+      "district": "六合区",
+      "address": "六合区雄州街道雄州南路168号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106900",
+      "name": "快乐之城",
+      "district": "江北新区",
+      "address": "浦口区浦珠北路126号",
+      "usage": "商业、住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107403",
+      "name": "复兴园",
+      "district": "六合区",
+      "address": "六合区雄州镇长江路295号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107716",
+      "name": "紫园",
+      "district": "栖霞区",
+      "address": "马群老街",
+      "usage": "住宅"
+    },
+    {
+      "number": "107937",
+      "name": "凯鸿燕澜湾花苑",
+      "district": "栖霞区",
+      "address": "和燕路498号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107885",
+      "name": "和美园",
+      "district": "雨花台区",
+      "address": "长虹路399号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107857",
+      "name": "银江花园",
+      "district": "江北新区",
+      "address": "大厂团结路8号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "107351",
+      "name": "上福南园",
+      "district": "秦淮区",
+      "address": "秦淮区白酒坊",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107765",
+      "name": "金盛田铂宫",
+      "district": "浦口区",
+      "address": "浦口区江浦街道汽车站东侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107875",
+      "name": "旭日雅筑",
+      "district": "栖霞区",
+      "address": "栖霞区尧化街道",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107002",
+      "name": "天水滨江花园",
+      "district": "鼓楼区",
+      "address": "清江村",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107302",
+      "name": "新合家花园",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道诚信大道899号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107915",
+      "name": "仙踪林苑",
+      "district": "栖霞区",
+      "address": "栖霞区迈皋桥街道",
+      "usage": "住宅"
+    },
+    {
+      "number": "107604",
+      "name": "文鼎雅苑",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道玉树路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108056",
+      "name": "溧都桂苑",
+      "district": "溧水区",
+      "address": "金牛北路666号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107016",
+      "name": "双赢花园",
+      "district": "江宁区",
+      "address": "江宁区科学园莱茵达路139号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107888",
+      "name": "学府雅苑",
+      "district": "溧水区",
+      "address": "珍珠南路158号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "108093",
+      "name": "紫枫雅苑",
+      "district": "溧水区",
+      "address": "中兴东路11号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108094",
+      "name": "逸珍公馆花园、逸珍商务楼",
+      "district": "雨花台区",
+      "address": "雨花东路45、55号",
+      "usage": "住宅、商业、车位"
+    }
+  ],
+  "rejected": []
+}

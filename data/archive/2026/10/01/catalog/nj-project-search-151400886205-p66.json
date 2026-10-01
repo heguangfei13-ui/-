@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-10-01T15:14:00.886205+08:00",
+  "sourceSha256": "fa27a212b6f39f24ef42ba4886dc1d704c8568f8ef02ca5dbd71021c8b56b4f3",
+  "rows": [
+    {
+      "number": "107863",
+      "name": "香槟国际花园",
+      "district": "建邺区",
+      "address": "金沙江东街以南，庐山路以东",
+      "usage": "住宅"
+    },
+    {
+      "number": "107582",
+      "name": "双湖明珠",
+      "district": "高淳区",
+      "address": "高淳区双高路28号",
+      "usage": "别墅、住宅、商业"
+    },
+    {
+      "number": "107756",
+      "name": "奥体新城青桐园",
+      "district": "建邺区",
+      "address": "南京市建邺区石家庄路以南，赛上路以北，泰山西路以西",
+      "usage": "住宅"
+    },
+    {
+      "number": "108026",
+      "name": "天玺国际广场",
+      "district": "鼓楼区",
+      "address": "东宝路与清江路交界处西北角",
+      "usage": "住宅"
+    },
+    {
+      "number": "108031",
+      "name": "瓯江华府",
+      "district": "江宁区",
+      "address": "东山街道东新南路9号",
+      "usage": "住宅、单身公寓"
+    },
+    {
+      "number": "107389",
+      "name": "招商.依云溪谷",
+      "district": "栖霞区",
+      "address": "栖霞区仙林大学城仙林大道南、仙霞路西",
+      "usage": "住宅、别墅"
+    },
+    {
+      "number": "107379",
+      "name": "鑫龙花苑",
+      "district": "六合区",
+      "address": "六合区程桥镇编钟路90号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107256",
+      "name": "凯悦花园",
+      "district": "高淳区",
+      "address": "高淳区北岭路217号",
+      "usage": "商业、住宅"
+    },
+    {
+      "number": "107731",
+      "name": "皇册家园三期",
+      "district": "秦淮区",
+      "address": "秦淮区来凤小区",
+      "usage": "办公、其他、商业、住宅"
+    },
+    {
+      "number": "107751",
+      "name": "百悦家花园",
+      "district": "江北新区",
+      "address": "南京市六合区大厂育英路299号",
+      "usage": "住宅、商业、车库",
+      "sourceDistrict": "江北新区(六合区)"
+    },
+    {
+      "number": "106700",
+      "name": "江岸水城",
+      "district": "江北新区",
+      "address": "浦口区沿江街道复兴村",
+      "usage": "住宅、商业、车位",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107546",
+      "name": "广博苑",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道天印大道1369号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107984",
+      "name": "鸿意万嘉公寓",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道开源路9号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107921",
+      "name": "领尚公寓",
+      "district": "秦淮区",
+      "address": "秦淮区宏光路北侧",
+      "usage": "住宅、商业、办公、车位、酒店式公寓、其他"
+    },
+    {
+      "number": "108030",
+      "name": "金陵春苑",
+      "district": "高淳区",
+      "address": "淳溪镇北岭路68号",
+      "usage": "住宅、商业、车库"
+    },
+    {
+      "number": "107944",
+      "name": "白马湖人居森林花园",
+      "district": "溧水区",
+      "address": "白龙路2号",
+      "usage": "住宅"
+    },
+    {
+      "number": "108020",
+      "name": "星河枫园",
+      "district": "六合区",
+      "address": "泰山路239号",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "107771",
+      "name": "鼎业国际花园",
+      "district": "浦口区",
+      "address": "浦口区文德东路24号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107742",
+      "name": "名域",
+      "district": "玄武区",
+      "address": "黑墨营路",
+      "usage": "住宅"
+    },
+    {
+      "number": "107947",
+      "name": "墨林雅苑",
+      "district": "六合区",
+      "address": "六合区程桥街道编钟东路388号",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}

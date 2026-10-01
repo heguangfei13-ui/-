@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107906",
+    "name": "青城苑",
+    "city": "nanjing",
+    "district": "江宁区",
+    "address": "江宁开发区将军大道62号",
+    "developer": "江苏天泰建设有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107906",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107906/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-01T15:14:00.886205+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107906",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-01T15:14:00.886205+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107906/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 1016,
+        "sold": 974,
+        "available": 42,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 1016,
+      "sold": 974,
+      "available": 42
+    }
+  },
+  "sourceSha256": "7a0bc1719dd4c5b4a991851861e3198b80ae7e4c72b6d4c3146ab05fbc9bcdb7"
+}
