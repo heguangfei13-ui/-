@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107316",
+    "name": "海德北岸城",
+    "city": "nanjing",
+    "district": "江北新区",
+    "address": "泰山街道北引桥东侧",
+    "developer": "南京金东房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107316",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107316/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-02T15:04:17.564922+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107316",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-02T15:04:17.564922+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107316/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 3623,
+        "sold": 3386,
+        "available": 21,
+        "subscribed": 216,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 3623,
+      "sold": 3386,
+      "available": 21
+    }
+  },
+  "sourceSha256": "61497e9715c2c1a88a0190a08d5cf3f4ef9ab13ce8675d7ff900928ead1b9d13"
+}

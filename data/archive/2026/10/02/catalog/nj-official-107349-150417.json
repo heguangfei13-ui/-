@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107349",
+    "name": "自然天城",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区江浦街道沿山东路188号",
+    "developer": "江苏国信象山地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107349",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107349/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-02T15:04:17.564922+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107349",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-02T15:04:17.564922+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107349/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、别墅",
+        "total": 399,
+        "sold": 316,
+        "available": 3,
+        "subscribed": 80,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 399,
+      "sold": 316,
+      "available": 3
+    }
+  },
+  "sourceSha256": "13c3f293cd3114780397da23e8245c1f645327a48633eb23e758cef1df6b32a0"
+}

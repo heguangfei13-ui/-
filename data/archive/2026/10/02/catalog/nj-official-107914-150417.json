@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107914",
+    "name": "江佑铂庭",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区新浦路105号",
+    "developer": "中铁十四局集团房地产开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107914",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107914/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-02T15:04:17.564922+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107914",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-02T15:04:17.564922+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107914/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅、商业",
+        "total": 2969,
+        "sold": 2727,
+        "available": 219,
+        "subscribed": 23,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 2969,
+      "sold": 2727,
+      "available": 219
+    }
+  },
+  "sourceSha256": "0596bd072c6e26ece26f0fabd6d622e25dceffc944de423e7ac7595b5b0e9e1a"
+}
