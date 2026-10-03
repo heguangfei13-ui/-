@@ -1,0 +1,151 @@
+{
+  "sourceId": "nj-project-search",
+  "url": "https://www.njhouse.com.cn/jsmart/nj/web/webProjectSearch",
+  "collectedAt": "2026-10-03T14:37:24.136419+08:00",
+  "sourceSha256": "80fa7663de6ec1b94e97f7ebdf80ac07be1559db8c400bbebccc0fbdff068ac0",
+  "rows": [
+    {
+      "number": "107845",
+      "name": "金湖家园住宅小区",
+      "district": "溧水区",
+      "address": "溧水区东屏镇金湖路100号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107709",
+      "name": "濛雨家园",
+      "district": "浦口区",
+      "address": "浦口区桥林街道",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107651",
+      "name": "湖山尊邸",
+      "district": "江宁区",
+      "address": "江宁区秣陵街道昌宁路99号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107691",
+      "name": "滨河御景花园",
+      "district": "江北新区",
+      "address": "浦珠路129号",
+      "usage": "住宅、商业",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107437",
+      "name": "雅居乐花园",
+      "district": "秦淮区",
+      "address": "秦淮区龙蟠南路33号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107366",
+      "name": "六合雨花石文化园",
+      "district": "六合区",
+      "address": "六合区横梁镇山东路51号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107478",
+      "name": "鼎泰家园",
+      "district": "江北新区",
+      "address": "浦口高新技术开发区泰山园区",
+      "usage": "住宅",
+      "sourceDistrict": "江北新区(浦口区)"
+    },
+    {
+      "number": "107976",
+      "name": "百露园",
+      "district": "六合区",
+      "address": "新篁镇新建南路188号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107579",
+      "name": "君悦湖滨花园",
+      "district": "雨花台区",
+      "address": "雨花台区宁南11号地块",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107430",
+      "name": "工业园区配套住宅",
+      "district": "溧水区",
+      "address": "溧水洪蓝镇金牛北路318号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107032",
+      "name": "宋都美域",
+      "district": "建邺区",
+      "address": "建邺区纬九路南、恒生路与南湖路间",
+      "usage": "住宅"
+    },
+    {
+      "number": "107600",
+      "name": "学仕风华苑",
+      "district": "栖霞区",
+      "address": "南京市栖霞区仙境路29号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107994",
+      "name": "盛景园",
+      "district": "鼓楼区",
+      "address": "鼓楼区幕府山街道",
+      "usage": "住宅、商业、车位"
+    },
+    {
+      "number": "107661",
+      "name": "大吉山水",
+      "district": "浦口区",
+      "address": "浦口区汤泉街道银泉路88号",
+      "usage": "住宅"
+    },
+    {
+      "number": "100543",
+      "name": "滨江奥城",
+      "district": "建邺区",
+      "address": "奥体中心西北部运动员村西侧",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "107471",
+      "name": "亚都天元居",
+      "district": "江宁区",
+      "address": "江宁开发区静淮街137号",
+      "usage": "住宅"
+    },
+    {
+      "number": "106648",
+      "name": "编钟公寓",
+      "district": "六合区",
+      "address": "程桥镇编钟路68号",
+      "usage": "住宅、商业"
+    },
+    {
+      "number": "106679",
+      "name": "新理想佳园",
+      "district": "浦口区",
+      "address": "浦口区珠江镇珠泉西路",
+      "usage": "住宅"
+    },
+    {
+      "number": "107992",
+      "name": "平山公寓",
+      "district": "溧水区",
+      "address": "平安东路10号",
+      "usage": "住宅"
+    },
+    {
+      "number": "107312",
+      "name": "三元新村",
+      "district": "溧水区",
+      "address": "永阳镇城东干道两侧",
+      "usage": "住宅、商业"
+    }
+  ],
+  "rejected": []
+}

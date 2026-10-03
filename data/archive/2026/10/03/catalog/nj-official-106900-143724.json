@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-106900",
+    "name": "快乐之城",
+    "city": "nanjing",
+    "district": "浦口区",
+    "address": "浦口区浦珠北路126号",
+    "developer": "南京澳林地产有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-106900",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/106900/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-03T14:37:24.136419+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "106900",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-03T14:37:24.136419+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/106900/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "商业、住宅",
+        "total": 740,
+        "sold": 707,
+        "available": 23,
+        "subscribed": 10,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 740,
+      "sold": 707,
+      "available": 23
+    }
+  },
+  "sourceSha256": "c81b8a7e16dde8c0fd4519985c7cacde34c5bca460f9d2c6f3b46391be694d77"
+}

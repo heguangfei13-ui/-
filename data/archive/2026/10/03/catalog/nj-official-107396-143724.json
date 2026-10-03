@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-107396",
+    "name": "桠溪农民集中居住区",
+    "city": "nanjing",
+    "district": "高淳区",
+    "address": "高淳区桠溪镇桠定路2叼",
+    "developer": "高淳县桠溪城镇综合开发有限公司",
+    "housingType": "unknown",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "仅核验目录名称与区属；不证明产权可交易、当前供应、价格、学区或资产质量"
+    },
+    "source": {
+      "id": "nj-official-107396",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/107396/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-03T14:37:24.136419+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "107396",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-03T14:37:24.136419+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/107396/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 352,
+        "sold": 352,
+        "available": 0,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 352,
+      "sold": 352,
+      "available": 0
+    }
+  },
+  "sourceSha256": "1af4d28db2fa4de2c9d558d4fa82821fe2191e3a1b8cfd86ca3d5a228fc10586"
+}
