@@ -1,0 +1,68 @@
+{
+  "project": {
+    "id": "nj-official-4626200",
+    "name": "璞玥府",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "雨花台区西善桥街道NO.2026G25地块",
+    "developer": "南京兆瀚房地产开发有限公司",
+    "housingType": "new",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-official-4626200",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/4626200/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-10-23T14:05:37.796927+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "4626200",
+    "salesHistory": [
+      {
+        "observedAt": "2026-10-23T14:05:37.796927+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/4626200/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "一般住宅",
+        "total": 182,
+        "sold": 0,
+        "available": 182,
+        "subscribed": 0,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 182,
+      "sold": 0,
+      "available": 182
+    }
+  },
+  "sourceSha256": "a2244d29cdb92afc1382567f2d451fded422c0df5225fef1cd4969405131fda8"
+}
