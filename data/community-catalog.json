@@ -90727,7 +90727,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108905/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -90736,6 +90736,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-22T14:19:07.570638+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108905/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1907,
+          "sold": 1652,
+          "available": 227,
+          "subscribed": 28,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108905/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -90792,7 +90804,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108621/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -90801,6 +90813,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-22T14:19:07.570638+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108621/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3508,
+          "sold": 3415,
+          "available": 5,
+          "subscribed": 88,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108621/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -90857,7 +90881,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108549/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -90875,12 +90899,24 @@
           "available": 242,
           "subscribed": 250,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108549/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业、办公",
+          "total": 13185,
+          "sold": 12694,
+          "available": 239,
+          "subscribed": 252,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 13185,
-        "sold": 12693,
-        "available": 242
+        "sold": 12694,
+        "available": 239
       }
     },
     {
@@ -90922,7 +90958,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/109024/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -90931,6 +90967,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-22T14:19:07.570638+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/109024/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 474,
+          "sold": 435,
+          "available": 37,
+          "subscribed": 2,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/109024/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -90987,7 +91035,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108036/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91005,12 +91053,24 @@
           "available": 265,
           "subscribed": 672,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108036/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 2458,
+          "sold": 1521,
+          "available": 264,
+          "subscribed": 673,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 2458,
         "sold": 1521,
-        "available": 265
+        "available": 264
       }
     },
     {
@@ -91052,7 +91112,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/107387/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91070,11 +91130,23 @@
           "available": 1574,
           "subscribed": 7,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107387/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、别墅",
+          "total": 8888,
+          "sold": 7306,
+          "available": 1574,
+          "subscribed": 8,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 8888,
-        "sold": 7307,
+        "sold": 7306,
         "available": 1574
       }
     },
@@ -91117,7 +91189,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108616/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91135,12 +91207,24 @@
           "available": 1568,
           "subscribed": 8,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108616/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 5887,
+          "sold": 4311,
+          "available": 1563,
+          "subscribed": 13,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 5887,
         "sold": 4311,
-        "available": 1568
+        "available": 1563
       }
     },
     {
@@ -91182,7 +91266,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/107809/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91191,6 +91275,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-22T14:19:07.570638+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107809/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 5952,
+          "sold": 4768,
+          "available": 1118,
+          "subscribed": 66,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/107809/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91247,7 +91343,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108597/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-22T14:19:07.570638+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91256,6 +91352,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-22T14:19:07.570638+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108597/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "商业、住宅",
+          "total": 2873,
+          "sold": 2841,
+          "available": 32,
+          "subscribed": 0,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108597/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91312,7 +91420,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108569/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91321,6 +91429,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108569/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 4013,
+          "sold": 3280,
+          "available": 732,
+          "subscribed": 1,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108569/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91377,7 +91497,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108470/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91395,12 +91515,24 @@
           "available": 695,
           "subscribed": 10,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108470/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2200,
+          "sold": 1601,
+          "available": 583,
+          "subscribed": 16,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 2200,
-        "sold": 1495,
-        "available": 695
+        "sold": 1601,
+        "available": 583
       }
     },
     {
@@ -91442,7 +91574,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108739/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91451,6 +91583,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108739/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 1998,
+          "sold": 1504,
+          "available": 487,
+          "subscribed": 7,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108739/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91507,7 +91651,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108102/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91516,6 +91660,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108102/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2274,
+          "sold": 1820,
+          "available": 407,
+          "subscribed": 47,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108102/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91572,7 +91728,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108637/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91581,6 +91737,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108637/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2904,
+          "sold": 2878,
+          "available": 0,
+          "subscribed": 26,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108637/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91637,7 +91805,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108731/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91646,6 +91814,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108731/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "商业、住宅",
+          "total": 290,
+          "sold": 229,
+          "available": 59,
+          "subscribed": 2,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108731/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91702,7 +91882,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108406/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91711,6 +91891,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108406/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 4047,
+          "sold": 3235,
+          "available": 777,
+          "subscribed": 35,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108406/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91767,7 +91959,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108664/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91776,6 +91968,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108664/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、车位",
+          "total": 505,
+          "sold": 444,
+          "available": 27,
+          "subscribed": 34,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108664/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91832,7 +92036,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108705/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91841,6 +92045,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108705/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业,",
+          "total": 2302,
+          "sold": 2262,
+          "available": 35,
+          "subscribed": 5,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108705/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -91897,7 +92113,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108574/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91915,12 +92131,24 @@
           "available": 147,
           "subscribed": 16,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108574/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 2190,
+          "sold": 2027,
+          "available": 146,
+          "subscribed": 17,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 2190,
         "sold": 2027,
-        "available": 147
+        "available": 146
       }
     },
     {
@@ -91962,7 +92190,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108734/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -91971,6 +92199,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108734/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 394,
+          "sold": 293,
+          "available": 95,
+          "subscribed": 6,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108734/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92027,7 +92267,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108422/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92036,6 +92276,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108422/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 767,
+          "sold": 746,
+          "available": 18,
+          "subscribed": 3,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108422/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92092,7 +92344,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108714/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92101,6 +92353,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108714/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、车位",
+          "total": 3916,
+          "sold": 3859,
+          "available": 50,
+          "subscribed": 7,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108714/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92157,7 +92421,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108576/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92166,6 +92430,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108576/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 852,
+          "sold": 852,
+          "available": 0,
+          "subscribed": 0,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108576/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92222,7 +92498,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108653/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92231,6 +92507,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108653/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 2273,
+          "sold": 2256,
+          "available": 11,
+          "subscribed": 6,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108653/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92287,7 +92575,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/107717/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92296,6 +92584,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107717/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 3398,
+          "sold": 3331,
+          "available": 57,
+          "subscribed": 10,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/107717/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92352,7 +92652,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108312/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92361,6 +92661,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108312/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、车库",
+          "total": 493,
+          "sold": 469,
+          "available": 14,
+          "subscribed": 10,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108312/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92417,7 +92729,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108325/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92426,6 +92738,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108325/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 4563,
+          "sold": 4257,
+          "available": 291,
+          "subscribed": 15,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108325/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92482,7 +92806,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108455/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92500,12 +92824,24 @@
           "available": 526,
           "subscribed": 82,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108455/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3607,
+          "sold": 3002,
+          "available": 523,
+          "subscribed": 82,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 3607,
-        "sold": 2999,
-        "available": 526
+        "sold": 3002,
+        "available": 523
       }
     },
     {
@@ -92547,7 +92883,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/107383/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92565,12 +92901,24 @@
           "available": 574,
           "subscribed": 5,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/107383/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 3255,
+          "sold": 2677,
+          "available": 573,
+          "subscribed": 5,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 3255,
-        "sold": 2676,
-        "available": 574
+        "sold": 2677,
+        "available": 573
       }
     },
     {
@@ -92612,7 +92960,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108482/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92630,12 +92978,24 @@
           "available": 322,
           "subscribed": 12,
           "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108482/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅、商业",
+          "total": 2426,
+          "sold": 2092,
+          "available": 321,
+          "subscribed": 13,
+          "todaySold": 0
         }
       ],
       "inventory": {
         "total": 2426,
         "sold": 2092,
-        "available": 322
+        "available": 321
       }
     },
     {
@@ -92677,7 +93037,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108502/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92686,6 +93046,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108502/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3917,
+          "sold": 3400,
+          "available": 417,
+          "subscribed": 100,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108502/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92742,7 +93114,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108713/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92751,6 +93123,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108713/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1124,
+          "sold": 817,
+          "available": 254,
+          "subscribed": 53,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108713/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92807,7 +93191,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108658/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92816,6 +93200,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108658/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 1872,
+          "sold": 1825,
+          "available": 39,
+          "subscribed": 8,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108658/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92872,7 +93268,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108456/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92881,6 +93277,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108456/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 3678,
+          "sold": 3664,
+          "available": 3,
+          "subscribed": 11,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108456/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -92937,7 +93345,7 @@
         "name": "南京网上房地产·官方项目销售公示",
         "url": "https://www.njhouse.com.cn/project/info/108349/homePage.html",
         "publishedAt": "",
-        "collectedAt": "2026-09-23T14:02:53.722580+08:00",
+        "collectedAt": "2026-10-31T15:02:57.131504+08:00",
         "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
         "quality": "verified",
         "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
@@ -92946,6 +93354,18 @@
       "salesHistory": [
         {
           "observedAt": "2026-09-23T14:02:53.722580+08:00",
+          "sourceUrl": "https://www.njhouse.com.cn/project/info/108349/homePage.html",
+          "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+          "scope": "all-project-uses",
+          "uses": "住宅",
+          "total": 5657,
+          "sold": 5619,
+          "available": 0,
+          "subscribed": 38,
+          "todaySold": 0
+        },
+        {
+          "observedAt": "2026-10-31T15:02:57.131504+08:00",
           "sourceUrl": "https://www.njhouse.com.cn/project/info/108349/homePage.html",
           "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
           "scope": "all-project-uses",
@@ -149971,7 +150391,7 @@
     "hz-xiwang": {
       "status": "stale",
       "error": "HTTPError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "hz-aoti": {
       "status": "verified",
@@ -149987,7 +150407,7 @@
     },
     "nj-discovery": {
       "status": "verified",
-      "lastSuccessAt": "2026-10-30T15:13:05.684640+08:00",
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00",
       "boundedNewLimit": 16
     },
     "nj-yuemanyunchuanfu": {
@@ -150061,7 +150481,7 @@
     "nj-project-search": {
       "status": "stale",
       "lastSuccessAt": "2026-10-01T15:14:00.886205+08:00",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00",
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00",
       "matched": 59,
       "rejected": 0,
       "nextPage": 69,
@@ -150375,7 +150795,7 @@
     "nj-official-2977200": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-1790150": {
       "status": "verified",
@@ -151132,7 +151552,7 @@
     "nj-official-108245": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-3189150": {
       "status": "verified",
@@ -153393,7 +153813,7 @@
     "nj-official-108476": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108727": {
       "status": "verified",
@@ -153441,143 +153861,143 @@
     },
     "nj-official-108905": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108621": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108549": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-109024": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108036": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-107387": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108616": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-107809": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108597": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-22T14:19:07.570638+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108569": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108470": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108739": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108102": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108637": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108731": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108406": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108664": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108705": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108574": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108734": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108422": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108714": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108576": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108653": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-107717": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108312": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108325": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108455": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-107383": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108482": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108502": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108713": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108658": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108456": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108349": {
       "status": "verified",
-      "lastSuccessAt": "2026-09-23T14:02:53.722580+08:00"
+      "lastSuccessAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-108498": {
       "status": "verified",
@@ -154286,7 +154706,7 @@
     "nj-official-108255": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-107726": {
       "status": "verified",
@@ -155335,7 +155755,7 @@
     "nj-official-107471": {
       "status": "stale",
       "error": "ValueError",
-      "lastAttemptAt": "2026-10-30T15:13:05.684640+08:00"
+      "lastAttemptAt": "2026-10-31T15:02:57.131504+08:00"
     },
     "nj-official-106648": {
       "status": "verified",
@@ -155458,6 +155878,6 @@
       "lastSuccessAt": "2026-10-23T14:05:37.796927+08:00"
     }
   },
-  "generatedAt": "2026-10-30T15:13:05.684640+08:00",
+  "generatedAt": "2026-10-31T15:02:57.131504+08:00",
   "complete": false
 }
