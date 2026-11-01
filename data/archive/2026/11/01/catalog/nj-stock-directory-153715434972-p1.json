@@ -1,0 +1,89 @@
+{
+  "sourceId": "nj-stock-directory",
+  "url": "https://njzl.njhouse.com.cn/stock/houselist/t-1_p-1",
+  "collectedAt": "2026-11-01T15:37:15.434972+08:00",
+  "sourceSha256": "99919445355447226f85ca6819c6a73abab85f712a064fc31a096a9b1f10204a",
+  "rows": [
+    {
+      "name": "中粮祥云",
+      "district": "江宁区"
+    },
+    {
+      "name": "恒安嘉园",
+      "district": "江宁区"
+    },
+    {
+      "name": "林景瑞园",
+      "district": "栖霞区"
+    },
+    {
+      "name": "金盛花园",
+      "district": "江宁区"
+    },
+    {
+      "name": "东城福园",
+      "district": "江宁区"
+    },
+    {
+      "name": "朗诗保利麓院",
+      "district": "栖霞区"
+    },
+    {
+      "name": "银城蓝溪郡",
+      "district": "江宁区"
+    },
+    {
+      "name": "中海龙湾U-LIVE",
+      "district": "江宁区"
+    },
+    {
+      "name": "博学苑丹桂园",
+      "district": "江宁区"
+    },
+    {
+      "name": "21世纪国际公寓东区",
+      "district": "江宁区"
+    },
+    {
+      "name": "天泽苑居住区",
+      "district": "江宁区"
+    },
+    {
+      "name": "碧水湾",
+      "district": "江宁区"
+    },
+    {
+      "name": "绒庄新村",
+      "district": "秦淮区"
+    },
+    {
+      "name": "碧桂园九岛梦都城",
+      "district": "江宁区"
+    },
+    {
+      "name": "胜科星洲府澜庭",
+      "district": "建邺区"
+    },
+    {
+      "name": "仁恒城市星光",
+      "district": "雨花台区"
+    },
+    {
+      "name": "天宁雅居",
+      "district": "江宁区"
+    },
+    {
+      "name": "花港鸿福城枫林园",
+      "district": "栖霞区"
+    },
+    {
+      "name": "东方龙湖湾东湖苑",
+      "district": "江宁区"
+    },
+    {
+      "name": "金地大成雅境",
+      "district": "秦淮区"
+    }
+  ],
+  "rejected": []
+}
