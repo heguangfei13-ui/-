@@ -1,0 +1,81 @@
+{
+  "sourceId": "nj-stock-directory",
+  "url": "https://njzl.njhouse.com.cn/stock/houselist/t-1_p-1",
+  "collectedAt": "2026-11-08T15:26:23.273351+08:00",
+  "sourceSha256": "ff99f89f3491fbf0110cf502d3c022f56479d68eb8f1e567ebf8be45f75a9b58",
+  "rows": [
+    {
+      "name": "江山府",
+      "district": "浦口区"
+    },
+    {
+      "name": "紫金墨香苑",
+      "district": "玄武区"
+    },
+    {
+      "name": "兴江公寓",
+      "district": "玄武区"
+    },
+    {
+      "name": "碧桂园湖光山色",
+      "district": "江宁区"
+    },
+    {
+      "name": "瀛洲湾",
+      "district": "江宁区"
+    },
+    {
+      "name": "白下四条巷",
+      "district": "秦淮区"
+    },
+    {
+      "name": "岗山佳苑",
+      "district": "江宁区"
+    },
+    {
+      "name": "观榕华府（融侨观澜）",
+      "district": "江宁区"
+    },
+    {
+      "name": "黄鹂新村",
+      "district": "秦淮区"
+    },
+    {
+      "name": "太平南路",
+      "district": "秦淮区"
+    },
+    {
+      "name": "上坊新城尚祈苑",
+      "district": "江宁区"
+    },
+    {
+      "name": "华侨新村",
+      "district": "玄武区"
+    },
+    {
+      "name": "东郊小镇*一街区",
+      "district": "江宁区"
+    },
+    {
+      "name": "颐和九里",
+      "district": "浦口区"
+    },
+    {
+      "name": "新街口苏宁生活广场",
+      "district": "秦淮区"
+    },
+    {
+      "name": "鸿仁名居",
+      "district": "建邺区"
+    },
+    {
+      "name": "融信儒林花园",
+      "district": "栖霞区"
+    },
+    {
+      "name": "星叶枫情水岸",
+      "district": "栖霞区"
+    }
+  ],
+  "rejected": []
+}
