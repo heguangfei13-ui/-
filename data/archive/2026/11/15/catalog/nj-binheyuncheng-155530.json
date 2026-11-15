@@ -1,0 +1,104 @@
+{
+  "project": {
+    "id": "nj-binheyuncheng",
+    "name": "滨河云城",
+    "city": "nanjing",
+    "district": "雨花台区",
+    "address": "南京市雨花台区板桥A地块",
+    "developer": "南京市雨花台城镇建设综合开发有限公司",
+    "housingType": "new",
+    "areaRange": [
+      null,
+      null
+    ],
+    "averagePrice": null,
+    "totalCostRange": [
+      null,
+      null
+    ],
+    "status": "watchlist",
+    "evidenceStatus": "pending",
+    "score": null,
+    "tags": [
+      "已核实目录身份",
+      "非购买推荐"
+    ],
+    "risks": [
+      "当前可售房源、价格和二手成交尚未核验"
+    ],
+    "permits": [],
+    "amenities": [],
+    "commutes": [],
+    "catalogIdentity": {
+      "verified": true,
+      "scope": "只核实小区/项目身份，不证明当前有符合预算的在售房源"
+    },
+    "source": {
+      "id": "nj-binheyuncheng",
+      "name": "南京网上房地产·官方项目销售公示",
+      "url": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+      "publishedAt": "",
+      "collectedAt": "2026-11-15T15:55:30.020218+08:00",
+      "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+      "quality": "verified",
+      "note": "查询日快照；公示累计成交包含页面所有用途，可能含车位/商业，不是二手住宅成交。"
+    },
+    "officialProjectNumber": "109026",
+    "salesHistory": [
+      {
+        "observedAt": "2026-08-30T22:49:30.901101+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 6720,
+        "sold": 3374,
+        "available": 3289,
+        "subscribed": 57,
+        "todaySold": 0
+      },
+      {
+        "observedAt": "2026-09-01T14:18:55.186232+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 6720,
+        "sold": 3377,
+        "available": 3286,
+        "subscribed": 57,
+        "todaySold": 0
+      },
+      {
+        "observedAt": "2026-10-08T15:30:02.052035+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 6720,
+        "sold": 3441,
+        "available": 3220,
+        "subscribed": 59,
+        "todaySold": 0
+      },
+      {
+        "observedAt": "2026-11-15T15:55:30.020218+08:00",
+        "sourceUrl": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
+        "basisVersion": "NJHOUSE-ALL-USES-CUMULATIVE-V1",
+        "scope": "all-project-uses",
+        "uses": "住宅",
+        "total": 6852,
+        "sold": 3534,
+        "available": 3268,
+        "subscribed": 50,
+        "todaySold": 0
+      }
+    ],
+    "inventory": {
+      "total": 6852,
+      "sold": 3534,
+      "available": 3268
+    }
+  },
+  "sourceSha256": "0aaea03f38fcde8f7d8a922f9b63677598ea7439c61a5787621e54ba495539b3"
+}
