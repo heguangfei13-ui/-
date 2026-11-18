@@ -29,7 +29,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-02",
@@ -60,7 +60,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-03",
@@ -91,7 +91,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-04",
@@ -122,7 +122,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-05",
@@ -153,7 +153,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-06",
@@ -184,7 +184,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-07",
@@ -215,7 +215,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965050.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     {
       "period": "2026-08",
@@ -308,7 +308,7 @@
         }
       },
       "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     }
   ],
   "projects": {
@@ -336,7 +336,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73874",
               "publishedAt": "2026-10-20",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-4596200"
             }
@@ -357,7 +357,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73874",
               "publishedAt": "2026-10-20",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-4596200"
             }
@@ -368,8 +368,8 @@
         "id": "nj-yuemanyunchuanfu",
         "name": "南京网上房地产·项目公示",
         "url": "https://www.njhouse.com.cn/project/info/4596200/homePage.html",
-        "publishedAt": "2026-11-17",
-        "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+        "publishedAt": "2026-11-18",
+        "collectedAt": "2026-11-18T16:34:55.816837+08:00",
         "basisVersion": "NJHOUSE-PROJECT",
         "quality": "verified",
         "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
@@ -401,7 +401,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=71927",
               "publishedAt": "2025-04-10",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-109026"
             }
@@ -422,7 +422,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=71927",
               "publishedAt": "2025-04-10",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-109026"
             }
@@ -433,8 +433,8 @@
         "id": "nj-binheyuncheng",
         "name": "南京网上房地产·项目公示",
         "url": "https://www.njhouse.com.cn/project/info/109026/homePage.html",
-        "publishedAt": "2026-11-17",
-        "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+        "publishedAt": "2026-11-18",
+        "collectedAt": "2026-11-18T16:34:55.816837+08:00",
         "basisVersion": "NJHOUSE-PROJECT",
         "quality": "verified",
         "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
@@ -466,7 +466,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=70007",
               "publishedAt": "2024-06-12",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-4099150"
             }
@@ -487,7 +487,7 @@
               "publisher": "南京网上房地产·公示预售方案",
               "url": "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=70007",
               "publishedAt": "2024-06-12",
-              "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+              "collectedAt": "2026-11-18T16:34:55.816837+08:00",
               "kind": "official-reprint",
               "independentGroup": "NJ-PROJECT-4099150"
             }
@@ -498,8 +498,8 @@
         "id": "nj-jinxiuchengyuefu",
         "name": "南京网上房地产·项目公示",
         "url": "https://www.njhouse.com.cn/project/info/4099150/homePage.html",
-        "publishedAt": "2026-11-17",
-        "collectedAt": "2026-11-17T17:14:46.723409+08:00",
+        "publishedAt": "2026-11-18",
+        "collectedAt": "2026-11-18T16:34:55.816837+08:00",
         "basisVersion": "NJHOUSE-PROJECT",
         "quality": "verified",
         "note": "项目入网总数可能包括车位；不得当作住宅总户数或二手流动性。"
@@ -515,31 +515,31 @@
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260213_1962617.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964115.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965050.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.njhouse.com.cn/jsmart/nj/web/webPermitHtml?permitId=73775": {
       "status": "stale",
@@ -548,17 +548,17 @@
     "nj-yuemanyunchuanfu": {
       "status": "verified",
       "indicators": 2,
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "nj-binheyuncheng": {
       "status": "verified",
       "indicators": 2,
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "nj-jinxiuchengyuefu": {
       "status": "verified",
       "indicators": 2,
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     },
     "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html": {
       "status": "verified",
@@ -578,10 +578,10 @@
     },
     "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html": {
       "status": "verified",
-      "collectedAt": "2026-11-17T17:14:46.723409+08:00"
+      "collectedAt": "2026-11-18T16:34:55.816837+08:00"
     }
   },
-  "generatedAt": "2026-11-17T17:14:46.723409+08:00",
+  "generatedAt": "2026-11-18T16:34:55.816837+08:00",
   "fundamentals": {
     "hz-fundamentals": {
       "city": "hangzhou",
